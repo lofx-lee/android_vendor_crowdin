@@ -1,0 +1,37 @@
+default_branch: seventeen
+
+repos:
+  - name: PixelOS-AOSP/android_frameworks_base
+    path: frameworks/base
+    branch: seventeen
+    translate_attributes: false
+    files:
+      - core/res/res/values/custom_strings.xml
+      - packages/SystemUI/res/values/custom_strings.xml
+
+  - name: PixelOS-AOSP/android_packages_apps_Settings
+    path: packages/apps/Settings
+    branch: seventeen
+    files:
+      - res/values/custom_strings.xml
+
+  - name: PixelOS-AOSP/android_packages_apps_DolbyAtmos
+    path: packages/apps/DolbyAtmos
+    files:
+      - res/values/strings.xml
+
+  - name: PixelOS-AOSP/android_packages_apps_ParanoidSense
+    path: packages/apps/ParanoidSense
+    files:
+      - res/values/strings.xml
+
+  - name: PixelOS-AOSP/android_packages_apps_Updater
+    path: packages/apps/Updater
+    branch: seventeen
+    files:
+      - app/src/main/res/values/strings.xml
+
+  - name: PixelOS-AOSP/android_packages_apps_ColumbusService
+    path: packages/apps/ColumbusService
+    files:
+      - res/values/strings.xml

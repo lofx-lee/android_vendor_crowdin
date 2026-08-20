@@ -1,0 +1,18 @@
+preserve_hierarchy: true
+files:
+- source: /source/frameworks/base/core/res/res/values/custom_strings.xml
+  translation: /overlay/frameworks/base/core/res/res/values-%android_code%/custom_strings.xml
+  translate_attributes: 0
+- source: /source/frameworks/base/packages/SystemUI/res/values/custom_strings.xml
+  translation: /overlay/frameworks/base/packages/SystemUI/res/values-%android_code%/custom_strings.xml
+  translate_attributes: 0
+- source: /source/packages/apps/Settings/res/values/custom_strings.xml
+  translation: /overlay/packages/apps/Settings/res/values-%android_code%/custom_strings.xml
+- source: /source/packages/apps/DolbyAtmos/res/values/strings.xml
+  translation: /overlay/packages/apps/DolbyAtmos/res/values-%android_code%/strings.xml
+- source: /source/packages/apps/ParanoidSense/res/values/strings.xml
+  translation: /overlay/packages/apps/ParanoidSense/res/values-%android_code%/strings.xml
+- source: /source/packages/apps/Updater/app/src/main/res/values/strings.xml
+  translation: /overlay/packages/apps/Updater/app/src/main/res/values-%android_code%/strings.xml
+- source: /source/packages/apps/ColumbusService/res/values/strings.xml
+  translation: /overlay/packages/apps/ColumbusService/res/values-%android_code%/strings.xml

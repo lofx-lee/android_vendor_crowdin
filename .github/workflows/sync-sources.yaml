@@ -1,0 +1,47 @@
+name: Sync sources
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-sources:
+    runs-on: ubuntu-slim
+
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v7
+
+      - name: Regenerate sources and crowdin.yml
+        env:
+          X_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run main.py
+
+      - name: Install Gerrit commit-msg hook
+        run: |
+          curl -fsSLo .git/hooks/commit-msg https://review.pixelos.net/tools/hooks/commit-msg
+          chmod +x .git/hooks/commit-msg
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "crowdin: Sync resources with upstream sources"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+
+      - name: Install Crowdin CLI
+        run: |
+          curl -fsSLo /usr/local/bin/crowdin https://github.com/crowdin/crowdin-cli/releases/latest/download/crowdin-linux-x64
+          chmod +x /usr/local/bin/crowdin
+          crowdin --version
+
+      - name: Upload sources to Crowdin
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+        run: |
+          crowdin upload sources \
+            --no-progress --no-colors \
+            --project-id "$CROWDIN_PROJECT_ID" \
+            --token "$CROWDIN_PERSONAL_TOKEN" \
+            --branch seventeen

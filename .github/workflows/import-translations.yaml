@@ -1,0 +1,41 @@
+name: Import translations
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-translations:
+    runs-on: ubuntu-slim
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Install Crowdin CLI
+        run: |
+          curl -fsSLo /usr/local/bin/crowdin https://github.com/crowdin/crowdin-cli/releases/latest/download/crowdin-linux-x64
+          chmod +x /usr/local/bin/crowdin
+          crowdin --version
+
+      - name: Download translations from Crowdin
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+        run: |
+          crowdin download \
+            --no-progress --no-colors \
+            --project-id "$CROWDIN_PROJECT_ID" \
+            --token "$CROWDIN_PERSONAL_TOKEN" \
+            --branch seventeen \
+            --skip-untranslated-strings
+
+      - name: Install Gerrit commit-msg hook
+        run: |
+          curl -fsSLo .git/hooks/commit-msg https://review.pixelos.net/tools/hooks/commit-msg
+          chmod +x .git/hooks/commit-msg
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "crowdin: Import translations"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
