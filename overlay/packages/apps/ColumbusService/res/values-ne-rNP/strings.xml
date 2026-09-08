@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">कारबाही सुरु गर्न क्विक ट्याप गर्ने</string>
+    <string name="settings_entry_summary_on">अन छ / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">अफ छ</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">क्विक ट्याप प्रयोग गर्नुहोस्</string>
+    <string name="setting_action_title" product="default">फोनको पछाडिको भागमा दुई पटक ट्याप गरेर निम्न काम गर्नुहोस्:</string>
+    <string name="launch_settings_activity_title">क्विक ट्यापसम्बन्धी सेटिङ</string>
+    <string name="setting_app_selection_help_text" product="default">तपाईंले आफ्नो फोनको पछाडिको भागमा दुई पटक ट्याप गरेपछि खोलिनु पर्ने एप चयन गर्नुहोस्। तपाईंले यो एप अनइन्स्टल गर्नुभयो भने तपाईंले अर्को एप चयन नगरुन्जेल क्विक ट्याप अफ रहन्छ।</string>
+    <string name="setting_app_shortcut_selection_help_text">क्विक ट्याप प्रयोग गरी यो एप खोल्दा के गरिनु पर्छ</string>
+    <string name="radio_button_extra_widget_a11y_label"><xliff:g id="action">%1$s</xliff:g> का सेटिङ</string>
+    <string name="setting_action_launch_summary_no_selection">कुनै पनि एप चयन गरिएको छैन</string>
+    <string name="setting_action_launch_summary_not_installed">एप इन्स्टल गरिएको छैन</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">स्क्रिनसट लिनुहोस्</string>
+    <string name="action_assistant_name">आफ्नो डिजिटल एसिस्टेन्ट प्रयोग गर्नुहोस्</string>
+    <string name="action_media_name">मिडिया प्ले वा पज गर्नुहोस्</string>
+    <string name="action_overview_name">हालसालै प्रयोग गरिएका एपहरू हेर्नुहोस्</string>
+    <string name="action_notifications_name">नोटिफिकेसन देखाउनुहोस्</string>
+    <string name="action_flashlight_name">फ्ल्यासलाइट टगल गर्नुहोस्</string>
+    <string name="action_launch_name">एप खोल्नुहोस्</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">क्विक ट्याप गरेको पत्ता लाग्यो!</string>
+</resources>

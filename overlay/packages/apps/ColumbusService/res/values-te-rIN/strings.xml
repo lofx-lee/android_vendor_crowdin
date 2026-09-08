@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">చర్యలను ప్రారంభించడానికి క్విక్ ట్యాప్ చేయండి</string>
+    <string name="settings_entry_summary_on">ఆన్ / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">ఆఫ్</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">క్విక్ ట్యాప్‌ను ఉపయోగించండి</string>
+    <string name="setting_action_title" product="default">ఇలా చేయడానికి ఫోన్ వెనుక రెండుసార్లు ట్యాప్ చేయండి</string>
+    <string name="launch_settings_activity_title">క్విక్ ట్యాప్ సెట్టింగ్‌లు</string>
+    <string name="setting_app_selection_help_text" product="default">మీ ఫోన్ వెనుక భాగంలో రెండుసార్లు ట్యాప్ చేయడం ద్వారా మీరు తెరవాలనుకుంటున్న యాప్‌ను ఎంచుకోండి. మీరు యాప్‌ను అన్‌ఇన్‌స్టాల్ చేసినట్లయితే, మీరు వేరే యాప్‌ను ఎంచుకునే దాకా క్విక్ ట్యాప్ ఆఫ్ చేయబడుతుంది.</string>
+    <string name="setting_app_shortcut_selection_help_text">మీరు క్విక్ ట్యాప్‌ను ఉపయోగించి ఈ యాప్‌ను తెరిచినప్పుడు ఏమి జరుగుతుందో ఎంచుకోండి.</string>
+    <string name="radio_button_extra_widget_a11y_label"><xliff:g id="action">%1$s</xliff:g> సెట్టింగ్‌లు</string>
+    <string name="setting_action_launch_summary_no_selection">ఏ యాప్‌నూ ఎంచుకోలేదు</string>
+    <string name="setting_action_launch_summary_not_installed">యాప్ ఇన్‌స్టాల్ చేయబడలేదు</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">స్క్రీన్‌షాట్‌ను తీయండి</string>
+    <string name="action_assistant_name">మీ డిజిటల్ అసిస్టెంట్‌ను యాక్సెస్ చేయండి</string>
+    <string name="action_media_name">మీడియాను ప్లే చేయండి లేదా పాజ్ చేయండి</string>
+    <string name="action_overview_name">ఇటీవలి యాప్‌లను చూడండి</string>
+    <string name="action_notifications_name">నోటిఫికేషన్‌లను చూపండి</string>
+    <string name="action_flashlight_name">ఫ్లాష్‌లైట్‌ను టోగుల్ చేయండి</string>
+    <string name="action_launch_name">యాప్‌ను తెరవండి</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">క్విక్ ట్యాప్ గుర్తించడం జరిగింది!</string>
+</resources>

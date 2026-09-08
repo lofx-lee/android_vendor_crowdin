@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid 传感器</string>
+    <!-- Enroll activity -->
+    <string name="face_enroll_title">请将你的面部正对手机</string>
+    <string name="face_enroll_description">保持设备静止，并确保您处于光线充足的环境中</string>
+    <!-- Try Again activity -->
+    <string name="face_try_again_title">无法捕捉您的脸部</string>
+    <string name="face_try_again_description">点击下方重试。下次请确保您处于光线充足的环境中，且没有任何东西遮挡您的脸部</string>
+    <string name="btn_try_again">再试一次</string>
+    <!-- Vendor Messages -->
+    <string name="attr_light_dark">脸部需要更多光线</string>
+    <string name="attr_light_high">人脸光线太强</string>
+    <string name="attr_light_shadow">人脸阴影过多</string>
+    <string name="unlock_failed_face_blur">人脸太模糊</string>
+    <string name="unlock_failed_face_large">人脸距离太近</string>
+    <string name="unlock_failed_face_multi">检测到多个人脸</string>
+    <string name="unlock_failed_face_not_complete">仅检测到部分人脸</string>
+    <string name="unlock_failed_face_small">人脸距离过远</string>
+</resources>

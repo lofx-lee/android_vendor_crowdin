@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <!-- Android debugging as root -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <!-- Hotspot extras -->
+    <!-- PIN scramble -->
+    <!-- Black theme for dark mode -->
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
+    <!-- Warning message for the sd card setup -->
+    <!-- Copy to clipboard -->
+    <!-- Radio Info -->
+    <!-- Heads-up -->
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">படிக்குந் தன்மையை மேம்படுத்தவும், கண் சோர்வைக் குறைக்கவும், நாளின் நேரத்திற்கும் சுற்றுப்புற நிலைமைகளுக்கும் ஏற்ப உமது திரையை மேம்படுத்துக</string>
+    <string name="live_display_mode">காட்சி முறை</string>
+    <string name="live_display_color_temperature_title">வண்ண வெப்பநிலை</string>
+    <string name="live_display_color_temperature_summary">பகல்: <xliff:g id="day_temperature">%1$d</xliff:g>K  இரவு: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>கெ</string>
+    <string name="live_display_day">பகல்</string>
+    <string name="live_display_night">இரவு</string>
+    <string name="live_display_outdoor_mode_title">தானியங்கி வெளிப்புறச் சூழல் பயன்முறை</string>
+    <string name="live_display_outdoor_mode_summary">வெளிச்சமான சூரியவொளியின் கீழ் ஒளிர்வையும், செறிவையும் தானாக மிகுதியாக்கும்</string>
+    <string name="live_display_anti_flicker_title">திரைச்சிமிட்டல் தடுப்பு</string>
+    <string name="live_display_anti_flicker_summary">குறைந்த ஒளி நிலையில் மகுதியான சிமிட்டலைத் தடுத்து, கண் அழுத்தத்தைக் குறைக்கும். இது வண்ணத் துல்லியத்தைக் குறைக்கலாம், மேலுஞ்சில பொருள்கள் காண்பிக்கப்படும் விதத்தைப் பாதிக்கலாம்.</string>
+    <string name="live_display_low_power_title">மின் பயன்பாட்டைக் குறைக்க</string>
+    <string name="live_display_low_power_summary">தரம் குறையாமல் குறைந்த மின் நுகர்வுக்காகத் திரையைச் சீரமைக்க</string>
+    <string name="live_display_enhance_color_title">நிறங்களை மேம்படுத்துக</string>
+    <string name="live_display_enhance_color_summary">தோல் நிறங்கள், காட்சிகள், பிற படங்கள் ஆகியவற்றின் வண்ண அதிர்வை மேம்படுத்துக</string>
+    <string name="live_display_color_profile_standard_title">இயல்பு</string>
+    <string name="live_display_color_profile_standard_summary">துல்லியமான நிறங்களும் ஒளிமிக்க வெண்மையும்</string>
+    <string name="live_display_color_profile_natural_title">இயற்கை</string>
+    <string name="live_display_color_profile_natural_summary">மெய்யான நிறங்களும், தொலி நிறத்தொனிகளும்</string>
+    <string name="live_display_color_profile_cinema_title">திரையுலகம்</string>
+    <string name="live_display_color_profile_astronomy_title">வானியல்</string>
+    <string name="live_display_color_profile_photography_title">ஒளிப்படவியல்</string>
+    <string name="live_display_color_profile_photography_summary">ஒளிப்படங்களுக்கான நிறைவான வண்ன மறுவாக்கம்</string>
+    <string name="live_display_color_profile_basic_title">அடிப்படை</string>
+    <string name="live_display_color_profile_basic_summary">காட்சியை அளவிடாமல் பயன்படுத்துக</string>
+    <string name="live_display_color_profile_adaptive_title">தகவமைப்பு</string>
+    <string name="live_display_reading_mode_title">படித்தல் பயன்முறை</string>
+    <string name="color_red_title">சிவப்பு</string>
+    <string name="color_green_title">பச்சை</string>
+    <string name="color_blue_title">நீலம்</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">படச் சீரமைவு</string>
+    <string name="adj_hue_title">நிறச்சாயல்</string>
+    <string name="adj_saturation_title">நிறைசெறிவு</string>
+    <string name="adj_contrast_title">நிறமாறுபாடு</string>
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- Charging control settings -->
+    <string name="charging_control_title">மின்னூட்டல் கட்டுப்பாடு</string>
+    <string name="charging_control_enable_title">மின்னூட்டல் கட்டுப்பாடை இயக்குக</string>
+    <string name="charging_control_mode_title">மின்னூட்டல் முறை</string>
+    <string name="charging_control_mode_auto_title">தன்னியக்க திட்டமிடல்</string>
+    <string name="charging_control_mode_auto_summary">அலரிகள் அமைக்கப்பட்டதன் அடிப்படையில் எப்போது மின்னேற்றம் தொடங்க வேண்டும் என்பதைத் தானாகவே தீர்மானிக்க</string>
+    <string name="charging_control_mode_custom_title">தனிப்பயன் திட்டமிடல்</string>
+    <string name="charging_control_mode_custom_summary">முழுமையாக மின்னேற இலக்கு நேரத்தை அமைக்க</string>
+    <string name="charging_control_mode_limit_title">மின்னேற்றத்தை வரம்பிடுக</string>
+    <string name="charging_control_mode_limit_summary">மின்னேற்றத்தை ஒரு குறிப்பிட்ட சதவீதத்திற்கு வரம்பிடுக</string>
+    <string name="charging_control_start_time_title">தொடக்க நேரம்</string>
+    <string name="charging_control_start_time_summary">%s பிறகு மின்னேற்றம் தொடங்கும்போது, மின்னேற்றக் கட்டுப்பாடு செயற்படுத்தப்படும்</string>
+    <string name="charging_control_target_time_title">முழுமையாக மின்னேற இலக்கு நேரம்</string>
+    <string name="charging_control_target_time_summary">%s மணிக்குள் மின்கலம் முழுமையாக மின்னூட்டப்படும்</string>
+    <string name="charging_control_limit_title">வரம்பு</string>
+    <string name="charging_control_limit_summary">தற்போதைய வரம்பு: %d%%</string>
+    <string name="reset">மீளமைக்க</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Display : Rotation -->
+    <string name="display_rotation_0_title">0 பாகைகள்</string>
+    <string name="display_rotation_90_title">90 பாகைகள்</string>
+    <string name="display_rotation_180_title">180 பாகைகள்</string>
+    <string name="display_rotation_270_title">270 பாகைகள்</string>
+    <!-- One shot automatic brightness -->
+    <!-- Smart 5G -->
+    <!-- Power menu on secure lockscreen -->
+    <!-- Torch Power button gestures -->
+    <!-- Volume button music control -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Wake on plug -->
+    <!-- Ignore window secure -->
+    <!-- Incall vibrate options -->
+    <!-- Ambient wake toggles -->
+    <!-- Doze enablement -->
+    <!-- Refresh rate -->
+    <!-- Battery saver refresh rate -->
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">அடாப்டிவ் பேட்டரியைப் பயன்படுத்துதல்</string>
+    <string name="basic_battery_saver_title">இயல்புநிலை பேட்டரி சேமிப்பு</string>
+    <string name="basic_battery_saver_summary">விஷுவல் எஃபெக்ட்டுகளையும் பின்னணிச் செயல்பாடுகளையும் குறைக்கும். டார்க் தீம் ஏற்கெனவே ஆன் செய்யப்படவில்லை எனில் அதை ஆன் செய்யும்.</string>
+    <string name="battery_saver_reminder_category">நினைவூட்டல்கள்</string>
+    <string name="battery_saver_reminder_switch_title">பேட்டரி சேமிப்பு பற்றிய நினைவூட்டல்கள்</string>
+    <string name="battery_saver_reminder_switch_summary">பேட்டரி குறைவாக இருக்கும்போது நினைவூட்டல்களைப் பெறலாம்</string>
+    <string name="battery_saver_schedule_category">திட்ட அட்டவணை</string>
+    <string name="battery_saver_schedule_switch_title">பேட்டரி நிலையைப் பொறுத்து ஆன் ஆகுதல்</string>
+    <string name="battery_saver_schedule_switch_summary">பேட்டரி சார்ஜ் நீங்கள் அமைத்திருக்கும் சதவீதத்திற்குக் குறையும்போது பேட்டரி சேமிப்பு ஆன் ஆகும்.</string>
+    <string name="battery_schedule_title">திட்ட அட்டவணை மற்றும் நினைவூட்டல்கள்</string>
+    <string name="battery_schedule_summary">பேட்டரி சேமிப்பை எப்போது இயக்குவது என நிர்வகிக்கலாம்</string>
+    <string name="extreme_battery_saver_title">மேம்பட்ட பேட்டரி சேமிப்பு</string>
+    <string name="extreme_battery_saver_summary">மேலே பட்டியலிடப்பட்டுள்ள அனைத்து மாற்றங்களும் அடங்கும். அத்துடன், அத்தியாவசியமற்ற ஆப்ஸையும் அவற்றின் அறிவிப்புகளையும் இடைநிறுத்தும்.</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Hotspot -->
+    <!-- Status bar -->
+    <string name="icon_manager_title">நிலைப் பட்டி</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Keybox Data -->
+    <!-- Pif Data -->
+    <!-- Spoofing toggle -->
+    <!-- Screenshot shutter -->
+    <!-- Global Actions -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">பிணையப் போக்குவரத்துக் கண்காணிப்பு</string>
+    <string name="network_traffic_settings_summary">தற்போதைய பிணையப் போக்குவரத்து நிலைகளை நிலைப்பட்டியில் காட்டுக</string>
+    <string name="network_traffic_mode_title">காட்சியமைவு முறை</string>
+    <string name="network_traffic_mode_disable">முடக்கப்பட்டது</string>
+    <string name="network_traffic_mode_up">பதிவேற்றம் மட்டும்</string>
+    <string name="network_traffic_mode_down">பதிவிறக்கம் மட்டும்</string>
+    <string name="network_traffic_mode_all">பதிவேற்றமும், பதிவிறக்கமும்</string>
+    <string name="network_traffic_autohide">தானாக மறைக்க</string>
+    <string name="network_traffic_autohide_summary">செயற்பாடு இல்லையெனில், போக்குவரத்து கண்காணிப்பை மறைக்க</string>
+    <string name="network_traffic_units_title">பிணையப் போக்குவரத்து அளவீட்டு அலகுகள்</string>
+    <string name="network_traffic_units_kilobits">கிலோ பிட் ஒரு நொடிக்கு (கி.பிட்/நொ)</string>
+    <string name="network_traffic_units_megabits">மெகாபிட் ஒரு நொடிக்கு (மெ.பிட்/நொ)</string>
+    <string name="network_traffic_units_kilobytes">கிலோ பைட் ஒரு நொடிக்கு (கி.பைட்/நொ)</string>
+    <string name="network_traffic_units_megabytes">மெகா பைட் ஒரு நொடிக்கு (மெ.பைட்/நொ)</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">வினவலை அழிக்கும்</string>
+    <string name="language_picker_page">மொழித் தேர்வுப் பக்கம்</string>
+    <string name="search_region">பிராந்தியங்களைத் தேடுங்கள்</string>
+    <string name="search_region_page">பிராந்தியத்தைத் தேடுவதற்கான பக்கம்</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">அனிமேஷனை இடைநிறுத்து</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">புதுப்பிப்புகள் உள்ளனவா என்று பாருங்கள்</string>
+    <string name="play_application_update_entry_title">ஆப்ஸ் புதுப்பிப்புகள்</string>
+    <string name="software_update_banner_checking">புதுப்பிப்புகளைத் தேடுகிறது…</string>
+    <string name="software_update_banner_up_to_date">உங்கள் சாதனம் சமீபத்தியதாக உள்ளது</string>
+    <string name="software_update_banner_update_available">புதுப்பிப்புகள் உள்ளன</string>
+    <string name="software_update_can_be_updated_header">உங்கள் Pixelலை மேலும் சிறப்பாக்குங்கள்</string>
+    <string name="software_update_entry_title">மென்பொருள் புதுப்பிப்புகள்</string>
+    <string name="software_update_pending_update_summary">மீதமுள்ள புதுப்பிப்பு</string>
+    <string name="software_update_up_to_date_header">உங்கள் Pixel புதுப்பிக்கப்பட்டுள்ளது</string>
+    <string name="software_update_up_to_specific_date_summary">%1$s அன்று புதுப்பிக்கப்பட்டது</string>
+    <string name="system_update_entry_title">சிஸ்டம் புதுப்பிப்பு</string>
+</resources>

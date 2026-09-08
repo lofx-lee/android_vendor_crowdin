@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Cài đặt nâng cao</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Gỡ lỗi với quyền root</string>
+    <string name="adb_enable_summary_root">Cho phép chạy gỡ lỗi Android với quyền root</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <string name="show_dev_countdown_cm">{count, plural,
+      =1      {Bạn còn # bước nữa để bật cài đặt nhà phát triển.}
+      other   {Bạn còn # bước nữa để bật cài đặt nhà phát triển.}
+    }</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_cm">Bạn đã bật cài đặt nhà phát triển!</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_cm">Không cần đâu, bạn đã bật cài đặt nhà phát triển rồi.</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Nhấn để tắt màn hình</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Nhấn đúp vào thanh trạng thái hoặc màn hình khóa để tắt màn hình</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Dùng VPN cho các thiết bị đã kết nối</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Khi thiết bị này đang dùng VPN, mọi thiết bị kết nối với điểm phát sóng cũng sẽ dùng cùng VPN đó</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Xáo trộn bố cục</string>
+    <string name="unlock_scramble_pin_layout_summary">Xáo trộn bố cục bàn phím PIN khi mở khóa thiết bị</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Đen thuần</string>
+    <string name="berry_black_theme_summary">Nền đen thuần cho giao diện tối</string>
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">Dùng GPS hỗ trợ</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Tải dữ liệu hỗ trợ vệ tinh từ Internet để cải thiện đáng kể tốc độ khởi động GPS. Với cuộc gọi khẩn cấp, GPS hỗ trợ luôn được cho phép.</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Công nghệ</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Tình trạng</string>
+    <string name="battery_health_good">Tốt</string>
+    <string name="battery_health_overheat">Quá nóng</string>
+    <string name="battery_health_dead">Hỏng</string>
+    <string name="battery_health_over_voltage">Quá điện áp</string>
+    <string name="battery_health_unspecified_failure">Lỗi không xác định</string>
+    <string name="battery_health_cold">Lạnh</string>
+    <string name="battery_health_unknown">Không xác định</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Nhiệt độ</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Điện áp</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Dung lượng thiết kế</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Dung lượng tối đa</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Cảnh báo: Tùy chọn này có thể không hoạt động đúng hoặc gây mất dữ liệu, vì vậy không được khuyến nghị!</string>
+    <!-- Copy to clipboard -->
+    <string name="copied_to_clipboard">Đã sao chép vào bảng nhớ tạm</string>
+    <string name="longpress_to_clipboard">Nhấn giữ để sao chép</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Thông tin sóng vô tuyến</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Thông báo nổi</string>
+    <string name="heads_up_notifications_enabled_summary">Hiển thị thông báo ưu tiên trong một cửa sổ nổi nhỏ</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Tối ưu hóa màn hình dựa trên điều kiện môi trường và thời gian trong ngày để cải thiện khả năng đọc và giảm mỏi mắt</string>
+    <string name="live_display_mode">Chế độ hiển thị</string>
+    <string name="live_display_color_temperature_title">Nhiệt độ màu</string>
+    <string name="live_display_color_temperature_summary">Ngày: <xliff:g id="day_temperature">%1$d</xliff:g>K  Đêm: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Ngày</string>
+    <string name="live_display_night">Ban đêm</string>
+    <string name="live_display_outdoor_mode_title">Chế độ ngoài trời tự động</string>
+    <string name="live_display_outdoor_mode_summary">Tự động tăng độ sáng và độ bão hòa dưới ánh sáng mặt trời</string>
+    <string name="live_display_anti_flicker_title">Chống nhấp nháy</string>
+    <string name="live_display_anti_flicker_summary">Ngăn ngừa nhấp nháy trong thời gian dài và giảm mỏi mắt trong điều kiện ánh sáng thấp. Nó có thể làm giảm độ chính xác của màu và ảnh hưởng cách mà một số mục được hiển thị.</string>
+    <string name="live_display_low_power_title">Giảm tiêu thụ pin</string>
+    <string name="live_display_low_power_summary">Điều chỉnh hiển thị để tiêu thụ pin thấp nhất mà không làm giảm chất lượng</string>
+    <string name="live_display_enhance_color_title">Tăng cường màu sắc</string>
+    <string name="live_display_enhance_color_summary">Cải thiện độ rung màu sắc của màu da, cảnh quan và hình ảnh khác</string>
+    <string name="live_display_color_profile_title">Cấu hình màu</string>
+    <string name="live_display_color_profile_standard_title">Tiêu chuẩn</string>
+    <string name="live_display_color_profile_standard_summary">Màu sắc chính xác và màu trắng sáng</string>
+    <string name="live_display_color_profile_natural_title">Tự nhiên</string>
+    <string name="live_display_color_profile_natural_summary">Màu sắc thực tế và màu da</string>
+    <string name="live_display_color_profile_dynamic_title">Động</string>
+    <string name="live_display_color_profile_dynamic_summary">Màu sắc được tăng cường và màu trắng sáng</string>
+    <string name="live_display_color_profile_cinema_title">Rạp chiếu phim</string>
+    <string name="live_display_color_profile_cinema_summary">Tái tạo màu sắc hoàn hảo cho video</string>
+    <string name="live_display_color_profile_astronomy_title">Thiên văn học</string>
+    <string name="live_display_color_profile_astronomy_summary">Đỏ sâu để duy trì tầm nhìn ban đêm</string>
+    <string name="live_display_color_profile_photography_title">Nhiếp ảnh</string>
+    <string name="live_display_color_profile_photography_summary">Tái tạo màu sắc hoàn hảo cho hình ảnh</string>
+    <string name="live_display_color_profile_basic_title">Cơ bản</string>
+    <string name="live_display_color_profile_basic_summary">Dùng hiển thị không hiệu chỉnh</string>
+    <string name="live_display_color_profile_adaptive_title">Thích nghi</string>
+    <string name="live_display_color_profile_adaptive_summary">Màu sắc thích ứng với điều kiện môi trường xung quanh</string>
+    <string name="live_display_color_profile_reading_title">Đọc</string>
+    <string name="live_display_color_profile_reading_summary">Các màu ấm hơn cho mỏi mắt ít hơn</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Màu sắc chính xác cho không gian màu sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Màu sắc chính xác cho khoảng cách màu DCI-P3</string>
+    <string name="live_display_reading_mode_title">Chế độ đọc</string>
+    <string name="live_display_reading_mode_summary">Chế độ màu xám để đọc sách lâu dài</string>
+    <string name="color_calibration_title">Hiệu chỉnh màu sắc</string>
+    <string name="color_calibration_summary">Hiệu chỉnh màu sắc trên màn hình</string>
+    <string name="color_red_title">Đỏ</string>
+    <string name="color_green_title">Xanh lá</string>
+    <string name="color_blue_title">Xanh dương</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Hiệu chỉnh hình ảnh</string>
+    <string name="picture_adjustment_summary">Hiệu chỉnh tông màu, bão hòa, cường độ và độ tương phản</string>
+    <string name="adj_hue_title">Tông màu</string>
+    <string name="adj_saturation_title">Độ bão hoà</string>
+    <string name="adj_intensity_title">Cường độ</string>
+    <string name="adj_contrast_title">Độ tương phản</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Độ nhạy cảm ứng cao</string>
+    <string name="high_touch_sensitivity_summary">Tăng độ nhạy màn hình cảm ứng để có thể dùng khi đeo găng tay</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Di chuột trên màn hình cảm ứng</string>
+    <string name="touchscreen_hovering_summary">Cho phép bạn di chuột trên màn hình như dùng chuột trong trình duyệt web, máy tính từ xa, v.v.</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Tần số quét cảm ứng cao</string>
+    <string name="high_touch_polling_rate_summary">Tăng tần số quét của màn hình cảm ứng</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Kiểm soát sạc</string>
+    <string name="charging_control_summary">Tùy chỉnh lịch sạc và giới hạn sạc cho pin</string>
+    <string name="charging_control_enable_title">Kích hoạt kiểm soát sạc</string>
+    <string name="charging_control_mode_title">Chế độ sạc</string>
+    <string name="charging_control_mode_auto_title">Lịch biểu tự động</string>
+    <string name="charging_control_mode_auto_summary">Tự động xác định thời điểm bắt đầu sạc dựa trên báo thức đã đặt</string>
+    <string name="charging_control_mode_custom_title">Tùy chỉnh lịch biểu</string>
+    <string name="charging_control_mode_custom_summary">Đặt thời gian mục tiêu để sạc đầy</string>
+    <string name="charging_control_mode_limit_title">Giới hạn sạc</string>
+    <string name="charging_control_mode_limit_summary">Giới hạn sạc ở một tỷ lệ phần trăm nhất định</string>
+    <string name="charging_control_start_time_title">Thời gian bắt đầu</string>
+    <string name="charging_control_start_time_summary">Điều khiển sạc kích hoạt khi bạn bắt đầu sạc sau %s</string>
+    <string name="charging_control_target_time_title">Thời gian mục tiêu để sạc đầy</string>
+    <string name="charging_control_target_time_summary">Pin sẽ được sạc đầy sau %s</string>
+    <string name="charging_control_limit_title">Giới hạn</string>
+    <string name="charging_control_limit_summary">Giới hạn hiện tại: %d%%</string>
+    <string name="reset">Thiết lập lại</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Xác định vị trí cảm biến vân tay ở mặt trước máy tính bảng.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Xác định vị trí cảm biến vân tay ở mặt trước thiết bị.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Xác định vị trí cảm biến vân tay ở mặt sau máy tính bảng.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Xác định vị trí cảm biến vân tay ở mặt sau thiết bị.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Xác định vị trí cảm biến vân tay ở mặt sau điện thoại.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Xác định vị trí cảm biến vân tay ở cạnh bên máy tính bảng.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Xác định vị trí cảm biến vân tay ở cạnh bên thiết bị.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Xác định vị trí cảm biến vân tay ở cạnh bên điện thoại.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Chạm vào cảm biến ở mặt trước máy tính bảng.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Chạm vào cảm biến ở mặt trước thiết bị.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Chạm vào cảm biến ở mặt trước điện thoại.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Chạm vào cảm biến ở mặt sau máy tính bảng.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Chạm vào cảm biến ở mặt sau thiết bị.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Chạm vào cảm biến ở mặt sau điện thoại.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Chạm vào cảm biến ở cạnh bên máy tính bảng.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Chạm vào cảm biến ở cạnh bên thiết bị.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Chạm vào cảm biến ở cạnh bên điện thoại.</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Chọn kích cỡ hình mở khóa</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Hiện lỗi hình mở khóa</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Hiện các chấm của hình mở khóa</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Cài đặt xoay</string>
+    <string name="display_rotation_enabled">Tự động xoay được bật</string>
+    <string name="display_rotation_disabled">Tự động xoay bị tắt</string>
+    <string name="display_rotation_unit">độ</string>
+    <string name="display_rotation_category_title">Chế độ xoay</string>
+    <string name="display_rotation_0_title">0 độ</string>
+    <string name="display_rotation_90_title">90 độ</string>
+    <string name="display_rotation_180_title">180 độ</string>
+    <string name="display_rotation_270_title">270 độ</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Tự động điều chỉnh độ sáng một lần</string>
+    <string name="auto_brightness_one_shot_summary">Độ sáng chỉ được điều chỉnh vào lúc màn hình bật</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G thông minh</string>
+    <string name="smart_5g_summary">Tự động chuyển giữa 5G và 4G để giảm tiêu thụ pin</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Menu nguồn</string>
+    <string name="lockscreen_enable_power_menu_summary">Cho phép truy cập menu nguồn trên màn hình khóa bảo mật</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Đèn pin nhanh</string>
+    <string name="power_button_torch_summary">Khi màn hình tắt, nhấn giữ nút nguồn sẽ bật đèn pin</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Điều khiển phát</string>
+    <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ phím âm lượng sẽ chuyển bài hát</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Chuyển vòng giữa các chế độ</string>
+    <string name="prevent_ringing_option_cycle_summary">Bật (chuyển vòng giữa các chế độ)</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Bật màn hình khi cắm sạc</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Bật màn hình khi kết nối hoặc ngắt kết nối nguồn điện</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Bỏ qua cờ cửa sổ bảo mật</string>
+    <string name="ignore_window_secure_summary">Gỡ giới hạn chụp và quay màn hình cho mọi ứng dụng. Có thể tiện trong một số trường hợp nhưng có thể gây rò rỉ quyền riêng tư.</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Tùy chọn rung trong cuộc gọi</string>
+    <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
+    <string name="incall_vibrate_call_wait_title">Rung khi có cuộc gọi chờ</string>
+    <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Hiện màn hình môi trường</string>
+    <string name="doze_gesture_ambient_summary">Hiện màn hình môi trường thay vì bật hẳn màn hình</string>
+    <string name="gesture_wake_ambient">Hiện màn hình môi trường</string>
+    <string name="gesture_wake">Bật hẳn màn hình</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Màn hình môi trường</string>
+    <string name="doze_enabled_summary">Có bật chức năng của gói doze hay không</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Tần số quét</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Thích ứng)</string>
+    <string name="refresh_rate_vrr_title">Tần số quét thích ứng</string>
+    <string name="refresh_rate_vrr_summary">Tự động giảm tần số quét khi màn hình không hoạt động để tiết kiệm pin. Có thể gây nhấp nháy hoặc lệch màu trên một số màn hình</string>
+    <string name="refresh_rate_footer">Tần số quét cao hơn giúp hiển thị mượt hơn nhưng tiêu thụ nhiều pin hơn</string>
+    <string name="keywords_refresh_rate">tần số quét, làm mới, mượt, tối đa, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Giảm tần số quét</string>
+    <string name="battery_saver_refresh_rate_summary">Dùng tần số quét 60 Hz để tiết kiệm pin khi Trình tiết kiệm pin đang bật</string>
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_entry_purpose">Cho phép người dùng bật hoặc tắt Pin thích ứng, tính năng tối ưu mức sử dụng pin của ứng dụng dựa trên thói quen dùng điện thoại để kéo dài thời lượng pin.</string>
+    <string name="adaptive_battery_management_enabled_purpose">Pin thích ứng có được bật để tối ưu mức sử dụng pin dựa trên thói quen dùng ứng dụng hay không.</string>
+    <string name="adaptive_battery_switch_title">Sử dụng Pin thích ứng</string>
+    <string name="basic_battery_saver_title">Trình tiết kiệm pin tiêu chuẩn</string>
+    <string name="basic_battery_saver_summary">Giới hạn hiệu ứng hình ảnh và hoạt động trong nền. Bật giao diện tối nếu chưa bật.</string>
+    <string name="basic_battery_saver_purpose">Bật chế độ Tiết kiệm pin tiêu chuẩn, giới hạn hiệu ứng hình ảnh và hoạt động nền</string>
+    <string name="battery_saver_reminder_category">Lời nhắc</string>
+    <string name="battery_saver_reminder_switch_title">Lời nhắc tiết kiệm pin</string>
+    <string name="battery_saver_reminder_switch_summary">Nhận lời nhắc khi pin ở mức thấp</string>
+    <string name="battery_saver_schedule_category">Lịch biểu</string>
+    <string name="battery_saver_schedule_switch_title">Bật dựa trên mức pin</string>
+    <string name="battery_saver_schedule_switch_summary">Tính năng Tiết kiệm pin sẽ bật khi pin giảm xuống mức bạn đã thiết lập</string>
+    <string name="battery_saver_schedule_purpose">Cho phép người dùng thiết lập lịch Tiết kiệm pin, gồm tự động bật theo phần trăm pin và tự động tắt khi đã sạc, cũng như quản lý thông báo nhắc pin yếu.</string>
+    <string name="battery_schedule_title">Lịch biểu và lời nhắc</string>
+    <string name="battery_schedule_summary">Quản lý thời điểm bật Trình tiết kiệm pin</string>
+    <string name="extreme_battery_saver_title">Trình siêu tiết kiệm pin</string>
+    <string name="extreme_battery_saver_summary">Chế độ này sẽ thực hiện mọi thay đổi nêu trên. Đồng thời tạm dừng các ứng dụng không thiết yếu và thông báo của những ứng dụng đó.</string>
+    <string name="extreme_battery_saver_purpose">Bật chế độ Tiết kiệm pin tối đa, tạm dừng các ứng dụng và thông báo không thiết yếu</string>
+    <string name="low_power_mode_reminder_enabled_purpose">Có nhận thông báo nhắc khi pin yếu hay không</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Vân tay luôn bật</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Cho phép mở khóa khi màn hình tắt.\nBật tính năng này có thể khiến màn hình vô tình sáng lên.</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Mạng ẩn</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Tên điểm phát sóng di động của bạn sẽ không xuất hiện trong danh sách mạng WLAN khả dụng.</string>
+    <string name="wifi_hotspot_client_manager_title">Thiết bị đã kết nối</string>
+    <string name="wifi_hotspot_client_manager_summary">Liệt kê và quản lý các thiết bị kết nối với điểm phát sóng</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Liệt kê các thiết bị kết nối với điểm phát sóng</string>
+    <string name="wifi_hotspot_client_limit_title">Giới hạn số thiết bị kết nối</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Thiết bị bị chặn</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Thiết bị đã kết nối</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Chặn thiết bị</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Hành động này sẽ ngắt kết nối \"<xliff:g id="device_name">%1$s</xliff:g>\" khỏi thiết bị này và thêm vào danh sách chặn</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Bỏ chặn thiết bị</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Thiết bị \"<xliff:g id="device_name">%1$s</xliff:g>\" sẽ có thể kết nối với điểm phát sóng này</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Hiện không có thiết bị nào. Các thiết bị đã kết nối và bị chặn sẽ được liệt kê ở đây khi có.</string>
+    <!-- Status bar -->
+    <string name="icon_manager_title">Thanh trạng thái</string>
+    <string name="icon_manager_summary">Kiểm soát hiển thị các biểu tượng trên thanh trạng thái</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
+    <string name="display_cutout_force_fullscreen_summary">Buộc ứng dụng bỏ qua vùng khuyết màn hình</string>
+    <string name="app_list_search">Tìm kiếm</string>
+    <string name="app_list_search_apps">Tìm ứng dụng</string>
+    <string name="app_list_loading">Đang tải ứng dụng…</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Cấu hình XML keybox</string>
+    <string name="keybox_data_summary">Cấu hình giả mạo chứng thực khóa trên toàn hệ thống. Nhấn Xóa để khôi phục mặc định.</string>
+    <!-- Pif Data -->
+    <string name="pif_data_title">Cấu hình JSON PIF</string>
+    <string name="pif_data_summary">Cấu hình JSON PIF dùng để giả mạo thuộc tính cho GMS và Cửa hàng Play. Nhấn Xóa để quay về mặc định động.</string>
+    <!-- Spoofing toggle -->
+    <string name="cert_overlay_title">Giả mạo thuộc tính đã chứng nhận</string>
+    <string name="cert_overlay_summary">Giả mạo thuộc tính chứng nhận PI với GMS\nCần khởi động lại để áp dụng</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Âm thanh chụp màn hình</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiện tùy chọn recovery và bootloader trong menu nguồn</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Vuốt để chụp màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt xuống bằng ba ngón tay để chụp màn hình</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Giám sát lưu lượng mạng</string>
+    <string name="network_traffic_settings_summary">Hiển thị mức lưu lượng mạng hiện tại trên thanh trạng thái</string>
+    <string name="network_traffic_mode_title">Chế độ hiển thị</string>
+    <string name="network_traffic_mode_disable">Tắt</string>
+    <string name="network_traffic_mode_up">Chỉ tải lên</string>
+    <string name="network_traffic_mode_down">Chỉ tải xuống</string>
+    <string name="network_traffic_mode_all">Tải lên và tải xuống</string>
+    <string name="network_traffic_autohide">Tự động ẩn</string>
+    <string name="network_traffic_autohide_summary">Ẩn giám sát lưu lượng mạng khi không có hoạt động</string>
+    <string name="network_traffic_units_title">Đơn vị đo lưu lượng</string>
+    <string name="network_traffic_units_kilobits">Kilobit trên giây (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabit trên giây (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobyte trên giây (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabyte trên giây (MB/s)</string>
+    <string name="network_traffic_units_auto">Tự động (kB/s hoặc MB/s)</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Xoá cụm từ tìm kiếm</string>
+    <string name="language_picker_page">Trang bộ chọn ngôn ngữ</string>
+    <string name="search_region">Tìm khu vực</string>
+    <string name="search_region_page">Trang tìm kiếm theo khu vực</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">tạm dừng ảnh động</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Kiểm tra để tìm bản cập nhật</string>
+    <string name="play_application_update_entry_title">Bản cập nhật ứng dụng</string>
+    <string name="software_update_banner_checking">Đang kiểm tra để tìm bản cập nhật…</string>
+    <string name="software_update_banner_up_to_date">Thiết bị của bạn đã cập nhật xong</string>
+    <string name="software_update_banner_update_available">Đã có các bản cập nhật</string>
+    <string name="software_update_can_be_updated_header">Nâng cao hiệu suất của Pixel bằng các bản cập nhật</string>
+    <string name="software_update_entry_title">Bản cập nhật phần mềm</string>
+    <string name="software_update_pending_update_summary">Bản cập nhật đang chờ xử lý</string>
+    <string name="software_update_settings_v2_purpose">Cung cấp bảng điều khiển tập trung để người dùng theo dõi và bắt đầu cập nhật hệ điều hành, các thành phần hệ thống Google Play và ứng dụng đã cài, nhằm đảm bảo an toàn và hiệu năng của thiết bị.</string>
+    <string name="software_update_up_to_date_header">Chiếc Pixel của bạn đang chạy phiên bản mới nhất</string>
+    <string name="software_update_up_to_specific_date_summary">Đã cập nhật ngày %1$s</string>
+    <string name="system_update_entry_title">Bản cập nhật hệ thống</string>
+</resources>

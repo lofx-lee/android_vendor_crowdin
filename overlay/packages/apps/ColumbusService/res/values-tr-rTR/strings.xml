@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Hızlı Dokunma Hizmeti</string>
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">Hızlı Dokunma</string>
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">İşlemleri başlatmak için Hızlı Dokun\'u kullan</string>
+    <string name="settings_entry_summary_on">Açık / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Kapalı</string>
+    <string name="settings_search_keywords">Hızlı Dokunma, arkaya dokunma, dokunma, hareket, asistan, assistant</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">Hızlı Dokun özelliğini kullan</string>
+    <string name="setting_footer_content">Bir işlem gerçekleştirmek için telefonunuzun arkasına, ortaya yakın bir yere iki kez dokunun</string>
+    <string name="setting_sensitivity_title">Hassasiyet</string>
+    <string name="setting_sensitivity_light">Hafif dokunma</string>
+    <string name="setting_sensitivity_heavy">Sert dokunma</string>
+    <string name="setting_haptic_intensity_title">Dokunsal geri bildirim yoğunluğu</string>
+    <string name="setting_haptic_intensity_light">Hafif</string>
+    <string name="setting_haptic_intensity_strong">Güçlü</string>
+    <string name="setting_screen_off_title">Ekran kapalıyken izin ver</string>
+    <string name="setting_screen_off_summary">Yanlış tetiklemeleri artırabilir</string>
+    <string name="setting_screen_off_blocked_summary">Mevcut işlem tarafından engellendi</string>
+    <string name="setting_action_title" product="default">Telefonun arkasına iki kez dokunduğumda</string>
+    <string name="setting_action_title" product="device">Şunun için cihazın arkasına iki kez dokunun:</string>
+    <string name="setting_action_title" product="tablet">Şunun için tabletin arkasına iki kez dokunun:</string>
+    <string name="launch_settings_activity_title">Hızlı Dokun ayarları</string>
+    <string name="setting_app_selection_help_text" product="default">Telefonun arkasına iki kez dokunduğunuzda hangi uygulamanın açılacağını seçin. Uygulamayı kaldırırsanız farklı bir uygulama seçene kadar Hızlı Dokun özelliği devre dışı kalır.</string>
+    <string name="setting_app_selection_help_text" product="device">Cihazınızın arkasına iki kez dokunduğunuzda açılacak bir uygulama seçin. Uygulamayı kaldırırsanız, farklı bir uygulama seçmenize kadar Hızlı Dokunma kapanır.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Tabletinizin arkasına iki kez dokunduğunuzda açılacak bir uygulama seçin. Uygulamayı kaldırırsanız, farklı bir uygulama seçmenize kadar Hızlı Dokunma kapanır.</string>
+    <string name="setting_app_selection_help_text_disabled">Bu özelliği kullanmak için önce Hızlı Dokunma\'yı etkinleştirmeniz gerekir.</string>
+    <string name="setting_app_shortcut_selection_help_text">Bu uygulamayı Hızlı Dokun özelliğini kullanarak açtığınızda ne olacağını seçin.</string>
+    <string name="radio_button_extra_widget_a11y_label"><xliff:g id="action">%1$s</xliff:g> ayarları</string>
+    <string name="setting_action_launch_summary_no_selection">Uygulama seçilmedi</string>
+    <string name="setting_action_launch_summary_not_installed">Uygulama yüklenmedi</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">Ekran görüntüsü al</string>
+    <string name="action_assistant_name">Dijital asistanıma eriş</string>
+    <string name="action_media_name">Medyayı oynat veya duraklat</string>
+    <string name="action_overview_name">Son uygulamaları göster</string>
+    <string name="action_notifications_name">Bildirimleri göster</string>
+    <string name="action_flashlight_name">El fenerini aç/kapat</string>
+    <string name="action_launch_name">Uygulama aç</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">Hızlı Dokun algılandı.</string>
+</resources>

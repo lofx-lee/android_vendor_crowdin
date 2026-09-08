@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Geavanceerde instellingen</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Foutopsporing als root</string>
+    <string name="adb_enable_summary_root">Toestaan dat Android-foutopsporing als root wordt uitgevoerd</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <string name="show_dev_countdown_cm">{count, plural,
+      =1      {Je bent nu nog # stap verwijderd van het inschakelen van de ontwikkelaarsinstellingen.}
+      other   {Je bent nu nog # stappen verwijderd van het inschakelen van de ontwikkelaarsinstellingen.}
+    }</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_cm">Je hebt de ontwikkelaarsinstellingen ingeschakeld!</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_cm">Niet nodig, je hebt de ontwikkelaarsinstellingen al ingeschakeld.</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Tikken om te slapen</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Dubbeltik op de statusbalk of het vergrendelscherm om het scherm uit te schakelen</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">VPN gebruiken voor verbonden apparaten</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Wanneer dit apparaat een VPN gebruikt, gebruiken alle apparaten die met de hotspot zijn verbonden dezelfde VPN</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Indeling door elkaar halen</string>
+    <string name="unlock_scramble_pin_layout_summary">PIN-indeling door elkaar halen bij het ontgrendelen van het apparaat</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Puur zwart</string>
+    <string name="berry_black_theme_summary">Puur zwarte achtergrond voor het donkere thema</string>
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">Ondersteunde GPS gebruiken</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Satellietondersteuningsgegevens van internet downloaden, wat de opstartprestaties van GPS aanzienlijk kan verbeteren. Voor noodoproepen is ondersteunde GPS altijd toegestaan.</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technologie</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Gezondheid</string>
+    <string name="battery_health_good">Goed</string>
+    <string name="battery_health_overheat">Oververhit</string>
+    <string name="battery_health_dead">Defect</string>
+    <string name="battery_health_over_voltage">Overspanning</string>
+    <string name="battery_health_unspecified_failure">Niet-gespecificeerde fout</string>
+    <string name="battery_health_cold">Koud</string>
+    <string name="battery_health_unknown">Onbekend</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperatuur</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Spanning</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Ontwerpcapaciteit</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximale capaciteit</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Waarschuwing: deze optie werkt mogelijk niet goed of kan tot gegevensverlies leiden en wordt daarom niet aanbevolen!</string>
+    <!-- Copy to clipboard -->
+    <string name="copied_to_clipboard">Gekopieerd naar klembord</string>
+    <string name="longpress_to_clipboard">Lang indrukken om te kopiëren</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio-informatie</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Zwevende meldingen</string>
+    <string name="heads_up_notifications_enabled_summary">Prioriteitsmeldingen weergeven in een klein zwevend venster</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Uw scherm optimaliseren aan de hand van tijdstip op de dag en lichtomstandigheden om de leesbaarheid te verbeteren en oogvermoeidheid te verminderen</string>
+    <string name="live_display_mode">Weergavemodus</string>
+    <string name="live_display_color_temperature_title">Kleurtemperatuur</string>
+    <string name="live_display_color_temperature_summary">Overdag: <xliff:g id="day_temperature">%1$d</xliff:g> K, \'s nachts: <xliff:g id="night_temperature">%2$d</xliff:g> K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g> K</string>
+    <string name="live_display_day">Overdag</string>
+    <string name="live_display_night">Nacht</string>
+    <string name="live_display_outdoor_mode_title">Automatische buitenshuismodus</string>
+    <string name="live_display_outdoor_mode_summary">Helderheid en verzadiging automatisch verhogen bij helder zonlicht</string>
+    <string name="live_display_anti_flicker_title">Anti-flikkeren</string>
+    <string name="live_display_anti_flicker_summary">Voorkom sterke flickering en verminder oogvermoeidheid bij weinig licht. Het kan de zuiverheid van kleuren aantasten en kan invloed hebben op de wijze waarop sommige items weergegeven worden.</string>
+    <string name="live_display_low_power_title">Energieverbruik verminderen</string>
+    <string name="live_display_low_power_summary">Scherm aanpassen voor laagst mogelijke energieverbruik zonder kwaliteitsverlies</string>
+    <string name="live_display_enhance_color_title">Kleuren verbeteren</string>
+    <string name="live_display_enhance_color_summary">Kleurlevendigheid verbeteren van huidtinten, landschappen en andere afbeeldingen</string>
+    <string name="live_display_color_profile_title">Kleurprofiel</string>
+    <string name="live_display_color_profile_standard_title">Standaard</string>
+    <string name="live_display_color_profile_standard_summary">Nauwkeurige kleuren en heldere witwaarden</string>
+    <string name="live_display_color_profile_natural_title">Natuurlijk</string>
+    <string name="live_display_color_profile_natural_summary">Realistische kleuren en huidtinten</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamisch</string>
+    <string name="live_display_color_profile_dynamic_summary">Verbeterde kleuren en heldere witwaarden</string>
+    <string name="live_display_color_profile_cinema_title">Bioscoop</string>
+    <string name="live_display_color_profile_cinema_summary">Perfecte kleurweergave voor video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Diepe rode kleuren voor nachtweergave</string>
+    <string name="live_display_color_profile_photography_title">Fotografie</string>
+    <string name="live_display_color_profile_photography_summary">Perfecte kleurweergave voor foto\'s</string>
+    <string name="live_display_color_profile_basic_title">Basis</string>
+    <string name="live_display_color_profile_basic_summary">Scherm ongekalibreerd gebruiken</string>
+    <string name="live_display_color_profile_adaptive_title">Aanpasbaar</string>
+    <string name="live_display_color_profile_adaptive_summary">Kleuren passen zich aan aan de omgeving</string>
+    <string name="live_display_color_profile_reading_title">Lezen</string>
+    <string name="live_display_color_profile_reading_summary">Warmere kleuren voor minder vermoeidheid van de ogen</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Kleuren binnen het sRGB-kleurenpalet</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Kleuren binnen het DCI-P3-kleurenpalet</string>
+    <string name="live_display_reading_mode_title">Leesmodus</string>
+    <string name="live_display_reading_mode_summary">Grijsschaalmodus voor langdurig lezen</string>
+    <string name="color_calibration_title">Kleuren kalibreren</string>
+    <string name="color_calibration_summary">Schermkleur kalibreren</string>
+    <string name="color_red_title">Rood</string>
+    <string name="color_green_title">Groen</string>
+    <string name="color_blue_title">Blauw</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Beeldaanpassingen</string>
+    <string name="picture_adjustment_summary">Tint, verzadiging, intensiteit en contrast aanpassen</string>
+    <string name="adj_hue_title">Tint</string>
+    <string name="adj_saturation_title">Verzadiging</string>
+    <string name="adj_intensity_title">Intensiteit</string>
+    <string name="adj_contrast_title">Contrast</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Hoge aanraakgevoeligheid</string>
+    <string name="high_touch_sensitivity_summary">Gevoeligheid van het touchscreen verhogen zodat het met handschoenen kan worden gebruikt</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Zweven boven touchscreen</string>
+    <string name="touchscreen_hovering_summary">Hiermee kun je boven het scherm zweven zoals met een muis in webbrowsers, extern bureaublad, enz.</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Hoge aanraakpollingfrequentie</string>
+    <string name="high_touch_polling_rate_summary">Pollingfrequentie van het touchscreen verhogen</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Oplaadcontrole</string>
+    <string name="charging_control_summary">Laadschema en laadlimieten voor de batterij aanpassen</string>
+    <string name="charging_control_enable_title">Schakel oplaadcontrole in</string>
+    <string name="charging_control_mode_title">Oplaadmodus</string>
+    <string name="charging_control_mode_auto_title">Automatisch schema</string>
+    <string name="charging_control_mode_auto_summary">Bepaal automatisch wanneer moet worden opgeladen op basis van alarmen</string>
+    <string name="charging_control_mode_custom_title">Aangepast schema</string>
+    <string name="charging_control_mode_custom_summary">Stel een doeltijd in voor volledige lading</string>
+    <string name="charging_control_mode_limit_title">Beperk opladen</string>
+    <string name="charging_control_mode_limit_summary">Beperk de lading tot een bepaald percentage</string>
+    <string name="charging_control_start_time_title">Begintijd</string>
+    <string name="charging_control_start_time_summary">Oplaadcontrole activeert wanneer u begint met opladen na %s</string>
+    <string name="charging_control_target_time_title">Tijdstip volledig opgeladen</string>
+    <string name="charging_control_target_time_summary">Batterij zal volledig opgeladen worden in %s</string>
+    <string name="charging_control_limit_title">Begrenzing</string>
+    <string name="charging_control_limit_summary">Huidige limiet: %d%%</string>
+    <string name="reset">Herstel</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Zoek de vingerafdruksensor aan de voorkant van je tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Zoek de vingerafdruksensor aan de voorkant van je apparaat.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Zoek de vingerafdruksensor aan de voorkant van je telefoon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Zoek de vingerafdruksensor aan de achterkant van je tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Zoek de vingerafdruksensor aan de achterkant van je apparaat.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Zoek de vingerafdruksensor aan de achterkant van je telefoon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Zoek de vingerafdruksensor aan de zijkant van je tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Zoek de vingerafdruksensor aan de zijkant van je apparaat.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Zoek de vingerafdruksensor aan de zijkant van je telefoon.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Raak de sensor aan de voorkant van je tablet aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Raak de sensor aan de voorkant van je apparaat aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Raak de sensor aan de voorkant van je telefoon aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Raak de sensor aan de achterkant van je tablet aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Raak de sensor aan de achterkant van je apparaat aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Raak de sensor aan de achterkant van je telefoon aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Raak de sensor aan de zijkant van je tablet aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Raak de sensor aan de zijkant van je apparaat aan.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Raak de sensor aan de zijkant van je telefoon aan.</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Kies een patroongrootte</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Patroonfout tonen</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Patroonpunten tonen</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotatie-instellingen</string>
+    <string name="display_rotation_enabled">Auto-rotatie is ingeschakeld</string>
+    <string name="display_rotation_disabled">Auto-rotatie is uitgeschakeld</string>
+    <string name="display_rotation_unit">graden</string>
+    <string name="display_rotation_category_title">Draaistanden</string>
+    <string name="display_rotation_0_title">0 graden</string>
+    <string name="display_rotation_90_title">90 graden</string>
+    <string name="display_rotation_180_title">180 graden</string>
+    <string name="display_rotation_270_title">270 graden</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Eenmalige automatische helderheid</string>
+    <string name="auto_brightness_one_shot_summary">De helderheid wordt alleen aangepast op het moment dat het scherm wordt ingeschakeld</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Slimme 5G</string>
+    <string name="smart_5g_summary">Automatisch wisselen tussen 5G en 4G om het batterijverbruik te verminderen</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Aan/uit-menu</string>
+    <string name="lockscreen_enable_power_menu_summary">Toegang tot het aan/uit-menu op het beveiligde vergrendelscherm toestaan</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Snelle zaklamp</string>
+    <string name="power_button_torch_summary">Als het scherm uit is, schakelt lang indrukken van de aan/uit-knop de zaklamp in</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Afspeelbediening</string>
+    <string name="volume_button_music_control_summary">Als het scherm uit is, slaat lang indrukken van de volumeknoppen nummers over</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Door modi bladeren</string>
+    <string name="prevent_ringing_option_cycle_summary">Aan (door modi bladeren)</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wekken bij aansluiten</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Scherm inschakelen bij het aansluiten of loskoppelen van een voedingsbron</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Beveiligde vensterflags negeren</string>
+    <string name="ignore_window_secure_summary">Beperkingen voor screenshots en schermopnamen voor alle apps verwijderen. Dit kan in sommige gevallen handig zijn, maar kan tot privacylekken leiden.</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Trilopties tijdens gesprekken</string>
+    <string name="incall_vibrate_connect_title">Trillen bij verbinding</string>
+    <string name="incall_vibrate_call_wait_title">Trillen bij wisselgesprek</string>
+    <string name="incall_vibrate_disconnect_title">Trillen bij verbreken</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Ambient tonen</string>
+    <string name="doze_gesture_ambient_summary">Ambient display tonen in plaats van het scherm volledig te wekken</string>
+    <string name="gesture_wake_ambient">Ambient tonen</string>
+    <string name="gesture_wake">Volledig wekken</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Of de functionaliteit van het doze-pakket moet worden ingeschakeld</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Vernieuwingsfrequentie</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (adaptief)</string>
+    <string name="refresh_rate_vrr_title">Adaptieve vernieuwingsfrequentie</string>
+    <string name="refresh_rate_vrr_summary">Vernieuwingsfrequentie automatisch verlagen wanneer het scherm inactief is, om energie te besparen. Kan flikkeren of kleurverschuiving veroorzaken op bepaalde schermen</string>
+    <string name="refresh_rate_footer">Een hogere vernieuwingsfrequentie maakt het scherm vloeiender, maar verhoogt het energieverbruik</string>
+    <string name="keywords_refresh_rate">vernieuwing, frequentie, vloeiend, piek, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Vernieuwingsfrequentie verlagen</string>
+    <string name="battery_saver_refresh_rate_summary">Vernieuwingsfrequentie van 60 Hz gebruiken om energie te besparen wanneer Batterijbesparing aan staat</string>
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_entry_purpose">Hiermee kunnen gebruikers Adaptieve batterij in- of uitschakelen, die het batterijverbruik van apps optimaliseert op basis van gebruikspatronen om de batterijduur te verlengen.</string>
+    <string name="adaptive_battery_management_enabled_purpose">Of Adaptieve batterij is ingeschakeld om het batterijverbruik te optimaliseren op basis van app-gebruikspatronen.</string>
+    <string name="adaptive_battery_switch_title">Aangepast batterijgebruik gebruiken</string>
+    <string name="basic_battery_saver_title">Standaard batterijbesparing</string>
+    <string name="basic_battery_saver_summary">Beperkt visuele effecten en activiteit op de achtergrond. Zet het donkere thema aan als dit nog niet actief is.</string>
+    <string name="basic_battery_saver_purpose">Schakelt de standaard Batterijbesparing in, die visuele effecten en achtergrondactiviteit beperkt</string>
+    <string name="battery_saver_reminder_category">Herinneringen</string>
+    <string name="battery_saver_reminder_switch_title">Herinneringen voor Batterijbesparing</string>
+    <string name="battery_saver_reminder_switch_summary">Krijg herinneringen als de batterij bijna leeg is</string>
+    <string name="battery_saver_schedule_category">Planning</string>
+    <string name="battery_saver_schedule_switch_title">Aanzetten op basis van batterijniveau</string>
+    <string name="battery_saver_schedule_switch_summary">Batterijbesparing gaat aan als de batterij onder het niveau komt dat je instelt</string>
+    <string name="battery_saver_schedule_purpose">Hiermee kunnen gebruikers schema’s voor Batterijbesparing instellen, inclusief automatische activering op basis van batterijpercentage en automatische deactivering wanneer opgeladen, en herinneringen bij een bijna lege batterij beheren.</string>
+    <string name="battery_schedule_title">Planning en herinneringen</string>
+    <string name="battery_schedule_summary">Beheer wanneer Batterijbesparing aangaat</string>
+    <string name="extreme_battery_saver_title">Extreme batterijbesparing</string>
+    <string name="extreme_battery_saver_summary">Bevat alle hierboven vermelde wijzigingen. Onderbreekt ook niet-essentiële apps en de meldingen daarvan.</string>
+    <string name="extreme_battery_saver_purpose">Schakelt Extreme batterijbesparing in, die niet-essentiële apps en meldingen pauzeert</string>
+    <string name="low_power_mode_reminder_enabled_purpose">Of er herinneringen moeten worden ontvangen wanneer de batterij bijna leeg is</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Vingerafdruk altijd aan</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Maakt ontgrendelen mogelijk met het scherm uit.\nInschakelen kan onbedoeld wekken veroorzaken.</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Verborgen netwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">De naam van je mobiele hotspot verschijnt niet in de lijst met beschikbare WLAN-netwerken.</string>
+    <string name="wifi_hotspot_client_manager_title">Verbonden apparaten</string>
+    <string name="wifi_hotspot_client_manager_summary">Apparaten die met de hotspot zijn verbonden weergeven en beheren</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Apparaten die met de hotspot zijn verbonden weergeven</string>
+    <string name="wifi_hotspot_client_limit_title">Limiet voor verbonden apparaten</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Geblokkeerde apparaten</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Verbonden apparaten</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Apparaat blokkeren</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Hiermee wordt de verbinding van \"<xliff:g id="device_name">%1$s</xliff:g>\" met dit apparaat verbroken en wordt het aan de blokkeerlijst toegevoegd</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Apparaat deblokkeren</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Het apparaat \"<xliff:g id="device_name">%1$s</xliff:g>\" kan weer verbinding maken met deze hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Er zijn momenteel geen clients beschikbaar. Verbonden en geblokkeerde apparaten worden hier weergegeven zodra ze beschikbaar zijn.</string>
+    <!-- Status bar -->
+    <string name="icon_manager_title">Statusbalk</string>
+    <string name="icon_manager_summary">Zichtbaarheid van statusbalkpictogrammen beheren</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Apps op volledig scherm</string>
+    <string name="display_cutout_force_fullscreen_summary">Apps dwingen de notch-ruimte te negeren</string>
+    <string name="app_list_search">Zoeken</string>
+    <string name="app_list_search_apps">Apps zoeken</string>
+    <string name="app_list_loading">Apps laden…</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox-XML configureren</string>
+    <string name="keybox_data_summary">Systeembrede spoofing van sleutelattestatie configureren. Tik op Verwijderen om de standaardwaarden te herstellen.</string>
+    <!-- Pif Data -->
+    <string name="pif_data_title">PIF-JSON configureren</string>
+    <string name="pif_data_summary">PIF-JSON configureren die wordt gebruikt om eigenschappen voor GMS en de Play Store te spoofen. Tik op Verwijderen om terug te gaan naar de dynamische standaardwaarden.</string>
+    <!-- Spoofing toggle -->
+    <string name="cert_overlay_title">Gecertificeerde eigenschappen spoofen</string>
+    <string name="cert_overlay_summary">PI-gecertificeerde eigenschappen spoofen naar GMS\nVereist een herstart om toe te passen</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshotgeluid</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Geavanceerd herstarten inschakelen</string>
+    <string name="global_actions_advanced_reboot_summary">Opties voor recovery en bootloader in het aan/uit-menu tonen</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Vegen voor screenshot</string>
+    <string name="three_finger_gesture_summary">Veeg met drie vingers omlaag om een screenshot te maken</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Netwerkverkeerindicator</string>
+    <string name="network_traffic_settings_summary">Netwerkverkeer weergeven in de statusbalk</string>
+    <string name="network_traffic_mode_title">Weergave</string>
+    <string name="network_traffic_mode_disable">Uitgeschakeld</string>
+    <string name="network_traffic_mode_up">Alleen upload</string>
+    <string name="network_traffic_mode_down">Alleen download</string>
+    <string name="network_traffic_mode_all">Upload en download</string>
+    <string name="network_traffic_autohide">Automatisch verbergen</string>
+    <string name="network_traffic_autohide_summary">Netwerkverkeerindicator verbergen wanneer er geen activiteit is</string>
+    <string name="network_traffic_units_title">Eenheid netwerkverkeer</string>
+    <string name="network_traffic_units_kilobits">Kilobit per seconde (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabit per seconde (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobyte per seconde (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabyte per seconde (MB/s)</string>
+    <string name="network_traffic_units_auto">Automatisch (kB/s of MB/s)</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Zoekopdracht wissen</string>
+    <string name="language_picker_page">Pagina met taalkiezer</string>
+    <string name="search_region">Regio\'s zoeken</string>
+    <string name="search_region_page">Pagina voor zoekregio</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">de animatie onderbreken</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Zoek naar updates</string>
+    <string name="play_application_update_entry_title">App-updates</string>
+    <string name="software_update_banner_checking">Checken op updates…</string>
+    <string name="software_update_banner_up_to_date">Je apparaat is up-to-date</string>
+    <string name="software_update_banner_update_available">Updates beschikbaar</string>
+    <string name="software_update_can_be_updated_header">Maak je Pixel nog beter</string>
+    <string name="software_update_entry_title">Software-updates</string>
+    <string name="software_update_pending_update_summary">Update in behandeling</string>
+    <string name="software_update_settings_v2_purpose">Biedt een centraal dashboard waarmee gebruikers updates voor het besturingssysteem, Google Play-systeemcomponenten en geïnstalleerde apps kunnen volgen en starten, voor de beveiliging en prestaties van het apparaat.</string>
+    <string name="software_update_up_to_date_header">Je Pixel is up-to-date</string>
+    <string name="software_update_up_to_specific_date_summary">Geüpdatet op %1$s</string>
+    <string name="system_update_entry_title">Systeemupdate</string>
+</resources>

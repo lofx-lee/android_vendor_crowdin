@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid Sense</string>
+    <!-- Enroll activity -->
+    <string name="face_enroll_title">Đưa khuôn mặt vào giữa khung camera</string>
+    <string name="face_enroll_description">Giữ yên và đảm bảo bạn đang ở nơi có đủ ánh sáng</string>
+    <!-- Try Again activity -->
+    <string name="face_try_again_title">Không thể ghi nhận khuôn mặt của bạn</string>
+    <string name="face_try_again_description">Nhấn bên dưới để thử lại. Lần tới, hãy đảm bảo bạn ở nơi đủ sáng và không có gì che khuất khuôn mặt</string>
+    <string name="btn_try_again">Thử lại</string>
+    <!-- Vendor Messages -->
+    <string name="attr_light_dark">Khuôn mặt cần thêm ánh sáng</string>
+    <string name="attr_light_high">Khuôn mặt bị quá sáng</string>
+    <string name="attr_light_shadow">Khuôn mặt có quá nhiều bóng</string>
+    <string name="unlock_failed_face_blur">Khuôn mặt quá mờ</string>
+    <string name="unlock_failed_face_large">Khuôn mặt quá gần</string>
+    <string name="unlock_failed_face_multi">Phát hiện quá nhiều khuôn mặt</string>
+    <string name="unlock_failed_face_not_complete">Chỉ phát hiện một phần khuôn mặt</string>
+    <string name="unlock_failed_face_small">Khuôn mặt quá xa</string>
+</resources>

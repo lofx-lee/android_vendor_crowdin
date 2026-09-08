@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">కూలుడు చిట్టా లంకెను నకలు చేయి</string>
+    <string name="url_copy_success">URL విజయవంతంగా కాపీ చేయబడింది</string>
+    <!-- Alert slider proc nodes paths. -->
+    <!-- Charging speed strings -->
+    <string name="charging_speed">విద్యుదావేశ వేగం</string>
+    <string name="charging_speed_slow">నెమ్మదిగా ఉంది</string>
+    <string name="charging_speed_fast">వేగం</string>
+    <string name="charging_speed_super_fast">చాలా వవేగము</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">స్వయం</string>
+    <string name="live_display_auto_summary">స్వయంగా రంగు-ఉష్ణోగ్రత సూర్యోస్తమం/సూర్యోదయం తర్వాత మార్చాలా</string>
+    <string name="live_display_off">ఆపేసి</string>
+    <string name="live_display_off_summary">అన్ని సవరణలను నిలిపివేయుము</string>
+    <string name="live_display_day">పొద్దున</string>
+    <string name="live_display_day_summary">పగటి సెట్టింగులను మాత్రమే ఉపయోగించుము</string>
+    <string name="live_display_night">రేయి</string>
+    <string name="live_display_night_summary">రాత్రి సెట్టింగులను మాత్రమే ఉపయోగించుము</string>
+    <string name="live_display_outdoor">ఆరుబయట (గెట్టి ఎండ)</string>
+    <string name="live_display_outdoor_summary">ఆరుబయటి సెట్టింగులను మాత్రమే ఉపయోగించుము</string>
+    <string name="live_display_hint">LiveDisplay మీ కంటిపై ఒత్తిడిని తగ్గిస్తాది ఇంకా మంచి నిద్రకి సహాయపడుతుంది. దీని వారడానికి ఇక్కడ నొక్కండి!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay ఆపేశారు.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: స్వయం తీరు.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: పొద్దున తీరు.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: రేయి తీరు.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: ఆరుబయట తీరు.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay ఆపేయబడింది.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay స్వయం తీరుకు మార్చబడింది.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay పొద్దున తీరుకు మార్చబడింది.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay రేయి తీర్పు మార్చబడింది.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay ఆరుబయట తీర్పు మార్చబడింది.</string>
+    <!-- Health interface -->
+    <string name="charging_control_notification_channel">చార్జింగ్ నియంత్రణ</string>
+    <string name="charging_control_notification_title">చార్జింగ్ నియంత్రణ</string>
+    <string name="charging_control_notification_cancel_once">రద్దు</string>
+    <string name="charging_control_notification_content_limit">బ్యాటరీ %1$d%% నిల్వకు చేయబోతోంది</string>
+    <string name="charging_control_notification_content_limit_reached">బ్యాటరీ %1$d%% నిల్వకు చేరింది</string>
+    <string name="charging_control_notification_content_target">%1$s వద్ద బ్యాటరీ పూర్తిగా ఛార్జ్ చేయబడుతుంది</string>
+    <string name="charging_control_notification_content_target_reached">బ్యాటరీ చార్జ్ చేయబడింది</string>
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Callలు ఇంకా నోటిఫికేషన్లు శబ్దం చేస్తాయి</string>
+    <!-- Status bar network traffic monitor strings -->
+    <string name="kilobitspersecond_short">kb/s</string>
+    <string name="megabitspersecond_short">Mb/s</string>
+    <string name="kilobytespersecond_short">kB/s</string>
+    <string name="megabytespersecond_short">MB/s</string>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Güncelleyici</string>
+    <!-- This is matched with system_update_settings_list_item_title
+         from the Settings app. -->
+    <string name="display_name">Sistem güncellemeleri</string>
+    <!-- Directory where the update files will be downloaded and stored.
+         WARNING: The application can and will delete any unknown file. -->
+    <!-- Directory where the downloads will be exported to.
+         The path is relative to the root of the external storage.-->
+    <!-- Placeholders: {branch} is net.pixelos.version; {device} is ro.custom.device. -->
+    <string name="verification_failed_notification">Doğrulama başarısız</string>
+    <string name="verifying_download_notification">Güncelleme doğrulanıyor</string>
+    <string name="downloading_notification">İndiriliyor</string>
+    <string name="download_paused_notification">İndirme durduruldu</string>
+    <string name="download_paused_error_notification">İndirme hatası</string>
+    <string name="download_completed_notification">İndirme tamamlandı</string>
+    <string name="download_starting_notification">İndirme başlatılıyor</string>
+    <string name="download_switch_confirm_title">Etkin indirme duraklatılsın mı?</string>
+    <string name="download_switch_confirm_message">Şu anda başka bir güncelleme indiriliyor. Bunu başlatmak diğerini duraklatır.</string>
+    <string name="update_failed_notification">Güncelleme başarısız</string>
+    <string name="installation_suspended_notification">Yükleme askıya alındı</string>
+    <string name="new_updates_found_title">Yeni güncellemeler</string>
+    <string name="new_updates_found_summary">Mevcut güncellemeleri görmek için dokunun</string>
+    <string name="text_download_speed">%1$s, %2$s/sn</string>
+    <string name="installing_update">Sistem güncellemesi yükleniyor</string>
+    <string name="installing_update_error">Yükleme hatası</string>
+    <string name="installing_update_finished">Güncelleme yeniden başlatma bekliyor</string>
+    <string name="finalizing_package">Paket yükleme tamamlanıyor</string>
+    <string name="preparing_ota_first_boot">Ön yükleme için hazırlanıyor</string>
+    <string name="dialog_prepare_zip_message">Güncelleme ön hazırlığı</string>
+    <string name="dialog_battery_low_title">Düşük pil</string>
+    <string name="dialog_battery_low_message_pct">Pil seviyesi çok düşük, devam etmek için en az %%<xliff:g id="percent_discharging">%1$d</xliff:g> pil gereklidir, %%<xliff:g id="percent_charging">%2$d</xliff:g> şarj ediliyor.</string>
+    <string name="dialog_scratch_mounted_message"><![CDATA[
+Lütfen aşağıdaki komutları çalıştırın ve güncellemeyi tekrar deneyin.:\n
+        • adb root\n
+        • adb enable-verity\n
+        • adb reboot
+        ]]></string>
+    <string name="dialog_scratch_mounted_title">OverlayFS bağlı iken güncelleştirme yüklenemiyor</string>
+    <string name="reboot">Yeniden başlat</string>
+    <string name="menu_preferences">Tercihler</string>
+    <string name="preferences_summary">Senkronize et, indir ve yükle</string>
+    <!-- System update screen -->
+    <string name="system_up_to_date_title">Sisteminiz güncel</string>
+    <string name="update_available_title">Sistem güncellemesi mevcut</string>
+    <string name="checking_for_update_title">Güncelleme denetleniyor…</string>
+    <string name="preparing_update_title">Sistem güncellemesi hazırlanıyor…</string>
+    <string name="downloading_update_title">Sistem güncellemesi indiriliyor…</string>
+    <string name="installing_update_title">Sistem güncellemesi yükleniyor…</string>
+    <string name="verifying_update_title">Sistem güncellemesi doğrulanıyor…</string>
+    <string name="update_paused_title">Sistem güncellemesi duraklatıldı</string>
+    <string name="action_download_install">İndir ve yükle</string>
+    <string name="downloading_installing_caption">Güncelleme indiriliyor ve yükleniyor</string>
+    <string name="metered_warning_footnote">Güncellemelerin mobil ağ veya kotalı Wi-Fi üzerinden indirilmesi ek ücrete neden olabilir.</string>
+    <string name="changelog_loading">Son değişiklikler yükleniyor…</string>
+    <string name="changelog_failed">Son değişiklikler geçici olarak kullanılamıyor.</string>
+    <string name="changelog_empty">Bu derleme için değişiklik günlüğü sağlanmadı.</string>
+    <string name="updates_check_failed_title">Güncelleme denetlenemedi</string>
+    <string name="check_for_update">Güncellemeleri denetle</string>
+    <string name="header_last_check">Son başarılı güncelleme denetimi:</string>
+    <string name="header_android_version_full">Android sürümü: <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="header_security_update_full">Android güvenlik güncellemesi: <xliff:g id="date" example="5 July 2026">%1$s</xliff:g></string>
+    <string name="action_back">Geri</string>
+    <string name="menu_more_options">Diğer seçenekler</string>
+    <!-- Update check -->
+    <string name="check_for_updates">Güncellemeleri denetle</string>
+    <string name="checking_for_updates">Güncellemeler denetleniyor</string>
+    <string name="check_your_internet_connection">İnternet bağlantınızı kontrol edin</string>
+    <string name="updates_check_failed">Güncelleme denetimi başarısız oldu. Daha sonra tekrar deneyin.</string>
+    <string name="header_last_updates_check_time">Son denetim: <xliff:g id="time" example="01:23">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">Son denetim: <xliff:g id="date" example="Jan 12">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <!-- Background sync -->
+    <string name="pref_category_background_sync">Arka planda senkronizasyon</string>
+    <string name="menu_auto_updates_check">Güncellemeleri periyodik olarak denetle</string>
+    <string name="menu_auto_updates_check_summary">Güncellemeleri arka planda denetle</string>
+    <string name="menu_auto_updates_check_interval">Denetleme sıklığı</string>
+    <string name="time_unit_day">Gün</string>
+    <string name="time_unit_week">Hafta</string>
+    <string name="time_unit_two_weeks">İki hafta</string>
+    <string name="time_unit_month">Ay</string>
+    <!-- Download and installation -->
+    <string name="pref_category_download_install">İndirme ve yükleme</string>
+    <string name="menu_auto_delete_updates">Güncellemeleri otomatik sil</string>
+    <string name="menu_auto_delete_updates_summary">İndirilen güncellemeleri yüklemeden sonra kaldır</string>
+    <string name="menu_stream_updates">Çevrimiçi güncellemeleri akışla yükle</string>
+    <string name="menu_stream_updates_summary">Güncellemeleri indirirken yükle. Güncelleme paketlerini dışa aktarmak için saklamak istiyorsanız devre dışı bırakın.</string>
+    <string name="menu_delete_update">Sil</string>
+    <string name="menu_export_update">Güncellemeyi dışa aktar</string>
+    <string name="menu_view_downloads"><xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads üzerinde görüntüle</string>
+    <string name="menu_metered_network_warning">Kotalı ağ uyarısı</string>
+    <string name="menu_metered_network_warning_summary">Mobil veri üzerinden indirmeden önce uyar</string>
+    <string name="menu_ab_perf_mode">Güncelleme sürecine öncelik ver</string>
+    <string name="menu_ab_perf_mode_summary">Cihaz performansı pahasına güncellemeleri hızlandır</string>
+    <string name="menu_ab_perf_mode_summary_charging">Prizde şarj olurken otomatik olarak etkinleştirilir</string>
+    <string name="menu_update_recovery">Kurtarma modunu güncelle</string>
+    <string name="menu_update_recovery_summary">Recovery bölümünü işletim sistemiyle birlikte güncelle</string>
+    <string name="play_integrity_header">Bütünlük sertifikası</string>
+    <string name="text_download_size_unknown">Bilinmeyen</string>
+    <string name="certified_prop_status">Sertifikalı özellik durumu</string>
+    <string name="certified_prop_check">Güncellemeleri denetle</string>
+    <string name="certified_prop_checking">Sertifikalı özellikler güncellemesi kontrol ediliyor</string>
+    <string name="certified_prop_downloading">Sertifikalı özellik güncellemesi indiriliyor</string>
+    <string name="certified_prop_download_failed">Sunucudan özellikler alınamıyor</string>
+    <string name="certified_prop_available">İndir ve yükle</string>
+    <string name="certified_prop_install_success">Güncellemeyi uygulamak için yeniden başlat</string>
+    <string name="certified_prop_install_failed">Yükleme Başarısız</string>
+    <string name="certified_prop_invalid_package">İndirilen paket geçersiz</string>
+    <string name="certified_prop_info" formatted="false">Yüklü sürüm: %s\n</string>
+    <string name="certified_prop_remote" formatted="false">Son versiyon: %s</string>
+    <string name="snack_updates_found">Yeni güncellemeler bulundu</string>
+    <string name="snack_no_updates_found">Yeni güncelleme bulunamadı</string>
+    <string name="snack_download_failed">İndirme başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
+    <string name="snack_download_verification_failed">Güncelleme doğrulaması tamamlanamadı.</string>
+    <string name="snack_download_verified">İndirme tamamlandı.</string>
+    <string name="snack_update_not_installable">Bu güncelleme mevcut yapının üstüne yüklenemez.</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <!-- Banner -->
+    <string name="build_date">İnşa tarihi</string>
+    <string name="security_update">Güvenlik güncellemesi</string>
+    <string name="report_issues">Sorun bildir</string>
+    <!-- Empty by default; products may overlay a canonical issue-reporting URL. -->
+    <string name="header_review_updates">Güncellemeleri ve son değişiklikleri şurada inceleyin:</string>
+    <string name="found_bug">Bir hata mı buldunuz? Hata raporu rehberimizi kullanarak bildirin:</string>
+    <string name="updates_zero_state_title">Güncelleme yok</string>
+    <string name="updates_zero_state_description">Bu cihaz için yeni derlemeler kullanılabilir olduğunda burada görünecek.</string>
+    <string name="list_build_version">PixelOS <xliff:g id="version" example="17.0">%1$s</xliff:g></string>
+    <string name="list_build_version_date">PixelOS <xliff:g id="version" example="17.0">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_update_size">Güncelleme boyutu: <xliff:g id="size" example="1.34 GB">%1$s</xliff:g></string>
+    <string name="list_security_update">Güvenlik güncellemesi: <xliff:g id="date" example="Jan 2026">%1$s</xliff:g></string>
+    <string name="list_major_android_upgrade">Büyük Android yükseltmesi</string>
+    <string name="list_full_install">Tam yükleme: Önceki herhangi bir derlemenin üzerine güvenle yüklenebilir</string>
+    <string name="list_major_upgrade_recovery_install">Büyük <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> sürüm yükseltmeleri manuel olarak yüklenmelidir. Devam etmek için cihazınızın rehberine bakın.</string>
+    <string name="list_downgrade_blocked">Bu derleme yüklü sistemden daha eski ve uygulanamaz.</string>
+    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> / <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> / <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
+    <string name="list_verifying_update">Güncelleme doğrulanıyor</string>
+    <string name="see_more">%1$d tane daha göster</string>
+    <string name="see_less">Daha az göster</string>
+    <string name="action_download">İndir</string>
+    <string name="action_pause">Duraklat</string>
+    <string name="action_resume">Devam et</string>
+    <string name="action_install">Yükle</string>
+    <string name="action_info">Bilgi</string>
+    <string name="action_delete">Sil</string>
+    <string name="confirm_cancel_dialog_title">İndirmeyi iptal et</string>
+    <string name="confirm_cancel_dialog_message">İndirme iptal edilip dosya silinsin mi?</string>
+    <string name="confirm_delete_dialog_title">Dosyayı sil</string>
+    <string name="confirm_delete_dialog_message">Seçilen güncelleme dosyası silinsin mi?</string>
+    <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
+    <string name="apply_update_dialog_message">Yüklemek üzeresiniz <xliff:g id="update_name">%1$s</xliff:g>.\n\n Eğer basarsan <xliff:g id="ok">%2$s</xliff:g> güncellemeyi yüklemek için cihaz kendisini kurtarma modunda yeniden başlatacaktır.\n\nNot: Bu özellik uyumlu bir Kurtarma gerektirir veya güncellemelerin manuel olarak yüklenmesi gerekir.</string>
+    <string name="apply_update_dialog_message_ab"><xliff:g id="update_name">%1$s</xliff:g> yüklemek üzeresiniz.\n\n<xliff:g id="ok">%2$s</xliff:g> tuşuna basarsanız, cihaz arka planda yüklemeye başlayacaktır.\n\nİşlem tamamlandığında, yeniden başlatmanız istenir.</string>
+    <string name="cancel_installation_dialog_title">Yüklemeyi iptal et</string>
+    <string name="cancel_installation_dialog_message">Sistem güncellemesi iptal edilsin mi?</string>
+    <string name="label_download_url">İndirme URL\'si</string>
+    <string name="dialog_export_title">Güncelleme dışa aktarılıyor</string>
+    <string name="notification_export_success">Güncelleme dışa aktarıldı</string>
+    <string name="notification_export_fail">Dışa aktarma hatası</string>
+    <string name="toast_already_exporting">Zaten bir güncelleme dışa aktarılıyor</string>
+    <string name="toast_export_started">Dışa aktarma başladı</string>
+    <string name="update_over_metered_network_title">Uyarı</string>
+    <string name="update_over_metered_network_message">Kotalı bir ağ üzerinden güncelleme paketi indirmek üzeresiniz; bu, yüksek veri kullanımına neden olabilir. Devam etmek istiyor musunuz?</string>
+    <string name="blocked_update_dialog_title">Güncelleme engellendi</string>
+    <string name="blocked_update_dialog_message">Bu büyük Android güncellemesi, bu üründe güncelleyici uygulaması kullanılarak yüklenemez.</string>
+    <string name="blocked_update_dialog_title_downgrade">Sürüm düşürme engellendi</string>
+    <string name="blocked_update_dialog_message_downgrade">Bu güncelleme mevcut sistemden daha eski ve yüklenemez.</string>
+    <string name="export_channel_title">Dışa aktarma tamamlandı</string>
+    <string name="new_updates_channel_title">Yeni güncellemeler</string>
+    <string name="ongoing_channel_title">Devam eden indirmeler</string>
+    <string name="update_failed_channel_title">Güncelleme başarısız</string>
+    <string name="local_update_import">Yerel güncelleme yükle</string>
+    <string name="local_update_import_summary">Yüklenecek güncelleme dosyasını seçin</string>
+    <string name="local_update_import_progress">Yerel güncelleme içe aktarılıyor\u2026</string>
+    <string name="local_update_import_success_title">Güncelleme içe aktarıldı</string>
+    <string name="local_update_import_success_message">Derleme tarihi: <xliff:g id="build_date" example="Apr 27">%1$s</xliff:g>\n\nKullanılabilir işlemleri görmek için içe aktarılan güncellemeye dokunun.</string>
+    <string name="local_update_import_failure">Yerel güncelleme içe aktarılamadı</string>
+    <string name="local_update_name">Yerel güncelleme</string>
+</resources>

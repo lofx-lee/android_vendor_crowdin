@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">詳細設定</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">root デバッグ</string>
+    <string name="adb_enable_summary_root">Android デバッグを root として実行できるようにします</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <string name="show_dev_countdown_cm">{count, plural,
+      =1      {開発者向け設定が有効になるまで、あと # ステップです。}
+      other   {開発者向け設定が有効になるまで、あと # ステップです。}
+    }</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_cm">開発者向け設定が有効になりました！</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_cm">開発者向け設定はすでに有効になっています。</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">タップしてスリープ</string>
+    <string name="status_bar_double_tap_to_sleep_summary">ステータスバーまたはロック画面をダブルタップして画面を OFF にします</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">接続済みデバイスで VPN を使用</string>
+    <string name="tethering_allow_vpn_upstreams_summary">このデバイスが VPN を使用している場合、アクセスポイントに接続しているすべてのデバイスも同じ VPN を使用します</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">配列をシャッフル</string>
+    <string name="unlock_scramble_pin_layout_summary">ロック解除時に PIN の配列をシャッフルします</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">ピュアブラック</string>
+    <string name="berry_black_theme_summary">ダークテーマの背景を純粋な黒にします</string>
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">アシスト GPS を使用</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">衛星の補助データをインターネットからダウンロードし、GPS の起動速度を大幅に改善します。緊急通報ではアシスト GPS が常に許可されます。</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">種類</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">状態</string>
+    <string name="battery_health_good">良好</string>
+    <string name="battery_health_overheat">過熱</string>
+    <string name="battery_health_dead">劣化</string>
+    <string name="battery_health_over_voltage">過電圧</string>
+    <string name="battery_health_unspecified_failure">不明なエラー</string>
+    <string name="battery_health_cold">低温</string>
+    <string name="battery_health_unknown">不明</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">温度</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">電圧</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">設計容量</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">最大容量</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">警告: このオプションは正しく動作しない、またはデータ損失につながる可能性があるため、推奨されません！</string>
+    <!-- Copy to clipboard -->
+    <string name="copied_to_clipboard">クリップボードにコピーしました</string>
+    <string name="longpress_to_clipboard">長押しでコピー</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">無線情報</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">ヘッドアップ通知</string>
+    <string name="heads_up_notifications_enabled_summary">優先度の高い通知を小さなフローティングウィンドウで表示します</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">画面を見やすく、目の疲れを軽減するために、時間と周囲の環境に合わせて画面を最適化する</string>
+    <string name="live_display_mode">ディスプレイのモード</string>
+    <string name="live_display_color_temperature_title">色温度</string>
+    <string name="live_display_color_temperature_summary">昼: <xliff:g id="day_temperature">%1$d</xliff:g>K  夜: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">昼</string>
+    <string name="live_display_night">夜</string>
+    <string name="live_display_outdoor_mode_title">自動屋外モード</string>
+    <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
+    <string name="live_display_anti_flicker_title">アンチフリッカー</string>
+    <string name="live_display_anti_flicker_summary">幅広いちらつきを防ぎ、暗い環境での目への負担を軽減します。色の再現度が低下したり、いくつかの項目の表示に影響する可能性があります。</string>
+    <string name="live_display_low_power_title">消費電力を削減</string>
+    <string name="live_display_low_power_summary">性能を低下させずにディスプレイを最低の消費電力に調整する</string>
+    <string name="live_display_enhance_color_title">色を補正</string>
+    <string name="live_display_enhance_color_summary">肌の色、風景や他の画像の色の鮮やかさを補正する</string>
+    <string name="live_display_color_profile_title">カラープロファイル</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">正確な色と明るい白に補正します</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">写実的な色と肌色</string>
+    <string name="live_display_color_profile_dynamic_title">ダイナミック</string>
+    <string name="live_display_color_profile_dynamic_summary">補正した色と明るい白</string>
+    <string name="live_display_color_profile_cinema_title">シネマ</string>
+    <string name="live_display_color_profile_cinema_summary">ビデオの完全な色再現</string>
+    <string name="live_display_color_profile_astronomy_title">天文学</string>
+    <string name="live_display_color_profile_astronomy_summary">夜間視力に優しい深い赤</string>
+    <string name="live_display_color_profile_photography_title">写真</string>
+    <string name="live_display_color_profile_photography_summary">写真の完全な色再現</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">無調整のディスプレイを使用する</string>
+    <string name="live_display_color_profile_adaptive_title">自動</string>
+    <string name="live_display_color_profile_adaptive_summary">色を周囲の状況に適応する</string>
+    <string name="live_display_color_profile_reading_title">読書</string>
+    <string name="live_display_color_profile_reading_summary">目の負担を軽減するため暖かい色にします</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">正確な sRGB 色空間に補正します</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">正確な DCI-P3 色空間に補正します</string>
+    <string name="live_display_reading_mode_title">読書モード</string>
+    <string name="live_display_reading_mode_summary">長期間読書するのに適した、グレースケールモードに変更します</string>
+    <string name="color_calibration_title">色の調整</string>
+    <string name="color_calibration_summary">画面の色を調整する</string>
+    <string name="color_red_title">赤</string>
+    <string name="color_green_title">緑</string>
+    <string name="color_blue_title">青</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">画像調整</string>
+    <string name="picture_adjustment_summary">色彩、彩度、輝度、コントラストを調整する</string>
+    <string name="adj_hue_title">色彩</string>
+    <string name="adj_saturation_title">彩度</string>
+    <string name="adj_intensity_title">輝度</string>
+    <string name="adj_contrast_title">コントラスト</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">高感度タッチ</string>
+    <string name="high_touch_sensitivity_summary">手袋をしたまま操作できるようにタッチスクリーンの感度を上げます</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">タッチスクリーンのホバー</string>
+    <string name="touchscreen_hovering_summary">ウェブブラウザやリモートデスクトップなどで、マウスのように画面上をホバーできるようにします</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">高タッチサンプリングレート</string>
+    <string name="high_touch_polling_rate_summary">タッチスクリーンのサンプリングレートを上げます</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">充電コントロール</string>
+    <string name="charging_control_summary">バッテリーの充電スケジュールと上限をカスタマイズします</string>
+    <string name="charging_control_enable_title">充電コントロールを有効化</string>
+    <string name="charging_control_mode_title">充電モード</string>
+    <string name="charging_control_mode_auto_title">自動スケジュール</string>
+    <string name="charging_control_mode_auto_summary">アラームセットに基づいて、充電を開始するタイミングを自動的に決定します</string>
+    <string name="charging_control_mode_custom_title">カスタムスケジュール</string>
+    <string name="charging_control_mode_custom_summary">フル充電までの目標時間を設定します</string>
+    <string name="charging_control_mode_limit_title">充電を制限</string>
+    <string name="charging_control_mode_limit_summary">充電を一定のパーセントまでに制限します</string>
+    <string name="charging_control_start_time_title">開始時間</string>
+    <string name="charging_control_start_time_summary">%s の後に充電を開始すると充電コントロールが有効になります</string>
+    <string name="charging_control_target_time_title">フル充電までの目標時間</string>
+    <string name="charging_control_target_time_summary">バッテリーは %s までに完全に充電されます</string>
+    <string name="charging_control_limit_title">制限</string>
+    <string name="charging_control_limit_summary">現在の制限: %d%%</string>
+    <string name="reset">リセット</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">タブレットの前面にある指紋認証センサーを確認してください。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">デバイスの前面にある指紋認証センサーを確認してください。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">スマートフォンの前面にある指紋認証センサーを確認してください。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">タブレットの背面にある指紋認証センサーを確認してください。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">デバイスの背面にある指紋認証センサーを確認してください。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">スマートフォンの背面にある指紋認証センサーを確認してください。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">タブレットの側面にある指紋認証センサーを確認してください。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">デバイスの側面にある指紋認証センサーを確認してください。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">スマートフォンの側面にある指紋認証センサーを確認してください。</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">タブレットの前面にあるセンサーに触れてください。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">デバイスの前面にあるセンサーに触れてください。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">スマートフォンの前面にあるセンサーに触れてください。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">タブレットの背面にあるセンサーに触れてください。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">デバイスの背面にあるセンサーに触れてください。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">スマートフォンの背面にあるセンサーに触れてください。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">タブレットの側面にあるセンサーに触れてください。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">デバイスの側面にあるセンサーに触れてください。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">スマートフォンの側面にあるセンサーに触れてください。</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">パターンのサイズを選択</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">パターンのエラーを表示</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">回転</string>
+    <string name="display_rotation_enabled">画面の自動回転は有効になっています</string>
+    <string name="display_rotation_disabled">無効</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">回転のモード</string>
+    <string name="display_rotation_0_title">0度</string>
+    <string name="display_rotation_90_title">90度</string>
+    <string name="display_rotation_180_title">180度</string>
+    <string name="display_rotation_270_title">270度</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">ワンショット自動明るさ調節</string>
+    <string name="auto_brightness_one_shot_summary">明るさの調節は画面が ON になった瞬間のみ行われます</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">スマート 5G</string>
+    <string name="smart_5g_summary">バッテリー消費を抑えるため、5G と 4G を自動で切り替えます</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">電源メニュー</string>
+    <string name="lockscreen_enable_power_menu_summary">セキュアなロック画面から電源メニューへのアクセスを許可します</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">クイックライト</string>
+    <string name="power_button_torch_summary">画面が OFF のときに電源ボタンを長押しするとライトが点灯します</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">再生コントロール</string>
+    <string name="volume_button_music_control_summary">画面が OFF のときに音量ボタンを長押しすると曲をスキップします</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">モードを順に切り替え</string>
+    <string name="prevent_ringing_option_cycle_summary">ON (モードを順に切り替え)</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">接続時にスリープ解除</string>
+    <string name="wake_when_plugged_or_unplugged_summary">電源の接続時または取り外し時に画面を ON にします</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">ウィンドウのセキュアフラグを無視</string>
+    <string name="ignore_window_secure_summary">すべてのアプリでスクリーンショットと画面録画の制限を解除します。便利な場合もありますが、プライバシーの漏洩につながる可能性があります。</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通話中のバイブレーション オプション</string>
+    <string name="incall_vibrate_connect_title">接続時にバイブレーション</string>
+    <string name="incall_vibrate_call_wait_title">キャッチホン時にバイブレーション</string>
+    <string name="incall_vibrate_disconnect_title">切断時にバイブレーション</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">アンビエント表示を表示</string>
+    <string name="doze_gesture_ambient_summary">画面を完全に ON にする代わりにアンビエント表示を表示します</string>
+    <string name="gesture_wake_ambient">アンビエント表示を表示</string>
+    <string name="gesture_wake">完全にスリープ解除</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">アンビエント表示</string>
+    <string name="doze_enabled_summary">Doze パッケージの機能を有効にするかどうか</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">リフレッシュレート</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (アダプティブ)</string>
+    <string name="refresh_rate_vrr_title">アダプティブ リフレッシュレート</string>
+    <string name="refresh_rate_vrr_summary">ディスプレイがアイドル状態のときにリフレッシュレートを自動的に下げて電力を節約します。一部のディスプレイではちらつきや色の変化が発生する場合があります</string>
+    <string name="refresh_rate_footer">リフレッシュレートを上げると表示が滑らかになりますが、消費電力が増加します</string>
+    <string name="keywords_refresh_rate">リフレッシュ, レート, 滑らか, 最大, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">リフレッシュレートを下げる</string>
+    <string name="battery_saver_refresh_rate_summary">バッテリー セーバーが ON のときは 60 Hz のリフレッシュレートを使用して電力を節約します</string>
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_entry_purpose">スマートフォンの使用パターンに基づいてアプリのバッテリー使用量を最適化し、電池を長持ちさせる自動調整バッテリーの有効/無効を切り替えられます。</string>
+    <string name="adaptive_battery_management_enabled_purpose">アプリの使用パターンに基づいてバッテリー使用量を最適化する自動調整バッテリーが有効かどうか。</string>
+    <string name="adaptive_battery_switch_title">自動調整バッテリーを使用</string>
+    <string name="basic_battery_saver_title">標準バッテリー セーバー</string>
+    <string name="basic_battery_saver_summary">視覚効果を抑え、バックグラウンド アクティビティを制限します。ダークモードが ON になっていない場合は ON になります。</string>
+    <string name="basic_battery_saver_purpose">視覚効果とバックグラウンド動作を制限する標準のバッテリー セーバー モードを有効にします</string>
+    <string name="battery_saver_reminder_category">リマインダー</string>
+    <string name="battery_saver_reminder_switch_title">バッテリー セーバーのリマインダー</string>
+    <string name="battery_saver_reminder_switch_summary">バッテリー残量が少なくなったらリマインダーを表示します</string>
+    <string name="battery_saver_schedule_category">スケジュール</string>
+    <string name="battery_saver_schedule_switch_title">バッテリー残量に応じて ON にする</string>
+    <string name="battery_saver_schedule_switch_summary">指定したバッテリー残量でバッテリー セーバーを ON にします</string>
+    <string name="battery_saver_schedule_purpose">バッテリー残量に基づく自動 ON や充電完了時の自動 OFF など、バッテリー セーバーのスケジュールを設定し、バッテリー残量低下時のリマインダー通知を管理できます。</string>
+    <string name="battery_schedule_title">スケジュールとリマインダー</string>
+    <string name="battery_schedule_summary">バッテリー セーバーを有効にするタイミングを管理します</string>
+    <string name="extreme_battery_saver_title">スーパー バッテリー セーバー</string>
+    <string name="extreme_battery_saver_summary">上記の変更がすべて反映されるほか、必須ではないアプリやその通知が一時停止されます。</string>
+    <string name="extreme_battery_saver_purpose">必須ではないアプリと通知を一時停止する、極限バッテリー セーバー モードを有効にします</string>
+    <string name="low_power_mode_reminder_enabled_purpose">バッテリー残量が少ないときにリマインダー通知を受け取るかどうか</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">常時指紋認証</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">画面が OFF のままロック解除できます。\n有効にすると意図しないスリープ解除が発生する場合があります。</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">非公開ネットワーク</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">モバイル アクセスポイントの名前は、利用可能な WLAN ネットワークの一覧に表示されません。</string>
+    <string name="wifi_hotspot_client_manager_title">接続済みデバイス</string>
+    <string name="wifi_hotspot_client_manager_summary">アクセスポイントに接続しているデバイスの一覧表示と管理</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">アクセスポイントに接続しているデバイスの一覧表示</string>
+    <string name="wifi_hotspot_client_limit_title">接続デバイス数の上限</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">ブロック済みデバイス</string>
+    <string name="wifi_hotspot_connected_clients_list_title">接続済みデバイス</string>
+    <string name="wifi_hotspot_block_client_dialog_title">デバイスをブロック</string>
+    <string name="wifi_hotspot_block_client_dialog_text">この操作により「<xliff:g id="device_name">%1$s</xliff:g>」はこのデバイスから切断され、ブロックリストに追加されます</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">デバイスのブロックを解除</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">デバイス「<xliff:g id="device_name">%1$s</xliff:g>」はこのアクセスポイントに接続できるようになります</string>
+    <string name="wifi_hotspot_client_manager_footer_text">現在利用可能なクライアントはありません。接続済みおよびブロック済みのデバイスは、利用可能になるとここに表示されます。</string>
+    <!-- Status bar -->
+    <string name="icon_manager_title">ステータスバー</string>
+    <string name="icon_manager_summary">ステータスバー アイコンの表示を管理します</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">全画面アプリ</string>
+    <string name="display_cutout_force_fullscreen_summary">アプリにノッチ領域を無視させます</string>
+    <string name="app_list_search">検索</string>
+    <string name="app_list_search_apps">アプリを検索</string>
+    <string name="app_list_loading">アプリを読み込んでいます…</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">keybox XML を設定</string>
+    <string name="keybox_data_summary">システム全体のキー認証スプーフィングを設定します。「削除」をタップするとデフォルトに戻ります。</string>
+    <!-- Pif Data -->
+    <string name="pif_data_title">PIF JSON を設定</string>
+    <string name="pif_data_summary">GMS と Play ストアに対してプロパティを偽装するための PIF JSON を設定します。「削除」をタップすると動的なデフォルトに戻ります。</string>
+    <!-- Spoofing toggle -->
+    <string name="cert_overlay_title">認証済みプロパティを偽装</string>
+    <string name="cert_overlay_summary">GMS に対して PI 認証済みプロパティを偽装します\n適用には再起動が必要です</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">スクリーンショット音</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">高度な再起動を有効化</string>
+    <string name="global_actions_advanced_reboot_summary">電源メニューにリカバリーとブートローダーのオプションを表示します</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">スワイプでスクリーンショット</string>
+    <string name="three_finger_gesture_summary">3 本指で下にスワイプしてスクリーンショットを撮ります</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">ネットワークトラフィックモニター</string>
+    <string name="network_traffic_settings_summary">ステータスバーに現在のネットワークトラフィック量を表示します</string>
+    <string name="network_traffic_mode_title">表示モード</string>
+    <string name="network_traffic_mode_disable">無効</string>
+    <string name="network_traffic_mode_up">アップロードのみ</string>
+    <string name="network_traffic_mode_down">ダウンロードのみ</string>
+    <string name="network_traffic_mode_all">アップロードとダウンロード</string>
+    <string name="network_traffic_autohide">自動的に隠す</string>
+    <string name="network_traffic_autohide_summary">非アクティブ時にトラフィックモニターを非表示にします</string>
+    <string name="network_traffic_units_title">トラフィックの単位</string>
+    <string name="network_traffic_units_kilobits">キロビット/秒 (kb/s)</string>
+    <string name="network_traffic_units_megabits">メガビット/秒 (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">キロバイト/秒 (kB/s)</string>
+    <string name="network_traffic_units_megabytes">メガバイト/秒 (MB/s)</string>
+    <string name="network_traffic_units_auto">自動 (kB/s または MB/s)</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">検索キーワードを削除</string>
+    <string name="language_picker_page">言語選択ツールのページ</string>
+    <string name="search_region">地域を検索できます</string>
+    <string name="search_region_page">地域の検索のページ</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">アニメーションを一時停止します</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">更新を確認しましょう</string>
+    <string name="play_application_update_entry_title">アプリ アップデート</string>
+    <string name="software_update_banner_checking">アップデートを確認中…</string>
+    <string name="software_update_banner_up_to_date">お使いのデバイスは最新の状態です</string>
+    <string name="software_update_banner_update_available">アップデート利用可能</string>
+    <string name="software_update_can_be_updated_header">Google Pixel がさらに便利に</string>
+    <string name="software_update_entry_title">ソフトウェア アップデート</string>
+    <string name="software_update_pending_update_summary">保留中の更新があります</string>
+    <string name="software_update_settings_v2_purpose">OS、Google Play システム コンポーネント、インストール済みアプリのアップデートを一元的に確認・開始できるダッシュボードを提供し、デバイスのセキュリティとパフォーマンスを維持します。</string>
+    <string name="software_update_up_to_date_header">お使いの Google Pixel は最新の状態です</string>
+    <string name="software_update_up_to_specific_date_summary">%1$sに更新しました</string>
+    <string name="system_update_entry_title">システム アップデート</string>
+</resources>

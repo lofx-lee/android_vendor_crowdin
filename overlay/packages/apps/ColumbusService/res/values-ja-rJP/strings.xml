@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">クイックタップ サービス</string>
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">クイックタップ</string>
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">クイックタップでアクションを開始</string>
+    <string name="settings_entry_summary_on">ON / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">OFF</string>
+    <string name="settings_search_keywords">クイックタップ, 背面タップ, タップ, ジェスチャー, アシスト, アシスタント</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">クイックタップを使用</string>
+    <string name="setting_footer_content">操作を実行するには、スマートフォンの背面中央付近を 2 回タップします</string>
+    <string name="setting_sensitivity_title">感度</string>
+    <string name="setting_sensitivity_light">軽いタップ</string>
+    <string name="setting_sensitivity_heavy">強いタップ</string>
+    <string name="setting_haptic_intensity_title">触覚フィードバックの強さ</string>
+    <string name="setting_haptic_intensity_light">弱</string>
+    <string name="setting_haptic_intensity_strong">強</string>
+    <string name="setting_screen_off_title">画面 OFF 時も許可</string>
+    <string name="setting_screen_off_summary">誤作動が増える可能性があります</string>
+    <string name="setting_screen_off_blocked_summary">現在の操作によりブロックされています</string>
+    <string name="setting_action_title" product="default">スマートフォンの背面を 2 回タップして実行するアクション</string>
+    <string name="setting_action_title" product="device">デバイスの背面を 2 回タップして</string>
+    <string name="setting_action_title" product="tablet">タブレットの背面を 2 回タップして</string>
+    <string name="launch_settings_activity_title">クイックタップの設定</string>
+    <string name="setting_app_selection_help_text" product="default">スマートフォンの背面を 2 回タップしたときに開くアプリを選択してください。アプリをアンインストールした場合は、別のアプリを選択するまでクイックタップは OFF になります。</string>
+    <string name="setting_app_selection_help_text" product="device">デバイスの背面を 2 回タップしたときに開くアプリを選択します。アプリをアンインストールすると、別のアプリを選択するまでクイックタップは無効になります。</string>
+    <string name="setting_app_selection_help_text" product="tablet">タブレットの背面を 2 回タップしたときに開くアプリを選択します。アプリをアンインストールすると、別のアプリを選択するまでクイックタップは無効になります。</string>
+    <string name="setting_app_selection_help_text_disabled">この機能を使用するには、まずクイックタップを有効にしてください。</string>
+    <string name="setting_app_shortcut_selection_help_text">クイックタップを使用してこのアプリを開いたときのアクションを選択してください。</string>
+    <string name="radio_button_extra_widget_a11y_label">「<xliff:g id="action">%1$s</xliff:g>」の設定</string>
+    <string name="setting_action_launch_summary_no_selection">アプリが選択されていません</string>
+    <string name="setting_action_launch_summary_not_installed">アプリがインストールされていません</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">スクリーンショットを撮る</string>
+    <string name="action_assistant_name">デジタル アシスタントを起動</string>
+    <string name="action_media_name">メディアを再生または一時停止</string>
+    <string name="action_overview_name">最近使用したアプリを表示</string>
+    <string name="action_notifications_name">通知を表示</string>
+    <string name="action_flashlight_name">ライトの ON / OFF を切り替える</string>
+    <string name="action_launch_name">アプリを開く</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">クイックタップが検出されました。</string>
+</resources>

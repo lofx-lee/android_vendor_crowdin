@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Скопировать ссылку на журнал сбоя</string>
+    <string name="url_copy_success">Ссылка успешно скопирована</string>
+    <string name="url_copy_failed">Произошла ошибка при загрузке журнала на mkr/bin</string>
+    <!-- Alert slider proc nodes paths. -->
+    <!-- Charging speed strings -->
+    <string name="charging_speed">Скорость зарядки</string>
+    <string name="charging_speed_slow">Медленная</string>
+    <string name="charging_speed_fast">Быстрая</string>
+    <string name="charging_speed_super_fast">Очень быстрая</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">Автоматически</string>
+    <string name="live_display_auto_summary">Автоматически регулировать цветовую температуру экрана после заката и рассвета</string>
+    <string name="live_display_off">Отключено</string>
+    <string name="live_display_off_summary">Отключить все регулировки</string>
+    <string name="live_display_day">День</string>
+    <string name="live_display_day_summary">Использовать только дневные настройки</string>
+    <string name="live_display_night">Ночь</string>
+    <string name="live_display_night_summary">Использовать только ночные настройки</string>
+    <string name="live_display_outdoor">Улица (яркое солнце)</string>
+    <string name="live_display_outdoor_summary">Использовать только уличные настройки</string>
+    <string name="live_display_hint">LiveDisplay снижает напряжение глаз и может помочь вам быстрее заснуть. Нажмите здесь, чтобы попробовать!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay откл.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: авто.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: день.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: ночь.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: улица.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay отключен.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay переключен в автоматический режим.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay переключен в дневной режим.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay переключен в ночной режим.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay переключен в уличный режим.</string>
+    <!-- Health interface -->
+    <string name="charging_control_notification_channel">Контроль зарядки</string>
+    <string name="charging_control_notification_title">Контроль зарядки</string>
+    <string name="charging_control_notification_cancel_once">Отменить</string>
+    <string name="charging_control_notification_content_limit">Батарея будет заряжена до %1$d%%</string>
+    <string name="charging_control_notification_content_limit_reached">Батарея заряжена до %1$d%%</string>
+    <string name="charging_control_notification_content_target">Батарея будет полностью заряжена к %1$s</string>
+    <string name="charging_control_notification_content_target_reached">Батарея заряжена</string>
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Звук в звонках и уведомлениях включён</string>
+    <!-- Status bar network traffic monitor strings -->
+    <string name="kilobitspersecond_short">кб/с</string>
+    <string name="megabitspersecond_short">Мб/с</string>
+    <string name="kilobytespersecond_short">кБ/с</string>
+    <string name="megabytespersecond_short">МБ/с</string>
+</resources>

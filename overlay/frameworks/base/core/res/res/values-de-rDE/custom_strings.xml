@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">URL des Absturzprotokolls kopieren</string>
+    <string name="url_copy_success">URL erfolgreich kopiert</string>
+    <string name="url_copy_failed">Ein Fehler ist aufgetreten bei Hochladen des Logs zu mkr/bin</string>
+    <!-- Alert slider proc nodes paths. -->
+    <!-- Charging speed strings -->
+    <string name="charging_speed">Ladegeschwindigkeit</string>
+    <string name="charging_speed_slow">Langsam</string>
+    <string name="charging_speed_fast">Schnell</string>
+    <string name="charging_speed_super_fast">Super schnell</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">Automatisch</string>
+    <string name="live_display_auto_summary">Automatisch die Farbtemperatur des Bildschirms nach Sonnenaufgang und Sonnenuntergang anpassen</string>
+    <string name="live_display_off">Aus</string>
+    <string name="live_display_off_summary">Alle Anpassungen deaktivieren</string>
+    <string name="live_display_day">Tag</string>
+    <string name="live_display_day_summary">Nur Tag-Modus verwenden</string>
+    <string name="live_display_night">Nacht</string>
+    <string name="live_display_night_summary">Nur Nacht-Modus verwenden</string>
+    <string name="live_display_outdoor">Außen (helle Sonne)</string>
+    <string name="live_display_outdoor_summary">Nur Außen-Einstellungen verwenden</string>
+    <string name="live_display_hint">LiveDisplay kann Augenbelastung reduzieren und ihnen beim Schlafen helfen. Klicken Sie hier um es auszuprobieren!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay aus.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: Automatisch.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: Tag Modus.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: Nacht.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: Außen.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay ausgeschaltet.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay auf Auto-Modus geändert.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay auf Tag-Modus geändert.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">Live-Anzeige auf Nacht-Modus geändert.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay zu Draußen-Modus gewechselt.</string>
+    <!-- Health interface -->
+    <string name="charging_control_notification_channel">Ladesteuerung</string>
+    <string name="charging_control_notification_title">Ladesteuerung</string>
+    <string name="charging_control_notification_cancel_once">Abbrechen</string>
+    <string name="charging_control_notification_content_limit">Akku wird zu %1$d%% geladen</string>
+    <string name="charging_control_notification_content_limit_reached">Akku auf %1$d%% geladen</string>
+    <string name="charging_control_notification_content_target">Akku ist um %1$s vollständig geladen</string>
+    <string name="charging_control_notification_content_target_reached">Akku ist aufgeladen</string>
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Anrufe und Benachrichtigungen werden klingeln</string>
+    <!-- Status bar network traffic monitor strings -->
+    <string name="kilobitspersecond_short">kb/s</string>
+    <string name="megabitspersecond_short">Mb/s</string>
+    <string name="kilobytespersecond_short">kB/s</string>
+    <string name="megabytespersecond_short">MB/s</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">비정상 종료 로그 URL 복사</string>
+    <string name="url_copy_success">URL이 복사되었습니다</string>
+    <string name="url_copy_failed">로그를 mkr/bin에 업로드하는 중 오류가 발생했습니다</string>
+    <!-- Alert slider proc nodes paths. -->
+    <!-- Charging speed strings -->
+    <string name="charging_speed">충전 속도</string>
+    <string name="charging_speed_slow">느림</string>
+    <string name="charging_speed_fast">빠름</string>
+    <string name="charging_speed_super_fast">매우 빠름</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">자동</string>
+    <string name="live_display_auto_summary">일몰 및 일출 시간에 따라 화면 색온도를 자동으로 조절합니다</string>
+    <string name="live_display_off">사용 안 함</string>
+    <string name="live_display_off_summary">모든 조정을 사용 중지</string>
+    <string name="live_display_day">주간</string>
+    <string name="live_display_day_summary">주간 설정만 사용</string>
+    <string name="live_display_night">야간</string>
+    <string name="live_display_night_summary">야간 설정만 사용</string>
+    <string name="live_display_outdoor">야외(밝은 햇빛)</string>
+    <string name="live_display_outdoor_summary">야외 설정만 사용</string>
+    <string name="live_display_hint">LiveDisplay는 눈의 피로를 줄이고 밤에 잠드는 데 도움이 될 수 있습니다. 여기를 탭하여 사용해 보세요!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay 꺼짐.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: 자동 모드.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: 주간 모드.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: 야간 모드.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: 야외 모드.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay가 꺼졌습니다.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay가 자동 모드로 변경되었습니다.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay가 주간 모드로 변경되었습니다.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay가 야간 모드로 변경되었습니다.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay가 야외 모드로 변경되었습니다.</string>
+    <!-- Health interface -->
+    <string name="charging_control_notification_channel">충전 제어</string>
+    <string name="charging_control_notification_title">충전 제어</string>
+    <string name="charging_control_notification_cancel_once">취소</string>
+    <string name="charging_control_notification_content_limit">배터리는 %1$d%%까지 충전될 예정입니다</string>
+    <string name="charging_control_notification_content_limit_reached">배터리가 %1$d%%까지 충전되었습니다</string>
+    <string name="charging_control_notification_content_target">배터리는 %1$s에 완전히 충전될 예정입니다</string>
+    <string name="charging_control_notification_content_target_reached">배터리가 충전되었습니다</string>
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">벨소리 및 알림음이 울립니다</string>
+    <!-- Status bar network traffic monitor strings -->
+    <string name="kilobitspersecond_short">kb/s</string>
+    <string name="megabitspersecond_short">Mb/s</string>
+    <string name="kilobytespersecond_short">kB/s</string>
+    <string name="megabytespersecond_short">MB/s</string>
+</resources>

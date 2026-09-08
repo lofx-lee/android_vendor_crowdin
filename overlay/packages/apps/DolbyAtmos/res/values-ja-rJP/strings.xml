@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_enable">Dolby Atmos を使用</string>
+    <string name="dolby_profile_title">プロファイルを選択</string>
+    <string name="dolby_preset">グラフィック イコライザー</string>
+    <string name="dolby_off">OFF</string>
+    <string name="dolby_on">ON</string>
+    <string name="dolby_low">低</string>
+    <string name="dolby_medium">中</string>
+    <string name="dolby_high">高</string>
+    <string name="dolby_max">最大</string>
+    <string name="dolby_unknown">不明</string>
+    <string name="dolby_on_with_profile">ON (%1$s)</string>
+    <string name="dolby_category_settings">設定</string>
+    <string name="dolby_bass_enhancer">低音強調</string>
+    <string name="dolby_dialogue_enhancer">セリフ強調</string>
+    <string name="dolby_spk_virtualizer">スピーカー バーチャライザー</string>
+    <string name="dolby_hp_virtualizer">ヘッドフォン バーチャライザー</string>
+    <string name="dolby_stereo_widening">ステレオ拡張</string>
+    <string name="dolby_volume_leveler">音量レベラー</string>
+    <string name="dolby_connect_headphones">ヘッドフォンを接続してください</string>
+    <string name="dolby_reset_profile">デフォルトに戻す</string>
+    <string name="dolby_reset_profile_toast">%1$s プロファイルの設定をリセットしました</string>
+    <!-- Dolby profiles -->
+    <string name="dolby_profile_dynamic">ダイナミック</string>
+    <string name="dolby_profile_video">映画/動画</string>
+    <string name="dolby_profile_music">音楽</string>
+    <string name="dolby_profile_voice">音声</string>
+    <string name="dolby_profile_custom">カスタム</string>
+    <!-- Dolby equalizer presets -->
+    <string name="dolby_preset_default">フラット (OFF)</string>
+    <string name="dolby_preset_rock">ロック</string>
+    <string name="dolby_preset_jazz">ジャズ</string>
+    <string name="dolby_preset_pop">ポップ</string>
+    <string name="dolby_preset_classical">クラシック</string>
+    <string name="dolby_preset_hiphop">ヒップホップ</string>
+    <string name="dolby_preset_blues">ブルース</string>
+    <string name="dolby_preset_electronic">エレクトロニック</string>
+    <string name="dolby_preset_country">カントリー</string>
+    <string name="dolby_preset_dance">ダンス</string>
+    <string name="dolby_preset_metal">メタル</string>
+    <!-- Dolby equalizer UI -->
+    <string name="dolby_geq_slider_label_gain">ゲイン</string>
+    <string name="dolby_geq_preset">プリセット</string>
+    <string name="dolby_geq_preset_name">プリセット名</string>
+    <string name="dolby_geq_new_preset">新しいプリセット</string>
+    <string name="dolby_geq_rename_preset">プリセット名を変更</string>
+    <string name="dolby_geq_delete_preset">プリセットを削除</string>
+    <string name="dolby_geq_delete_preset_prompt">このプリセットを削除しますか？</string>
+    <string name="dolby_geq_reset_gains">ゲインをリセット</string>
+    <string name="dolby_geq_reset_gains_prompt">このプリセットをデフォルトに戻しますか？</string>
+    <string name="dolby_geq_preset_name_exists">このプリセット名はすでに存在します！</string>
+    <string name="dolby_geq_preset_name_too_long">プリセット名が長すぎます！</string>
+    <!-- Dolby intelligent EQ -->
+    <string name="dolby_ieq">インテリジェント イコライザー</string>
+    <string name="dolby_balanced">バランス</string>
+    <string name="dolby_warm">ウォーム</string>
+    <string name="dolby_detailed">ディテール</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Copiază URL-ul jurnalului de blocare</string>
+    <string name="url_copy_success">URL copiat</string>
+    <string name="url_copy_failed">A apărut o eroare la încărcarea jurnalului pe mkr/bin</string>
+    <!-- Alert slider proc nodes paths. -->
+    <!-- Charging speed strings -->
+    <string name="charging_speed">Viteza de încărcare</string>
+    <string name="charging_speed_slow">Înceată</string>
+    <string name="charging_speed_fast">Rapidă</string>
+    <string name="charging_speed_super_fast">Foarte rapidă</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">Automat</string>
+    <string name="live_display_auto_summary">Reglează automat temperatura culorii ecranului în funcție de apus şi răsărit</string>
+    <string name="live_display_off">Oprit</string>
+    <string name="live_display_off_summary">Dezactivați toate ajustările</string>
+    <string name="live_display_day">Zi</string>
+    <string name="live_display_day_summary">Utilizați numai setările de zi</string>
+    <string name="live_display_night">Noapte</string>
+    <string name="live_display_night_summary">Utilizați numai setările de noapte</string>
+    <string name="live_display_outdoor">În aer liber (soare strălucitor)</string>
+    <string name="live_display_outdoor_summary">Utilizați numai setările în aer liber</string>
+    <string name="live_display_hint">LiveDisplay poate ajuta la reducerea oboselii ochilor şi vă ajută să dormiți la noapte. Clic aici pentru a-l încerca!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay este oprit.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: mod auto.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: mod zi.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: mod noapte.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: mod afară.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay este oprit.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay s-a schimbat la modul automat.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay s-a schimbat la modul zi.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay s-a schimbat la modul noapte.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay s-a schimbat la modul afară.</string>
+    <!-- Health interface -->
+    <string name="charging_control_notification_channel">Control încărcare</string>
+    <string name="charging_control_notification_title">Control încărcare</string>
+    <string name="charging_control_notification_cancel_once">Anulare</string>
+    <string name="charging_control_notification_content_limit">Bateria va fi încărcată la %1$d%%</string>
+    <string name="charging_control_notification_content_limit_reached">Bateria este încărcată la %1$d%%</string>
+    <string name="charging_control_notification_content_target">Bateria va fi încărcată complet la %1$s</string>
+    <string name="charging_control_notification_content_target_reached">Bateria este încărcată</string>
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Apelurile și notificările vor suna</string>
+    <!-- Status bar network traffic monitor strings -->
+    <string name="kilobitspersecond_short">kb/s</string>
+    <string name="megabitspersecond_short">Mb/s</string>
+    <string name="kilobytespersecond_short">kB/s</string>
+    <string name="megabytespersecond_short">MB/s</string>
+</resources>

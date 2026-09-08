@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- This is matched with system_update_settings_list_item_title
+         from the Settings app. -->
+    <!-- Directory where the update files will be downloaded and stored.
+         WARNING: The application can and will delete any unknown file. -->
+    <!-- Directory where the downloads will be exported to.
+         The path is relative to the root of the external storage.-->
+    <!-- Placeholders: {branch} is net.pixelos.version; {device} is ro.custom.device. -->
+    <!-- System update screen -->
+    <!-- Update check -->
+    <!-- Background sync -->
+    <!-- Download and installation -->
+    <!-- Banner -->
+    <string name="build_date">تاريخ الإنشاء</string>
+    <!-- Empty by default; products may overlay a canonical issue-reporting URL. -->
+</resources>

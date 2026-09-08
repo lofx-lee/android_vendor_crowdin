@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Tocar rápidamente para iniciar acciones</string>
+    <string name="settings_entry_summary_on">Activado / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Desactivado</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">Usar Toque rápido</string>
+    <string name="setting_action_title" product="default">Tocar dos veces la parte trasera del teléfono para</string>
+    <string name="launch_settings_activity_title">Ajustes de Toque rápido</string>
+    <string name="setting_app_selection_help_text" product="default">Selecciona la aplicación que quieres abrir al tocar dos veces la parte trasera del teléfono. Si en algún momento desinstalas esa aplicación, Toque rápido se desactivará hasta que elijas otra.</string>
+    <string name="setting_app_shortcut_selection_help_text">Selecciona qué pasa cuando abres esta aplicación con Toque rápido.</string>
+    <string name="radio_button_extra_widget_a11y_label"><xliff:g id="action">%1$s</xliff:g> por los ajustes</string>
+    <string name="setting_action_launch_summary_no_selection">Ninguna aplicación seleccionada</string>
+    <string name="setting_action_launch_summary_not_installed">Aplicación no instalada</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">Hacer captura de pantalla</string>
+    <string name="action_assistant_name">Acceder al asistente digital</string>
+    <string name="action_media_name">Reproducir o pausar contenido</string>
+    <string name="action_overview_name">Ver aplicaciones recientes</string>
+    <string name="action_notifications_name">Mostrar notificaciones</string>
+    <string name="action_flashlight_name">Encender/Apagar linterna</string>
+    <string name="action_launch_name">Abrir aplicación</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">¡Toque rápido detectado!</string>
+</resources>

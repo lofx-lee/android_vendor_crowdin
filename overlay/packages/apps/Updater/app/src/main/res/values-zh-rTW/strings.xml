@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">更新工具</string>
+    <!-- This is matched with system_update_settings_list_item_title
+         from the Settings app. -->
+    <string name="display_name">系統更新</string>
+    <!-- Directory where the update files will be downloaded and stored.
+         WARNING: The application can and will delete any unknown file. -->
+    <!-- Directory where the downloads will be exported to.
+         The path is relative to the root of the external storage.-->
+    <!-- Placeholders: {branch} is net.pixelos.version; {device} is ro.custom.device. -->
+    <string name="verification_failed_notification">驗證失敗</string>
+    <string name="verifying_download_notification">正在驗證更新</string>
+    <string name="downloading_notification">下載中</string>
+    <string name="download_paused_notification">下載暫停</string>
+    <string name="download_paused_error_notification">下載錯誤</string>
+    <string name="download_completed_notification">下載完成</string>
+    <string name="download_starting_notification">正在開始下載</string>
+    <string name="download_switch_confirm_title">暫停活躍的下載？</string>
+    <string name="download_switch_confirm_message">另一個更新正在下載中，啓動此更新將會暫停另一個更新。</string>
+    <string name="update_failed_notification">更新失敗</string>
+    <string name="installation_suspended_notification">已暫停安裝</string>
+    <string name="new_updates_found_title">有新的更新</string>
+    <string name="new_updates_found_summary">輕觸即可查看可用更新</string>
+    <string name="text_download_speed">%1$s，%2$s/秒</string>
+    <string name="installing_update">正在安裝系統更新</string>
+    <string name="installing_update_error">安裝錯誤</string>
+    <string name="installing_update_finished">更新待重新啟動</string>
+    <string name="finalizing_package">正在完成套件安裝</string>
+    <string name="preparing_ota_first_boot">正在準備第一次啟動</string>
+    <string name="dialog_prepare_zip_message">正在準備更新</string>
+    <string name="dialog_battery_low_title">電量不足</string>
+    <string name="dialog_scratch_mounted_message"><![CDATA[
+        請執行以下指令，然後重試更新：\n
+        • adb root\n
+        • adb enable-verity\n
+        • adb reboot
+        ]]></string>
+    <string name="dialog_scratch_mounted_title">無法在掛載 OverlayFS 的情況下安裝更新</string>
+    <string name="reboot">重新啟動</string>
+    <string name="menu_preferences">系統更新偏好設定</string>
+    <string name="preferences_summary">同步、下載及安裝</string>
+    <!-- System update screen -->
+    <!-- Update check -->
+    <string name="check_for_updates">檢查更新</string>
+    <string name="checking_for_updates">正在檢查更新</string>
+    <string name="check_your_internet_connection">請檢查您的網路連接</string>
+    <string name="updates_check_failed">更新檢查失敗，請稍後重試。</string>
+    <!-- Background sync -->
+    <string name="pref_category_background_sync">背景同步</string>
+    <string name="menu_auto_updates_check">定期檢查更新</string>
+    <string name="menu_auto_updates_check_summary">在背景檢查更新</string>
+    <string name="menu_auto_updates_check_interval">檢查間隔</string>
+    <string name="time_unit_day">日</string>
+    <string name="time_unit_week">周</string>
+    <string name="time_unit_month">月</string>
+    <!-- Download and installation -->
+    <string name="pref_category_download_install">下載與安裝</string>
+    <string name="menu_auto_delete_updates">自動刪除更新</string>
+    <string name="menu_auto_delete_updates_summary">安裝完成後刪除已下載的更新</string>
+    <string name="menu_stream_updates">流式在線更新</string>
+    <string name="menu_stream_updates_summary">下載過程中自動安裝更新。禁用此功能可保存更新包以供匯出。</string>
+    <string name="menu_delete_update">移除</string>
+    <string name="menu_export_update">匯出更新</string>
+    <string name="menu_metered_network_warning">計量付費網路警告</string>
+    <string name="menu_metered_network_warning_summary">使用行動資料下載前請發出警告</string>
+    <string name="menu_ab_perf_mode">優先更新過程</string>
+    <string name="menu_ab_perf_mode_summary">加快更新速度，但會降低裝置性能</string>
+    <string name="menu_ab_perf_mode_summary_charging">使用交流電來源充電時自動啓用</string>
+    <string name="menu_update_recovery">更新 Recovery</string>
+    <string name="menu_update_recovery_summary">更新恢復分區以及操作系統</string>
+    <string name="snack_updates_found">發現新的更新</string>
+    <string name="snack_no_updates_found">沒有找到新的更新</string>
+    <string name="snack_download_failed">下載失敗。請檢查您的網路連線並稍後重試。</string>
+    <string name="snack_download_verification_failed">更新驗證失敗。</string>
+    <string name="snack_download_verified">下載已完成。</string>
+    <string name="snack_update_not_installable">此更新無法安裝在目前版本上。</string>
+    <!-- Banner -->
+    <string name="build_date">版本日期</string>
+    <string name="security_update">安全性更新</string>
+    <string name="report_issues">回報問題</string>
+    <!-- Empty by default; products may overlay a canonical issue-reporting URL. -->
+    <string name="header_review_updates">查看更新和近期變更</string>
+    <string name="found_bug">發現問題？請使用我們的漏洞報告指南進行報告：</string>
+    <string name="updates_zero_state_title">目前沒有可用的更新</string>
+    <string name="updates_zero_state_description">這部裝置有新版本可用時，會顯示在這裡。</string>
+    <string name="list_major_android_upgrade">重大 Android 升級</string>
+    <string name="list_full_install">完整安裝：可安全地覆蓋安裝到任何先前的版本</string>
+    <string name="list_downgrade_blocked">此構建比已安裝的系統版本更舊，無法應用。</string>
+    <string name="list_verifying_update">正在驗證更新</string>
+    <string name="see_more">查看更多 %1$d</string>
+    <string name="see_less">查看更少</string>
+    <string name="action_download">下載</string>
+    <string name="action_pause">暫停</string>
+    <string name="action_resume">恢復</string>
+    <string name="action_install">安裝</string>
+    <string name="action_info">資訊</string>
+    <string name="action_delete">刪除</string>
+    <string name="confirm_cancel_dialog_title">取消下載</string>
+    <string name="confirm_cancel_dialog_message">要取消下載並刪除檔案嗎？</string>
+    <string name="confirm_delete_dialog_title">刪除檔案</string>
+    <string name="confirm_delete_dialog_message">刪除已選擇的更新檔案？</string>
+    <string name="apply_update_dialog_title">套用更新</string>
+    <string name="cancel_installation_dialog_title">取消安裝</string>
+    <string name="cancel_installation_dialog_message">要取消系統更新嗎？</string>
+    <string name="label_download_url">下載網址</string>
+    <string name="dialog_export_title">匯出更新</string>
+    <string name="notification_export_success">已匯出更新</string>
+    <string name="notification_export_fail">匯出錯誤</string>
+    <string name="toast_already_exporting">已匯出更新</string>
+    <string name="toast_export_started">匯出已開始</string>
+    <string name="update_over_metered_network_title">警告</string>
+    <string name="update_over_metered_network_message">透過計量付費網路下載的更新檔案有可能會使用較高的行動數據，您要繼續嗎？</string>
+    <string name="blocked_update_dialog_title">更新已被封鎖</string>
+    <string name="blocked_update_dialog_message">此 Android 主要版本更新無法在此產品上透過更新程式安裝。</string>
+    <string name="blocked_update_dialog_title_downgrade">降級已阻止</string>
+    <string name="blocked_update_dialog_message_downgrade">此更新版本低於當前系統版本，無法安裝。</string>
+    <string name="export_channel_title">匯出完成</string>
+    <string name="new_updates_channel_title">有新的更新</string>
+    <string name="ongoing_channel_title">目前下載</string>
+    <string name="update_failed_channel_title">更新失敗</string>
+    <string name="local_update_import">安裝本機更新</string>
+    <string name="local_update_import_summary">選擇要安裝的更新檔案</string>
+    <string name="local_update_import_progress">正在導入本機更新 \u2026</string>
+    <string name="local_update_import_success_title">已匯入更新</string>
+    <string name="local_update_import_failure">匯入本機更新檔案失敗</string>
+    <string name="local_update_name">本機更新</string>
+</resources>

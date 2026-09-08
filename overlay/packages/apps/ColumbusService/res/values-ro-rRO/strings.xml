@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Serviciul Quick Tap</string>
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">Quick Tap</string>
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Atinge rapid pentru a iniția acțiuni</string>
+    <string name="settings_entry_summary_on">Activat / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Dezactivat</string>
+    <string name="settings_search_keywords">Quick Tap, atingere pe spate, atingere, gest, asistent, assistant</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">Folosește Atingerea rapidă</string>
+    <string name="setting_footer_content">Pentru a efectua o acțiune, atinge de două ori spatele telefonului, aproape de mijloc</string>
+    <string name="setting_sensitivity_title">Sensibilitate</string>
+    <string name="setting_sensitivity_light">Atingere ușoară</string>
+    <string name="setting_sensitivity_heavy">Atingere puternică</string>
+    <string name="setting_haptic_intensity_title">Intensitatea feedbackului haptic</string>
+    <string name="setting_haptic_intensity_light">Ușoară</string>
+    <string name="setting_haptic_intensity_strong">Puternică</string>
+    <string name="setting_screen_off_title">Permite cu ecranul stins</string>
+    <string name="setting_screen_off_summary">Poate crește numărul de declanșări accidentale</string>
+    <string name="setting_screen_off_blocked_summary">Blocat de acțiunea curentă</string>
+    <string name="setting_action_title" product="default">Atinge de două ori partea din spate a dispozitivului și</string>
+    <string name="setting_action_title" product="device">Atinge de două ori spatele dispozitivului pentru a</string>
+    <string name="setting_action_title" product="tablet">Atinge de două ori spatele tabletei pentru a</string>
+    <string name="launch_settings_activity_title">Setări pentru Atingere rapidă</string>
+    <string name="setting_app_selection_help_text" product="default">Selectează o aplicație de deschis când atingi de două ori partea din spate a telefonului. Dacă dezinstalezi aplicația, Atingerea rapidă se dezactivează până când selectezi altă aplicație.</string>
+    <string name="setting_app_selection_help_text" product="device">Selectează o aplicație care se deschide când atingi de două ori spatele dispozitivului. Dacă dezinstalezi aplicația, Quick Tap se dezactivează până când selectezi o altă aplicație.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Selectează o aplicație care se deschide când atingi de două ori spatele tabletei. Dacă dezinstalezi aplicația, Quick Tap se dezactivează până când selectezi o altă aplicație.</string>
+    <string name="setting_app_selection_help_text_disabled">Pentru a folosi această funcție, trebuie să activezi mai întâi Quick Tap.</string>
+    <string name="setting_app_shortcut_selection_help_text">Selectează ce se întâmplă când deschizi aplicația folosind Atingerea rapidă.</string>
+    <string name="radio_button_extra_widget_a11y_label">Setări <xliff:g id="action">%1$s</xliff:g></string>
+    <string name="setting_action_launch_summary_no_selection">Nu s-a selectat nicio aplicație</string>
+    <string name="setting_action_launch_summary_not_installed">Aplicația nu este instalată</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">Fă o captură de ecran</string>
+    <string name="action_assistant_name">Accesează asistentul digital</string>
+    <string name="action_media_name">Redă sau întrerupe conținutul media</string>
+    <string name="action_overview_name">Vezi aplicațiile recente</string>
+    <string name="action_notifications_name">Afișează notificările</string>
+    <string name="action_flashlight_name">Aprinde / stinge lanterna</string>
+    <string name="action_launch_name">Deschide aplicația</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">A fost detectată o Atingere rapidă!</string>
+</resources>

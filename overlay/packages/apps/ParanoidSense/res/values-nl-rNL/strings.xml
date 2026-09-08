@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid Sense</string>
+    <!-- Enroll activity -->
+    <string name="face_enroll_title">Centreer je gezicht in de camera</string>
+    <string name="face_enroll_description">Houd stil en zorg dat je in een goed verlichte omgeving bent</string>
+    <!-- Try Again activity -->
+    <string name="face_try_again_title">Kon je gezicht niet vastleggen</string>
+    <string name="face_try_again_description">Tik hieronder om het opnieuw te proberen. Zorg de volgende keer dat je in een goed verlichte omgeving bent en dat niets je gezicht bedekt</string>
+    <string name="btn_try_again">Opnieuw proberen</string>
+    <!-- Vendor Messages -->
+    <string name="attr_light_dark">Gezicht heeft meer licht nodig</string>
+    <string name="attr_light_high">Gezicht heeft te veel licht</string>
+    <string name="attr_light_shadow">Gezicht heeft te veel schaduw</string>
+    <string name="unlock_failed_face_blur">Gezicht is te wazig</string>
+    <string name="unlock_failed_face_large">Gezicht is te dichtbij</string>
+    <string name="unlock_failed_face_multi">Te veel gezichten gedetecteerd</string>
+    <string name="unlock_failed_face_not_complete">Slechts een deel van het gezicht gedetecteerd</string>
+    <string name="unlock_failed_face_small">Gezicht is te ver weg</string>
+</resources>

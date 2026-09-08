@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <!-- Android debugging as root -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <!-- Hotspot extras -->
+    <!-- PIN scramble -->
+    <!-- Black theme for dark mode -->
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
+    <!-- Warning message for the sd card setup -->
+    <!-- Copy to clipboard -->
+    <!-- Radio Info -->
+    <!-- Heads-up -->
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">تحسين الشاشة استناداً إلى الوقت من اليوم والظروف المحيطة لتحسين قابلية القراءة وتقليل إجهاد العين</string>
+    <string name="live_display_mode">نمط العرض</string>
+    <string name="live_display_color_temperature_title">درجة حرارة اللون</string>
+    <string name="live_display_color_temperature_summary">النهار: <xliff:g id="day_temperature">%1$d</xliff:g>K  الليل: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_day">نهار</string>
+    <string name="live_display_night">الليل</string>
+    <string name="live_display_outdoor_mode_title">وضع في الخارج التلقائي</string>
+    <string name="live_display_outdoor_mode_summary">زيادة الإضاءة والإشباع تلقائياً تحت أشعة الشمس</string>
+    <string name="live_display_anti_flicker_title">مضاد الوميض</string>
+    <string name="live_display_anti_flicker_summary">منع الوميض الشديد وتقليل إجهاد العين في ظروف الضوء المنخفضة. قد يؤدي إلى تدهور دقة الألوان والتأثير على طريقة عرض بعض العناصر.</string>
+    <string name="live_display_low_power_title">تقليل استهلاك الطاقة</string>
+    <string name="live_display_low_power_summary">ضبط العرض لاستهلاك أقل للطاقة دون تشويش ما يُعرض</string>
+    <string name="live_display_enhance_color_title">تحسين الألوان</string>
+    <string name="live_display_enhance_color_summary">تحسين حيوية درجات ألوان البشرة والمشاهد الطبيعية وغيرها من الصور</string>
+    <string name="live_display_color_profile_standard_title">قياسي</string>
+    <string name="live_display_color_profile_standard_summary">ألوان دقيقة وبياض ناصع</string>
+    <string name="live_display_color_profile_natural_title">طبيعي</string>
+    <string name="live_display_color_profile_natural_summary">ألوان ودرجات لون بشرة واقعية</string>
+    <string name="live_display_color_profile_dynamic_title">ديناميكي</string>
+    <string name="live_display_color_profile_dynamic_summary">ألوان محسنة وبياض ناصع</string>
+    <string name="live_display_color_profile_cinema_title">سينما</string>
+    <string name="live_display_color_profile_cinema_summary">إعادة إنتاج لون مطابق للفيديو</string>
+    <string name="live_display_color_profile_astronomy_title">فلكِي</string>
+    <string name="live_display_color_profile_astronomy_summary">أحمر عميق للحفاظ على الرؤية الليلية</string>
+    <string name="live_display_color_profile_photography_title">التصوير</string>
+    <string name="live_display_color_profile_photography_summary">إعادة إنتاج لون مطابق للصور</string>
+    <string name="live_display_color_profile_basic_title">أساسي</string>
+    <string name="live_display_color_profile_basic_summary">استخدم الشاشة بدون معايرة</string>
+    <string name="live_display_color_profile_adaptive_title">التكيّف</string>
+    <string name="live_display_color_profile_adaptive_summary">تتكيف الألوان مع الظروف المحيطة</string>
+    <string name="live_display_color_profile_reading_title">القراءة</string>
+    <string name="live_display_color_profile_reading_summary">ألوان دافئة لإجهاد أقل للعين</string>
+    <string name="live_display_color_profile_srgb_summary">الألوان مضبوطة لألوان فضاء sRGB</string>
+    <string name="live_display_color_profile_dci_p3_summary">الألوان مضبوطة لألوان فضاء DCI-P3</string>
+    <string name="live_display_reading_mode_title">وضع القراءة</string>
+    <string name="live_display_reading_mode_summary">وضع التدرج الرمادي للقراءة على المدى الطويل</string>
+    <string name="color_calibration_title">معايرة الألوان</string>
+    <string name="color_calibration_summary">معايرة الألوان الظاهرة على الشاشة</string>
+    <string name="color_red_title">أحمر</string>
+    <string name="color_green_title">أخضر</string>
+    <string name="color_blue_title">أزرق</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">ضبط الصورة</string>
+    <string name="picture_adjustment_summary">ضبط تدرج اللون والتشبع والكثافة والتباين</string>
+    <string name="adj_hue_title">تدرج اللون</string>
+    <string name="adj_saturation_title">التشبع</string>
+    <string name="adj_intensity_title">الكثافة</string>
+    <string name="adj_contrast_title">التباين</string>
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- Charging control settings -->
+    <string name="reset">إعادة تعيين</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">إعدادات التدوير</string>
+    <string name="display_rotation_enabled">التدوير التلقائي مُفعل</string>
+    <string name="display_rotation_disabled">التدوير التلقائي مُعطل</string>
+    <string name="display_rotation_unit">الدرجات</string>
+    <string name="display_rotation_category_title">أوضاع التدوير</string>
+    <string name="display_rotation_0_title">0 درجة</string>
+    <string name="display_rotation_90_title">90 درجة</string>
+    <string name="display_rotation_180_title">180 درجة</string>
+    <string name="display_rotation_270_title">270 درجة</string>
+    <!-- One shot automatic brightness -->
+    <!-- Smart 5G -->
+    <!-- Power menu on secure lockscreen -->
+    <!-- Torch Power button gestures -->
+    <!-- Volume button music control -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Wake on plug -->
+    <!-- Ignore window secure -->
+    <!-- Incall vibrate options -->
+    <!-- Ambient wake toggles -->
+    <!-- Doze enablement -->
+    <!-- Refresh rate -->
+    <!-- Battery saver refresh rate -->
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">استخدام ميزة \"البطارية التكيُّفية\"</string>
+    <string name="basic_battery_saver_title">توفير البطارية العادي</string>
+    <string name="basic_battery_saver_summary">يحدّ هذا الخيار من المؤثرات البصرية والأنشطة في الخلفية ويُفعِّل \"المظهر الداكن\" في حال لم يكُن مفعَّلاً.</string>
+    <string name="battery_saver_reminder_category">التذكيرات</string>
+    <string name="battery_saver_reminder_switch_title">تذكيرات ميزة \"توفير شحن البطارية\"</string>
+    <string name="battery_saver_reminder_switch_summary">يمكنك تلقّي تذكيرات عند انخفاض شحن البطارية</string>
+    <string name="battery_saver_schedule_category">الجدولة</string>
+    <string name="battery_saver_schedule_switch_title">التفعيل بناءً على مستوى البطارية</string>
+    <string name="battery_saver_schedule_switch_summary">يتم تفعيل وضع \"توفير شحن البطارية\" عندما ينخفض شحن البطارية إلى المستوى الذي تحدّده</string>
+    <string name="battery_schedule_title">الجدول الزمني والتذكيرات</string>
+    <string name="battery_schedule_summary">يمكنك إدارة الحالات التي يتم فيها تفعيل ميزة \"توفير شحن البطارية\"</string>
+    <string name="extreme_battery_saver_title">توفير شحن البطارية العالي</string>
+    <string name="extreme_battery_saver_summary">يشمل جميع التغييرات المذكورة أعلاه. ويتم أيضًا إيقاف التطبيقات غير الأساسية وإشعاراتها مؤقتًا.</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Hotspot -->
+    <!-- Status bar -->
+    <string name="icon_manager_title">شريط الحالة</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Keybox Data -->
+    <!-- Pif Data -->
+    <!-- Spoofing toggle -->
+    <!-- Screenshot shutter -->
+    <!-- Global Actions -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">مراقبة حركة مرور الشبكة</string>
+    <string name="network_traffic_settings_summary">عرض مستويات حركة مرور الشبكة الحالية في شريط الحالة</string>
+    <string name="network_traffic_mode_title">وضع العرض</string>
+    <string name="network_traffic_mode_disable">معطّل</string>
+    <string name="network_traffic_mode_up">الرفع فقط</string>
+    <string name="network_traffic_mode_down">التحميل فقط</string>
+    <string name="network_traffic_mode_all">التحميل و الرفع</string>
+    <string name="network_traffic_autohide">إخفاء تلقائي</string>
+    <string name="network_traffic_autohide_summary">اخفاء رصد حركة تنقل البيانات عند عدم وجود نشاط</string>
+    <string name="network_traffic_units_title">وحدات قياس حركة البيانات</string>
+    <string name="network_traffic_units_kilobits">كيلوبت في الثانية (kb/s)</string>
+    <string name="network_traffic_units_megabits">ميجابت في الثانية (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">كيلوبايت في الثانية (kB/s)</string>
+    <string name="network_traffic_units_megabytes">ميغابايت في الثانية (MB/s)</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">محو طلب البحث</string>
+    <string name="language_picker_page">صفحة أداة اختيار اللغة</string>
+    <string name="search_region">البحث عن المناطق</string>
+    <string name="search_region_page">صفحة البحث عن المنطقة</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">إيقاف الصورة المتحركة مؤقتًا</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">البحث عن تحديثات</string>
+    <string name="play_application_update_entry_title">تحديثات التطبيقات</string>
+    <string name="software_update_banner_checking">جارٍ البحث عن تحديثات…</string>
+    <string name="software_update_banner_up_to_date">جهازك مُحدَّث</string>
+    <string name="software_update_banner_update_available">تتوفّر تحديثات</string>
+    <string name="software_update_can_be_updated_header">‏تحسين أداء جهاز Pixel</string>
+    <string name="software_update_entry_title">تحديثات البرامج</string>
+    <string name="software_update_pending_update_summary">في انتظار التحديث</string>
+    <string name="software_update_up_to_date_header">‏هاتف Pixel مُحدّث</string>
+    <string name="software_update_up_to_specific_date_summary">‏تم تحديثه في ‎%1$s</string>
+    <string name="system_update_entry_title">تحديث النظام</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid Sense</string>
+    <!-- Enroll activity -->
+    <string name="face_enroll_title">顔をカメラの中央に合わせてください</string>
+    <string name="face_enroll_description">動かずに、明るい場所にいることを確認してください</string>
+    <!-- Try Again activity -->
+    <string name="face_try_again_title">顔を認識できませんでした</string>
+    <string name="face_try_again_description">下をタップしてもう一度お試しください。次回は明るい場所で、顔を覆うものがないことを確認してください</string>
+    <string name="btn_try_again">もう一度試す</string>
+    <!-- Vendor Messages -->
+    <string name="attr_light_dark">顔にもっと光が必要です</string>
+    <string name="attr_light_high">顔に当たる光が強すぎます</string>
+    <string name="attr_light_shadow">顔に影が多すぎます</string>
+    <string name="unlock_failed_face_blur">顔がぼやけています</string>
+    <string name="unlock_failed_face_large">顔が近すぎます</string>
+    <string name="unlock_failed_face_multi">検出された顔が多すぎます</string>
+    <string name="unlock_failed_face_not_complete">顔の一部しか検出されませんでした</string>
+    <string name="unlock_failed_face_small">顔が遠すぎます</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Service Quick Tap</string>
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">Quick Tap</string>
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Double appui pour lancer des actions</string>
+    <string name="settings_entry_summary_on">Activé / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Désactivé</string>
+    <string name="settings_search_keywords">Quick Tap, toucher arrière, toucher, geste, assistant</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">Utiliser le Double appui</string>
+    <string name="setting_footer_content">Pour effectuer une action, touchez deux fois l’arrière de votre téléphone près du centre</string>
+    <string name="setting_sensitivity_title">Sensibilité</string>
+    <string name="setting_sensitivity_light">Toucher léger</string>
+    <string name="setting_sensitivity_heavy">Toucher appuyé</string>
+    <string name="setting_haptic_intensity_title">Intensité du retour haptique</string>
+    <string name="setting_haptic_intensity_light">Légère</string>
+    <string name="setting_haptic_intensity_strong">Forte</string>
+    <string name="setting_screen_off_title">Autoriser lorsque l’écran est éteint</string>
+    <string name="setting_screen_off_summary">Peut augmenter les déclenchements involontaires</string>
+    <string name="setting_screen_off_blocked_summary">Bloqué par l’action actuelle</string>
+    <string name="setting_action_title" product="default">Appuyer deux fois sur le dos du téléphone pour</string>
+    <string name="setting_action_title" product="device">Touchez deux fois l’arrière de l’appareil pour</string>
+    <string name="setting_action_title" product="tablet">Touchez deux fois l’arrière de la tablette pour</string>
+    <string name="launch_settings_activity_title">Paramètres du double appui</string>
+    <string name="setting_app_selection_help_text" product="default">Sélectionnez une appli à ouvrir lorsque vous appuyez deux fois sur le dos de votre téléphone. Si vous désinstallez l\'appli, le double appui sera désactivé tant que vous ne choisirez pas une autre appli.</string>
+    <string name="setting_app_selection_help_text" product="device">Sélectionnez une application à ouvrir lorsque vous touchez deux fois l’arrière de votre appareil. Si vous désinstallez l’application, Quick Tap se désactive jusqu’à ce que vous en choisissiez une autre.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Sélectionnez une application à ouvrir lorsque vous touchez deux fois l’arrière de votre tablette. Si vous désinstallez l’application, Quick Tap se désactive jusqu’à ce que vous en choisissiez une autre.</string>
+    <string name="setting_app_selection_help_text_disabled">Pour utiliser cette fonctionnalité, vous devez d’abord activer Quick Tap.</string>
+    <string name="setting_app_shortcut_selection_help_text">Sélectionnez l\'action à effectuer lorsque vous ouvrez cette appli via le double appui.</string>
+    <string name="radio_button_extra_widget_a11y_label">Paramètres <xliff:g id="action">%1$s</xliff:g></string>
+    <string name="setting_action_launch_summary_no_selection">Aucune appli sélectionnée</string>
+    <string name="setting_action_launch_summary_not_installed">Appli non installée</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">Prendre une capture d\'écran</string>
+    <string name="action_assistant_name">Accéder à votre assistant numérique</string>
+    <string name="action_media_name">Lire ou mettre en pause les contenus multimédias</string>
+    <string name="action_overview_name">Voir les applis récentes</string>
+    <string name="action_notifications_name">Afficher les notifications</string>
+    <string name="action_flashlight_name">Activer/Désactiver la lampe de poche</string>
+    <string name="action_launch_name">Ouvrir l\'appli</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">Double appui détecté !</string>
+</resources>

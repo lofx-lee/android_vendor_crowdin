@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Salin URL log kerusakan</string>
+    <string name="url_copy_success">URL berhasil disalin</string>
+    <string name="url_copy_failed">Terjadi kesalahan saat mengunggah log ke mkr/bin</string>
+    <!-- Alert slider proc nodes paths. -->
+    <!-- Charging speed strings -->
+    <string name="charging_speed">Kecepatan pengisian daya</string>
+    <string name="charging_speed_slow">Lambat</string>
+    <string name="charging_speed_fast">Cepat</string>
+    <string name="charging_speed_super_fast">Super cepat</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">Otomatis</string>
+    <string name="live_display_auto_summary">Sesuaikan suhu warna layar secara otomatis setelah matahari terbenam dan terbit</string>
+    <string name="live_display_off">Mati</string>
+    <string name="live_display_off_summary">Nonaktifkan semua penyesuaian</string>
+    <string name="live_display_day">Siang</string>
+    <string name="live_display_day_summary">Hanya menggunakan setelan siang hari</string>
+    <string name="live_display_night">Malam</string>
+    <string name="live_display_night_summary">Hanya menggunakan setelan malam hari</string>
+    <string name="live_display_outdoor">Luar ruangan (matahari cerah)</string>
+    <string name="live_display_outdoor_summary">Hanya menggunakan setelan luar ruangan</string>
+    <string name="live_display_hint">LiveDisplay dapat membantu mengurangi kelelahan mata dan membantu Anda tidur di malam hari. Klik di sini untuk mencobanya!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay nonaktif.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modus otomatis.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modus siang.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modus malam.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modus luar ruangan.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay dinonaktifkan.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay diubah menjadi modus otomatis.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay diubah menjadi modus siang.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay diubah menjadi modus malam.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay diubah menjadi modus luar ruangan.</string>
+    <!-- Health interface -->
+    <string name="charging_control_notification_channel">Kontrol pengisian daya</string>
+    <string name="charging_control_notification_title">Kontrol pengisian daya</string>
+    <string name="charging_control_notification_cancel_once">Batal</string>
+    <string name="charging_control_notification_content_limit">Baterai akan terisi hingga %1$d%%</string>
+    <string name="charging_control_notification_content_limit_reached">Baterai terisi %1$d%%</string>
+    <string name="charging_control_notification_content_target">Baterai akan terisi penuh pukul %1$s</string>
+    <string name="charging_control_notification_content_target_reached">Baterai terisi</string>
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Panggilan dan notifikasi akan berdering</string>
+    <!-- Status bar network traffic monitor strings -->
+    <string name="kilobitspersecond_short">kb/d</string>
+    <string name="megabitspersecond_short">Mb/d</string>
+    <string name="kilobytespersecond_short">kB/d</string>
+    <string name="megabytespersecond_short">MB/d</string>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Updater</string>
+    <!-- This is matched with system_update_settings_list_item_title
+         from the Settings app. -->
+    <string name="display_name">Aggiornamenti di sistema</string>
+    <!-- Directory where the update files will be downloaded and stored.
+         WARNING: The application can and will delete any unknown file. -->
+    <!-- Directory where the downloads will be exported to.
+         The path is relative to the root of the external storage.-->
+    <!-- Placeholders: {branch} is net.pixelos.version; {device} is ro.custom.device. -->
+    <string name="verification_failed_notification">Verifica non riuscita</string>
+    <string name="verifying_download_notification">Verifica dell\'aggiornamento</string>
+    <string name="downloading_notification">Download in corso</string>
+    <string name="download_paused_notification">Download in pausa</string>
+    <string name="download_paused_error_notification">Errore di download</string>
+    <string name="download_completed_notification">Download completato</string>
+    <string name="download_starting_notification">Avvio del download</string>
+    <string name="download_switch_confirm_title">Mettere in pausa il download attivo?</string>
+    <string name="download_switch_confirm_message">È in corso il download di un altro aggiornamento. Avviando questo, l\'altro verrà messo in pausa.</string>
+    <string name="update_failed_notification">Aggiornamento non riuscito</string>
+    <string name="installation_suspended_notification">Installazione sospesa</string>
+    <string name="new_updates_found_title">Nuovi aggiornamenti</string>
+    <string name="new_updates_found_summary">Tocca per vedere gli aggiornamenti disponibili</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="installing_update">Installazione dell\'aggiornamento di sistema</string>
+    <string name="installing_update_error">Errore di installazione</string>
+    <string name="installing_update_finished">Aggiornamento in attesa di riavvio</string>
+    <string name="finalizing_package">Completamento dell\'installazione del pacchetto</string>
+    <string name="preparing_ota_first_boot">Preparazione per il primo avvio</string>
+    <string name="dialog_prepare_zip_message">Preparazione preliminare dell\'aggiornamento</string>
+    <string name="dialog_battery_low_title">Batteria scarica</string>
+    <string name="dialog_battery_low_message_pct">Il livello della batteria è troppo basso: è necessario almeno il <xliff:g id="percent_discharging">%1$d</xliff:g>%% di batteria per continuare, il <xliff:g id="percent_charging">%2$d</xliff:g>%% se in carica.</string>
+    <string name="dialog_scratch_mounted_message"><![CDATA[
+        Esegui i seguenti comandi e riprova l\'aggiornamento:\n
+        • adb root\n
+        • adb enable-verity\n
+        • adb reboot
+        ]]></string>
+    <string name="dialog_scratch_mounted_title">Impossibile installare l\'aggiornamento con OverlayFS montato</string>
+    <string name="reboot">Riavvia</string>
+    <string name="menu_preferences">Preferenze</string>
+    <string name="preferences_summary">Sincronizza, scarica e installa</string>
+    <!-- System update screen -->
+    <string name="system_up_to_date_title">Il sistema è aggiornato</string>
+    <string name="update_available_title">Aggiornamento di sistema disponibile</string>
+    <string name="checking_for_update_title">Ricerca aggiornamenti…</string>
+    <string name="preparing_update_title">Preparazione dell\'aggiornamento di sistema…</string>
+    <string name="downloading_update_title">Download dell\'aggiornamento di sistema…</string>
+    <string name="installing_update_title">Installazione dell\'aggiornamento di sistema…</string>
+    <string name="verifying_update_title">Verifica dell\'aggiornamento di sistema…</string>
+    <string name="update_paused_title">Aggiornamento di sistema in pausa</string>
+    <string name="action_download_install">Scarica e installa</string>
+    <string name="downloading_installing_caption">Download e installazione dell\'aggiornamento</string>
+    <string name="metered_warning_footnote">Scaricare aggiornamenti tramite rete mobile o Wi-Fi a consumo potrebbe comportare costi aggiuntivi.</string>
+    <string name="changelog_loading">Caricamento delle modifiche recenti…</string>
+    <string name="changelog_failed">Le modifiche recenti non sono al momento disponibili.</string>
+    <string name="changelog_empty">Nessun changelog fornito per questa build.</string>
+    <string name="updates_check_failed_title">Impossibile verificare la presenza di aggiornamenti</string>
+    <string name="check_for_update">Verifica aggiornamenti</string>
+    <string name="header_last_check">Ultima verifica aggiornamenti riuscita:</string>
+    <string name="header_android_version_full">Versione Android: <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <string name="header_security_update_full">Aggiornamento della sicurezza Android: <xliff:g id="date" example="5 July 2026">%1$s</xliff:g></string>
+    <string name="action_back">Indietro</string>
+    <string name="menu_more_options">Altre opzioni</string>
+    <!-- Update check -->
+    <string name="check_for_updates">Verifica aggiornamenti</string>
+    <string name="checking_for_updates">Ricerca aggiornamenti in corso</string>
+    <string name="check_your_internet_connection">Controlla la connessione a internet</string>
+    <string name="updates_check_failed">La verifica degli aggiornamenti non è riuscita. Riprova più tardi.</string>
+    <string name="header_last_updates_check_time">Ultima verifica: <xliff:g id="time" example="01:23">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">Ultima verifica: <xliff:g id="date" example="Jan 12">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <!-- Background sync -->
+    <string name="pref_category_background_sync">Sincronizzazione in background</string>
+    <string name="menu_auto_updates_check">Verifica periodicamente gli aggiornamenti</string>
+    <string name="menu_auto_updates_check_summary">Verifica la presenza di aggiornamenti in background</string>
+    <string name="menu_auto_updates_check_interval">Verifica ogni</string>
+    <string name="time_unit_day">Giorno</string>
+    <string name="time_unit_week">Settimana</string>
+    <string name="time_unit_two_weeks">Due settimane</string>
+    <string name="time_unit_month">Mese</string>
+    <!-- Download and installation -->
+    <string name="pref_category_download_install">Download e installazione</string>
+    <string name="menu_auto_delete_updates">Elimina automaticamente gli aggiornamenti</string>
+    <string name="menu_auto_delete_updates_summary">Rimuovi gli aggiornamenti scaricati dopo l\'installazione</string>
+    <string name="menu_stream_updates">Aggiornamenti online in streaming</string>
+    <string name="menu_stream_updates_summary">Installa gli aggiornamenti durante il download. Disattiva per conservare i pacchetti di aggiornamento per l\'esportazione.</string>
+    <string name="menu_delete_update">Elimina</string>
+    <string name="menu_export_update">Esporta aggiornamento</string>
+    <string name="menu_view_downloads">Visualizza su <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads</string>
+    <string name="menu_metered_network_warning">Avviso per rete a consumo</string>
+    <string name="menu_metered_network_warning_summary">Avvisa prima di scaricare tramite dati mobili</string>
+    <string name="menu_ab_perf_mode">Dai priorità al processo di aggiornamento</string>
+    <string name="menu_ab_perf_mode_summary">Velocizza gli aggiornamenti a scapito delle prestazioni del dispositivo</string>
+    <string name="menu_ab_perf_mode_summary_charging">Attivato automaticamente durante la ricarica da rete elettrica</string>
+    <string name="menu_update_recovery">Aggiorna la recovery</string>
+    <string name="menu_update_recovery_summary">Aggiorna la partizione recovery insieme al sistema operativo</string>
+    <string name="play_integrity_header">Play Integrity</string>
+    <string name="text_download_size_unknown">Sconosciuta</string>
+    <string name="certified_prop_status">Stato delle proprietà certificate</string>
+    <string name="certified_prop_check">Verifica aggiornamenti</string>
+    <string name="certified_prop_checking">Verifica aggiornamenti delle proprietà certificate</string>
+    <string name="certified_prop_downloading">Download dell\'aggiornamento delle proprietà certificate</string>
+    <string name="certified_prop_download_failed">Impossibile recuperare le proprietà dal server</string>
+    <string name="certified_prop_available">Scarica e installa</string>
+    <string name="certified_prop_install_success">Riavvia per applicare l\'aggiornamento</string>
+    <string name="certified_prop_install_failed">Installazione non riuscita</string>
+    <string name="certified_prop_invalid_package">Il pacchetto scaricato non è valido</string>
+    <string name="certified_prop_info" formatted="false">Versione installata: %s\n</string>
+    <string name="certified_prop_remote" formatted="false">Ultima versione: %s</string>
+    <string name="snack_updates_found">Trovati nuovi aggiornamenti</string>
+    <string name="snack_no_updates_found">Nessun nuovo aggiornamento trovato</string>
+    <string name="snack_download_failed">Il download non è riuscito. Controlla la connessione a internet e riprova più tardi.</string>
+    <string name="snack_download_verification_failed">La verifica dell\'aggiornamento non è riuscita.</string>
+    <string name="snack_download_verified">Download completato.</string>
+    <string name="snack_update_not_installable">Questo aggiornamento non può essere installato sulla build attuale.</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="16">%1$s</xliff:g></string>
+    <!-- Banner -->
+    <string name="build_date">Data build</string>
+    <string name="security_update">Aggiornamento della sicurezza</string>
+    <string name="report_issues">Segnala problemi</string>
+    <!-- Empty by default; products may overlay a canonical issue-reporting URL. -->
+    <string name="header_review_updates">Consulta gli aggiornamenti e le modifiche recenti su</string>
+    <string name="found_bug">Hai trovato un bug? Segnalalo seguendo la nostra guida alla segnalazione dei bug:</string>
+    <string name="updates_zero_state_title">Nessun aggiornamento disponibile</string>
+    <string name="updates_zero_state_description">Le nuove build per questo dispositivo appariranno qui quando disponibili.</string>
+    <string name="list_build_version">PixelOS <xliff:g id="version" example="17.0">%1$s</xliff:g></string>
+    <string name="list_build_version_date">PixelOS <xliff:g id="version" example="17.0">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_update_size">Dimensione aggiornamento: <xliff:g id="size" example="1.34 GB">%1$s</xliff:g></string>
+    <string name="list_security_update">Aggiornamento della sicurezza: <xliff:g id="date" example="Jan 2026">%1$s</xliff:g></string>
+    <string name="list_major_android_upgrade">Aggiornamento principale di Android</string>
+    <string name="list_full_install">Installazione completa: può essere installata in sicurezza su qualsiasi build precedente</string>
+    <string name="list_major_upgrade_recovery_install">Gli aggiornamenti principali di versione di <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> devono essere installati manualmente. Consulta la guida del tuo dispositivo per continuare.</string>
+    <string name="list_downgrade_blocked">Questa build è più vecchia del sistema installato e non può essere applicata.</string>
+    <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> di <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
+    <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> di <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
+    <string name="list_verifying_update">Verifica dell\'aggiornamento</string>
+    <string name="see_more">Mostra altri %1$d</string>
+    <string name="see_less">Mostra meno</string>
+    <string name="action_download">Scarica</string>
+    <string name="action_pause">Pausa</string>
+    <string name="action_resume">Riprendi</string>
+    <string name="action_install">Installa</string>
+    <string name="action_info">Info</string>
+    <string name="action_delete">Elimina</string>
+    <string name="confirm_cancel_dialog_title">Annulla download</string>
+    <string name="confirm_cancel_dialog_message">Annullare il download ed eliminare il file?</string>
+    <string name="confirm_delete_dialog_title">Elimina file</string>
+    <string name="confirm_delete_dialog_message">Eliminare il file di aggiornamento selezionato?</string>
+    <string name="apply_update_dialog_title">Applica aggiornamento</string>
+    <string name="apply_update_dialog_message">Stai per installare <xliff:g id="update_name">%1$s</xliff:g>.\n\nSe premi <xliff:g id="ok">%2$s</xliff:g>, il dispositivo si riavvierà in modalità recovery per installare l\'aggiornamento.\n\nNota: questa funzione richiede una recovery compatibile, altrimenti gli aggiornamenti dovranno essere installati manualmente.</string>
+    <string name="apply_update_dialog_message_ab">Stai per installare <xliff:g id="update_name">%1$s</xliff:g>.\n\nSe premi <xliff:g id="ok">%2$s</xliff:g>, il dispositivo inizierà l\'installazione in background.\n\nAl termine ti verrà chiesto di riavviare.</string>
+    <string name="cancel_installation_dialog_title">Annulla installazione</string>
+    <string name="cancel_installation_dialog_message">Annullare l\'aggiornamento di sistema?</string>
+    <string name="label_download_url">URL di download</string>
+    <string name="dialog_export_title">Esportazione dell\'aggiornamento</string>
+    <string name="notification_export_success">Aggiornamento esportato</string>
+    <string name="notification_export_fail">Errore di esportazione</string>
+    <string name="toast_already_exporting">Esportazione di un aggiornamento già in corso</string>
+    <string name="toast_export_started">Esportazione avviata</string>
+    <string name="update_over_metered_network_title">Attenzione</string>
+    <string name="update_over_metered_network_message">Stai per scaricare un pacchetto di aggiornamento tramite una rete a consumo, il che probabilmente causerà un elevato utilizzo di dati. Vuoi continuare?</string>
+    <string name="blocked_update_dialog_title">Aggiornamento bloccato</string>
+    <string name="blocked_update_dialog_message">Questo aggiornamento principale di Android non può essere installato tramite l\'app Updater su questo prodotto.</string>
+    <string name="blocked_update_dialog_title_downgrade">Downgrade bloccato</string>
+    <string name="blocked_update_dialog_message_downgrade">Questo aggiornamento è più vecchio del sistema attuale e non può essere installato.</string>
+    <string name="export_channel_title">Esportazione completata</string>
+    <string name="new_updates_channel_title">Nuovi aggiornamenti</string>
+    <string name="ongoing_channel_title">Download in corso</string>
+    <string name="update_failed_channel_title">Aggiornamento non riuscito</string>
+    <string name="local_update_import">Installa aggiornamento locale</string>
+    <string name="local_update_import_summary">Seleziona il file di aggiornamento da installare</string>
+    <string name="local_update_import_progress">Importazione dell\'aggiornamento locale…</string>
+    <string name="local_update_import_success_title">Aggiornamento importato</string>
+    <string name="local_update_import_success_message">Data della build: <xliff:g id="build_date" example="Apr 27">%1$s</xliff:g>\n\nTocca l\'aggiornamento importato per vedere le azioni disponibili.</string>
+    <string name="local_update_import_failure">Impossibile importare l\'aggiornamento locale</string>
+    <string name="local_update_name">Aggiornamento locale</string>
+</resources>

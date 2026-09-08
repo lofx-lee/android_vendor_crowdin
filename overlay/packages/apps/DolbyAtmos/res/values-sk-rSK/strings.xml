@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_enable">Používať Dolby Atmos</string>
+    <string name="dolby_profile_title">Vybrať profil</string>
+    <string name="dolby_preset">Grafický ekvalizér</string>
+    <string name="dolby_off">Vypnuté</string>
+    <string name="dolby_on">Zapnuté</string>
+    <string name="dolby_low">Nízka</string>
+    <string name="dolby_medium">Stredná</string>
+    <string name="dolby_high">Vysoká</string>
+    <string name="dolby_max">Max</string>
+    <string name="dolby_unknown">Neuvedené</string>
+    <string name="dolby_on_with_profile">On (%1$s)</string>
+    <string name="dolby_category_settings">Nastavenia</string>
+    <string name="dolby_bass_enhancer">Vylepšenie bassov</string>
+    <string name="dolby_dialogue_enhancer">Vylepšenie dialógov</string>
+    <string name="dolby_spk_virtualizer">Virtualizácia reproduktora</string>
+    <string name="dolby_hp_virtualizer">Virtualizácia slúchadiel</string>
+    <string name="dolby_stereo_widening">Rozšírenie sterea</string>
+    <string name="dolby_volume_leveler">Vyváženie hlasitosti</string>
+    <string name="dolby_connect_headphones">Pripojte slúchadlá</string>
+    <string name="dolby_reset_profile">Obnoviť predvolené hodnoty</string>
+    <string name="dolby_reset_profile_toast">Nastavenia profilu %1$s sa úspešne obnovili</string>
+    <!-- Dolby profiles -->
+    <string name="dolby_profile_dynamic">Dynamické</string>
+    <string name="dolby_profile_video">Film/Video</string>
+    <string name="dolby_profile_music">Hudba</string>
+    <string name="dolby_profile_voice">Hlas</string>
+    <string name="dolby_profile_custom">Vlastné</string>
+    <!-- Dolby equalizer presets -->
+    <string name="dolby_preset_default">Ploché (Vypnuté)</string>
+    <string name="dolby_preset_rock">Rock</string>
+    <string name="dolby_preset_jazz">Jazz</string>
+    <string name="dolby_preset_pop">Pop</string>
+    <string name="dolby_preset_classical">Klasická hudba</string>
+    <string name="dolby_preset_hiphop">Hip Hop</string>
+    <string name="dolby_preset_blues">Blues</string>
+    <string name="dolby_preset_electronic">Elektronická hudba</string>
+    <string name="dolby_preset_country">Country</string>
+    <string name="dolby_preset_dance">Tanec</string>
+    <string name="dolby_preset_metal">Metal</string>
+    <!-- Dolby equalizer UI -->
+    <string name="dolby_geq_slider_label_gain">Zosilnenie</string>
+    <string name="dolby_geq_preset">Predvoľba</string>
+    <string name="dolby_geq_preset_name">Názov predvoľby</string>
+    <string name="dolby_geq_new_preset">Nová predvoľba</string>
+    <string name="dolby_geq_rename_preset">Premenovať predvoľbu</string>
+    <string name="dolby_geq_delete_preset">Zmazať predvoľbu</string>
+    <string name="dolby_geq_delete_preset_prompt">Chcete vymazať túto predvoľbu?</string>
+    <string name="dolby_geq_reset_gains">Vynulovať zisky</string>
+    <string name="dolby_geq_reset_gains_prompt">Chcete obnoviť predvolby na štandardné nastavenia?</string>
+    <string name="dolby_geq_preset_name_exists">Predvoľba s týmto názvom už existuje!</string>
+    <string name="dolby_geq_preset_name_too_long">Názov predvoľby je príliš dlhý!</string>
+    <!-- Dolby intelligent EQ -->
+    <string name="dolby_ieq">Inteligentný ekvalizér</string>
+    <string name="dolby_balanced">Vyvážená</string>
+    <string name="dolby_warm">Teplá</string>
+    <string name="dolby_detailed">Podrobný</string>
+</resources>

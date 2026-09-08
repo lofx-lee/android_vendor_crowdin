@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <!-- Android debugging as root -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <!-- Hotspot extras -->
+    <!-- PIN scramble -->
+    <!-- Black theme for dark mode -->
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
+    <!-- Warning message for the sd card setup -->
+    <!-- Copy to clipboard -->
+    <!-- Radio Info -->
+    <!-- Heads-up -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- Charging control settings -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Display : Rotation -->
+    <!-- One shot automatic brightness -->
+    <!-- Smart 5G -->
+    <!-- Power menu on secure lockscreen -->
+    <!-- Torch Power button gestures -->
+    <!-- Volume button music control -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Wake on plug -->
+    <!-- Ignore window secure -->
+    <!-- Incall vibrate options -->
+    <!-- Ambient wake toggles -->
+    <!-- Doze enablement -->
+    <!-- Refresh rate -->
+    <!-- Battery saver refresh rate -->
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">ज़रूरत के हिसाब से बैटरी का इस्तेमाल करने की सुविधा आज़माएं</string>
+    <string name="basic_battery_saver_title">स्टैंडर्ड बैटरी सेवर</string>
+    <string name="basic_battery_saver_summary">यह मोड, विज़ुअल इफ़ेक्ट के इस्तेमाल और बैकग्राउंड में होने वाली गतिविधि को कम करता है. अगर गहरे रंग वाली थीम पहले से चालू नहीं है, तो उसे भी चालू करता है.</string>
+    <string name="battery_saver_reminder_category">रिमाइंडर</string>
+    <string name="battery_saver_reminder_switch_title">बैटरी सेवर रिमाइंडर</string>
+    <string name="battery_saver_reminder_switch_summary">फ़ोन की बैटरी कम होने पर रिमाइंडर पाएं</string>
+    <string name="battery_saver_schedule_category">शेड्यूल करें</string>
+    <string name="battery_saver_schedule_switch_title">बैटरी लेवल के हिसाब से चालू हो</string>
+    <string name="battery_saver_schedule_switch_summary">सेट किए गए लेवल से कम बैटरी होने पर, बैटरी सेवर की सुविधा चालू हो जाएगी</string>
+    <string name="battery_schedule_title">शेड्यूल करें और रिमाइंडर सेट करें</string>
+    <string name="battery_schedule_summary">बैटरी सेवर की सुविधा चालू होने पर मैनेज करें</string>
+    <string name="extreme_battery_saver_title">एक्स्ट्रीम बैटरी सेवर</string>
+    <string name="extreme_battery_saver_summary">ऊपर बताए गए सभी बदलाव लागू होंगे. इसके साथ ही, यह ग़ैर-ज़रूरी ऐप्लिकेशन की गतिविधियों और उनसे मिलने वाली सूचनाओं को रोक देगा.</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Hotspot -->
+    <!-- Status bar -->
+    <string name="icon_manager_title">स्टेटस बार</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Keybox Data -->
+    <!-- Pif Data -->
+    <!-- Spoofing toggle -->
+    <!-- Screenshot shutter -->
+    <!-- Global Actions -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Status bar - Network Traffic -->
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">क्वेरी मिटाएं</string>
+    <string name="language_picker_page">\'भाषा चुनने की सुविधा\' पेज</string>
+    <string name="search_region">इलाके खोजें</string>
+    <string name="search_region_page">\'खोज का क्षेत्र\' पेज</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">ऐनिमेशन को रोकें</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">देखें कि क्या कोई अपडेट उपलब्ध है</string>
+    <string name="play_application_update_entry_title">ऐप्लिकेशन के अपडेट</string>
+    <string name="software_update_banner_checking">अपडेट खोजे जा रहे हैं…</string>
+    <string name="software_update_banner_up_to_date">आपका डिवाइस अप-टू-डेट है</string>
+    <string name="software_update_banner_update_available">अपडेट उपलब्ध हैं</string>
+    <string name="software_update_can_be_updated_header">अपने Pixel को पहले से बेहतर बनाएं</string>
+    <string name="software_update_entry_title">सॉफ़्टवेयर के अपडेट</string>
+    <string name="software_update_pending_update_summary">अपडेट पूरा नहीं हुआ</string>
+    <string name="software_update_up_to_date_header">आपका Pixel अप-टू-डेट है</string>
+    <string name="software_update_up_to_specific_date_summary">आखिरी अपडेट %1$s को किया गया था</string>
+    <string name="system_update_entry_title">सिस्टम अपडेट</string>
+</resources>

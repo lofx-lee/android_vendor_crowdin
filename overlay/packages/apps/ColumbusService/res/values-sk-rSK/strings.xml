@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Služba Quick Tap</string>
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">Quick Tap</string>
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Spúšťanie akcií rýchlym poklepaním</string>
+    <string name="settings_entry_summary_on">Zapnuté / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Vypnuté</string>
+    <string name="settings_search_keywords">Rýchle ťuknutie, ťuknutie na zadnú stranu, ťuknutie, gesto, pomoc, asistent</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">Používať rýchle poklepanie</string>
+    <string name="setting_footer_content">Ak chcete vykonať akciu, dvakrát ťuknite na zadnú stranu telefónu približne uprostred</string>
+    <string name="setting_sensitivity_title">Citlivosť</string>
+    <string name="setting_sensitivity_light">Ľahké poklepanie</string>
+    <string name="setting_sensitivity_heavy">Silné poklepanie</string>
+    <string name="setting_haptic_intensity_title">Intenzita hmatovej odozvy</string>
+    <string name="setting_haptic_intensity_light">Slabá</string>
+    <string name="setting_haptic_intensity_strong">Silná</string>
+    <string name="setting_screen_off_title">Povoliť pri vypnutej obrazovke</string>
+    <string name="setting_screen_off_summary">Môže zvýšiť počet nechcených aktivácií</string>
+    <string name="setting_screen_off_blocked_summary">Blokované aktuálnou akciou</string>
+    <string name="setting_action_title" product="default">Dvojitým klepnutím na zadnú stranu telefónu:</string>
+    <string name="setting_action_title" product="device">Dvojitým klepnutím na zadnú stranu zariadenia</string>
+    <string name="setting_action_title" product="tablet">Dvojitým klepnutím na zadnú stranu tabletu</string>
+    <string name="launch_settings_activity_title">Nastavenia rýchleho poklepania</string>
+    <string name="setting_app_selection_help_text" product="default">Vyberte, ktorá aplikácia sa má otvoriť, keď dvakrát klepnete na zadnú stranu telefónu. Ak danú aplikáciu odinštalujete, rýchle poklepanie sa vypne. Keď vyberiete inú aplikáciu, znova sa zapne.</string>
+    <string name="setting_app_selection_help_text" product="device">Vyberte, ktorá aplikácia sa má otvoriť, keď dvakrát klepnete na zadnú stranu telefónu. Ak danú aplikáciu odinštalujete, rýchle poklepanie sa vypne. Keď vyberiete inú aplikáciu, znova sa zapne.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Vyberte, ktorá aplikácia sa má otvoriť, keď dvakrát klepnete na zadnú stranu tabletu. Ak danú aplikáciu odinštalujete, rýchle poklepanie sa vypne. Keď vyberiete inú aplikáciu, znova sa zapne.</string>
+    <string name="setting_app_selection_help_text_disabled">Ak chcete túto funkciu používať, musíte najprv aktivovať funkciu Quick Tap.</string>
+    <string name="setting_app_shortcut_selection_help_text">Vyberte, čo sa má stať, keď rýchlym poklepaním otvoríte túto aplikáciu.</string>
+    <string name="radio_button_extra_widget_a11y_label">Nastavenia akcie <xliff:g id="action">%1$s</xliff:g></string>
+    <string name="setting_action_launch_summary_no_selection">Nie je vybraná žiadna aplikácia</string>
+    <string name="setting_action_launch_summary_not_installed">Aplikácia nie je nainštalovaná</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">Vytvoriť snímku obrazovky</string>
+    <string name="action_assistant_name">Pristupovať k digitálnemu asistentovi</string>
+    <string name="action_media_name">Prehrať alebo pozastaviť médiá</string>
+    <string name="action_overview_name">Zobraziť nedávne aplikácie</string>
+    <string name="action_notifications_name">Zobraziť upozornenia</string>
+    <string name="action_flashlight_name">Prepnúť baterku</string>
+    <string name="action_launch_name">Otvoriť aplikáciu</string>
+    <string name="action_screenshot_value">snímka obrazovky</string>
+    <string name="action_assistant_value">asistent</string>
+    <string name="action_media_value">médiá</string>
+    <string name="action_overview_value">prehľad</string>
+    <string name="action_notifications_value">notifikácie</string>
+    <string name="action_flashlight_value">baterka</string>
+    <string name="action_launch_value">spustiť</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">Bolo rozpoznané rýchle poklepanie.</string>
+</resources>

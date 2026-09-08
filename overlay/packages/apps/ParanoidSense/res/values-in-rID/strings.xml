@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid Sense</string>
+    <!-- Enroll activity -->
+    <string name="face_enroll_title">Posisikan wajah Anda di tengah kamera</string>
+    <string name="face_enroll_description">Tetap diam dan pastikan Anda berada di tempat yang cukup terang</string>
+    <!-- Try Again activity -->
+    <string name="face_try_again_title">Tidak dapat menangkap wajah Anda</string>
+    <string name="face_try_again_description">Ketuk di bawah untuk mencoba lagi. Lain kali, pastikan Anda berada di tempat yang cukup terang dan tidak ada yang menutupi wajah Anda</string>
+    <string name="btn_try_again">Coba lagi</string>
+    <!-- Vendor Messages -->
+    <string name="attr_light_dark">Wajah membutuhkan lebih banyak cahaya</string>
+    <string name="attr_light_high">Wajah terlalu terang</string>
+    <string name="attr_light_shadow">Wajah terlalu banyak bayangan</string>
+    <string name="unlock_failed_face_blur">Wajah terlalu buram</string>
+    <string name="unlock_failed_face_large">Wajah terlalu dekat</string>
+    <string name="unlock_failed_face_multi">Terlalu banyak wajah terdeteksi</string>
+    <string name="unlock_failed_face_not_complete">Hanya sebagian wajah terdeteksi</string>
+    <string name="unlock_failed_face_small">Wajah terlalu jauh</string>
+</resources>

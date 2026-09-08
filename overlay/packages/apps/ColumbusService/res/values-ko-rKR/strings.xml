@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">빠른 탭 서비스</string>
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">빠른 탭</string>
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">빠른 탭으로 작업 시작</string>
+    <string name="settings_entry_summary_on">사용 / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">사용 안함</string>
+    <string name="settings_search_keywords">빠른 탭, 뒷면 탭, 탭, 동작, 어시스트, 어시스턴트</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">빠른 탭 사용</string>
+    <string name="setting_footer_content">작업을 실행하려면 휴대전화 뒷면 중앙 부근을 두 번 탭하세요</string>
+    <string name="setting_sensitivity_title">민감도</string>
+    <string name="setting_sensitivity_light">가볍게 탭</string>
+    <string name="setting_sensitivity_heavy">세게 탭</string>
+    <string name="setting_haptic_intensity_title">햅틱 반응 강도</string>
+    <string name="setting_haptic_intensity_light">약하게</string>
+    <string name="setting_haptic_intensity_strong">강하게</string>
+    <string name="setting_screen_off_title">화면이 꺼져 있을 때 허용</string>
+    <string name="setting_screen_off_summary">의도치 않게 작동할 수 있습니다</string>
+    <string name="setting_screen_off_blocked_summary">현재 작업에서는 사용할 수 없습니다</string>
+    <string name="setting_action_title" product="default">휴대전화 뒷면을 두 번 탭하여 실행할 작업</string>
+    <string name="setting_action_title" product="device">기기 뒷면을 두 번 탭하여</string>
+    <string name="setting_action_title" product="tablet">태블릿 뒷면을 두 번 탭하여</string>
+    <string name="launch_settings_activity_title">빠른 탭 설정</string>
+    <string name="setting_app_selection_help_text" product="default">휴대전화 뒷면을 두 번 탭하여 열 앱을 선택하세요. 선택한 앱을 제거하면 다른 앱을 선택할 때까지 빠른 탭이 작동하지 않습니다.</string>
+    <string name="setting_app_selection_help_text" product="device">기기 뒷면을 두 번 탭할 때 열 앱을 선택하세요. 선택한 앱을 삭제하면 다른 앱을 선택할 때까지 빠른 탭이 사용 중지됩니다.</string>
+    <string name="setting_app_selection_help_text" product="tablet">태블릿 뒷면을 두 번 탭할 때 열 앱을 선택하세요. 선택한 앱을 삭제하면 다른 앱을 선택할 때까지 빠른 탭이 사용 중지됩니다.</string>
+    <string name="setting_app_selection_help_text_disabled">이 기능을 사용하려면 먼저 빠른 탭을 사용 설정하세요.</string>
+    <string name="setting_app_shortcut_selection_help_text">빠른 탭을 사용할 때 실행할 작업을 선택하세요. 나중에 설정에서 변경할 수 있습니다.</string>
+    <string name="setting_app_shortcut_selection_help_text_disabled">@string/setting_app_selection_help_text_disabled</string>
+    <string name="radio_button_extra_widget_a11y_label"><xliff:g id="action">%1$s</xliff:g> 설정</string>
+    <string name="setting_action_launch_summary_no_selection">선택한 앱 없음</string>
+    <string name="setting_action_launch_summary_not_installed">앱이 설치되지 않음</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">스크린샷 촬영</string>
+    <string name="action_assistant_name">디지털 어시스턴트에 액세스</string>
+    <string name="action_media_name">미디어 재생 또는 일시중지</string>
+    <string name="action_overview_name">최근 앱 보기</string>
+    <string name="action_notifications_name">알림 표시</string>
+    <string name="action_flashlight_name">손전등 전환</string>
+    <string name="action_launch_name">앱 열기</string>
+    <string name="action_screenshot_value">screenshot</string>
+    <string name="action_assistant_value">assistant</string>
+    <string name="action_media_value">media</string>
+    <string name="action_overview_value">overview</string>
+    <string name="action_notifications_value">notifications</string>
+    <string name="action_flashlight_value">flashlight</string>
+    <string name="action_launch_value">launch</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">빠른 탭이 감지되었습니다!</string>
+</resources>

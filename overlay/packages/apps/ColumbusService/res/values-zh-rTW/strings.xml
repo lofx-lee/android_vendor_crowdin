@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">快速輕觸即可執行操作</string>
+    <string name="settings_entry_summary_on">開啟 / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">關閉</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">使用「快速輕觸」手勢</string>
+    <string name="setting_action_title" product="default">輕觸手機背面兩下時</string>
+    <string name="launch_settings_activity_title">「快速輕觸」設定</string>
+    <string name="setting_app_selection_help_text" product="default">選取輕觸手機背面兩下時要開啟的應用程式。如果你解除安裝這個應用程式，「快速輕觸」將一併停用。你必須選取其他應用程式，才能繼續使用這個手勢。</string>
+    <string name="setting_app_shortcut_selection_help_text">選取透過「快速輕觸」手勢開啟這個應用程式時要執行的操作。</string>
+    <string name="radio_button_extra_widget_a11y_label">「<xliff:g id="action">%1$s</xliff:g>」設定</string>
+    <string name="setting_action_launch_summary_no_selection">未選取任何應用程式</string>
+    <string name="setting_action_launch_summary_not_installed">未安裝該應用程式</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">擷取螢幕截圖</string>
+    <string name="action_assistant_name">使用數位助理</string>
+    <string name="action_media_name">播放或暫停媒體</string>
+    <string name="action_overview_name">查看最近使用的應用程式</string>
+    <string name="action_notifications_name">顯示通知</string>
+    <string name="action_flashlight_name">開啟/關閉手電筒</string>
+    <string name="action_launch_name">開啟應用程式</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">系統偵測到「快速輕觸」！</string>
+</resources>

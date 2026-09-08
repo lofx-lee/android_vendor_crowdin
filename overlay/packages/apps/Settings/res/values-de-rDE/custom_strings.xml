@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Erweiterte Einstellungen</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Debugging mit Root-Rechten</string>
+    <string name="adb_enable_summary_root">Android-Debugging als Root ausführen erlauben</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <string name="show_dev_countdown_cm">{count, plural,
+      =1      {Du bist jetzt noch # Schritt davon entfernt, die Entwicklereinstellungen zu aktivieren.}
+      other   {Du bist jetzt noch # Schritte davon entfernt, die Entwicklereinstellungen zu aktivieren.}
+    }</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_cm">Du hast die Entwicklereinstellungen aktiviert!</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_cm">Nicht nötig, du hast die Entwicklereinstellungen bereits aktiviert.</string>
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Tippen zum Ausschalten</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Zweimal auf die Statusleiste oder den Sperrbildschirm tippen, um das Display auszuschalten</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">VPN für verbundene Geräte verwenden</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Wenn dieses Gerät ein VPN verwendet, nutzen alle mit dem Hotspot verbundenen Geräte dasselbe VPN</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Layout mischen</string>
+    <string name="unlock_scramble_pin_layout_summary">PIN-Layout beim Entsperren des Geräts zufällig anordnen</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Reines Schwarz</string>
+    <string name="berry_black_theme_summary">Rein schwarzer Hintergrund für das dunkle Design</string>
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">Assisted GPS verwenden</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Satelliten-Hilfsdaten aus dem Internet herunterladen, was die GPS-Startzeit deutlich verbessern kann. Für Notrufe ist Assisted GPS immer erlaubt.</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technologie</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Zustand</string>
+    <string name="battery_health_good">Gut</string>
+    <string name="battery_health_overheat">Überhitzung</string>
+    <string name="battery_health_dead">Leer</string>
+    <string name="battery_health_over_voltage">Überspannung</string>
+    <string name="battery_health_unspecified_failure">Unspezifizierter Fehler</string>
+    <string name="battery_health_cold">Kalt</string>
+    <string name="battery_health_unknown">Unbekannt</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperatur</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Spannung</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Vorgesehene Kapazität</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximale Kapazität</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Warnung: Diese Option kann zu Fehlern führen bis hin zum Datenverlust und wird deshalb nicht empfohlen!</string>
+    <!-- Copy to clipboard -->
+    <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Gedrückt halten zum Kopieren</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Funkinformationen</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Kopf hoch</string>
+    <string name="heads_up_notifications_enabled_summary">Wichtige Benachrichtigungen in einem kleinem, schwebendem Fenster anzeigen</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimiert deinen Bildschirm basierend auf der Tageszeit und den Umgebungsbedingungen, um die Lesbarkeit zu verbessern und die Ermüdung der Augen zu mildern</string>
+    <string name="live_display_mode">Bildschirmmodus</string>
+    <string name="live_display_color_temperature_title">Farbtemperatur</string>
+    <string name="live_display_color_temperature_summary">Tag: <xliff:g id="day_temperature">%1$d</xliff:g> K Nacht: <xliff:g id="night_temperature">%2$d</xliff:g> K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g> K</string>
+    <string name="live_display_day">Tag</string>
+    <string name="live_display_night">Nacht</string>
+    <string name="live_display_outdoor_mode_title">Automatischer Außen-Modus</string>
+    <string name="live_display_outdoor_mode_summary">Bei grellem Sonnenlicht Helligkeit und Sättigung automatisch erhöhen</string>
+    <string name="live_display_anti_flicker_title">Anti-Flimmern</string>
+    <string name="live_display_anti_flicker_summary">Verhindert starkes Flimmern und reduziert die Belastung der Augen bei schlechten Lichtverhältnissen. Kann die Farbgenauigkeit verschlechtern und die Art und Weise, wie einige Elemente angezeigt werden, beeinträchtigen.</string>
+    <string name="live_display_low_power_title">Akkuverbrauch reduzieren</string>
+    <string name="live_display_low_power_summary">Anpassen der Anzeige für den geringsten Akkuverbrauch ohne Beeinträchtigungen</string>
+    <string name="live_display_enhance_color_title">Farben verbessern</string>
+    <string name="live_display_enhance_color_summary">Verbessert die Farben von Hauttönen, Landschaften und von anderen Bildern</string>
+    <string name="live_display_color_profile_title">Farbprofil</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Genaue Farbdarstellung und helle Weißtöne</string>
+    <string name="live_display_color_profile_natural_title">Natürlich</string>
+    <string name="live_display_color_profile_natural_summary">Realistische Farben und Hauttöne</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamisch</string>
+    <string name="live_display_color_profile_dynamic_summary">Verbesserte Farben und helleres Weiß</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Perfekte Farbwiedergabe für Videos</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Tiefes Rot für den Erhalt der Nachtsicht</string>
+    <string name="live_display_color_profile_photography_title">Fotografie</string>
+    <string name="live_display_color_profile_photography_summary">Perfekte Farbwiedergabe für Fotos</string>
+    <string name="live_display_color_profile_basic_title">Einfach</string>
+    <string name="live_display_color_profile_basic_summary">Display unkalibriert verwenden</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
+    <string name="live_display_color_profile_adaptive_summary">Farben an Umgebungsbedingungen anpassen</string>
+    <string name="live_display_color_profile_reading_title">Lesen</string>
+    <string name="live_display_color_profile_reading_summary">Wärmere Farben für weniger Augenbelastung</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Farben passend zum sRGB-Farbraum</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Farben passend zum DCI-P3-Farbraum</string>
+    <string name="live_display_reading_mode_title">Lesemodus</string>
+    <string name="live_display_reading_mode_summary">Graustufen-Modus zum Langzeit-Lesen</string>
+    <string name="color_calibration_title">Farbkalibrierung</string>
+    <string name="color_calibration_summary">Displayfarben kalibrieren</string>
+    <string name="color_red_title">Rot</string>
+    <string name="color_green_title">Grün</string>
+    <string name="color_blue_title">Blau</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Bildanpassung</string>
+    <string name="picture_adjustment_summary">Farbton, Sättigung, Leuchtdichte und Kontrast anpassen</string>
+    <string name="adj_hue_title">Farbton</string>
+    <string name="adj_saturation_title">Sättigung</string>
+    <string name="adj_intensity_title">Leuchtdichte</string>
+    <string name="adj_contrast_title">Kontrast</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
+    <string name="high_touch_sensitivity_summary">Empfindlichkeit des Touchscreens erhöhen, damit er mit Handschuhen bedient werden kann</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touchscreen-Hovering</string>
+    <string name="touchscreen_hovering_summary">Ermöglicht das Schweben über dem Bildschirm wie mit einer Maus in Webbrowsern, Remote-Desktops usw.</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Hohe Touch-Abtastrate</string>
+    <string name="high_touch_polling_rate_summary">Abtastrate des Touchscreens erhöhen</string>
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Ladekontrolle</string>
+    <string name="charging_control_summary">Ladezeitplan und Ladegrenzen für den Akku anpassen</string>
+    <string name="charging_control_enable_title">Ladekontrolle aktivieren</string>
+    <string name="charging_control_mode_title">Lademodus</string>
+    <string name="charging_control_mode_auto_title">Automatischer Zeitplan</string>
+    <string name="charging_control_mode_auto_summary">Startzeitpunkt für den Ladevorgang anhand der eingestellten Alarme automatisch bestimmen</string>
+    <string name="charging_control_mode_custom_title">Benutzerdefinierter Zeitplan</string>
+    <string name="charging_control_mode_custom_summary">Zielzeit bis zur vollständigen Aufladung festlegen</string>
+    <string name="charging_control_mode_limit_title">Ladung begrenzen</string>
+    <string name="charging_control_mode_limit_summary">Aufladung auf einen bestimmten Prozentsatz begrenzen</string>
+    <string name="charging_control_start_time_title">Startzeit</string>
+    <string name="charging_control_start_time_summary">Ladekontrolle wird aktiviert, wenn du nach %s mit dem Laden beginnst</string>
+    <string name="charging_control_target_time_title">Zielzeit bis zur vollständigen Aufladung</string>
+    <string name="charging_control_target_time_summary">Akku wird bis %s vollständig geladen sein</string>
+    <string name="charging_control_limit_title">Begrenzung</string>
+    <string name="charging_control_limit_summary">Aktuelles Limit: %d%%</string>
+    <string name="reset">Zurücksetzen</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Suche den Fingerabdrucksensor auf der Vorderseite deines Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Suche den Fingerabdrucksensor auf der Vorderseite deines Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Suche den Fingerabdrucksensor auf der Vorderseite deines Smartphones.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Suche den Fingerabdrucksensor auf der Rückseite deines Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Suche den Fingerabdrucksensor auf der Rückseite deines Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Suche den Fingerabdrucksensor auf der Rückseite deines Smartphones.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Suche den Fingerabdrucksensor an der Seite deines Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Suche den Fingerabdrucksensor an der Seite deines Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Suche den Fingerabdrucksensor an der Seite deines Smartphones.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Berühre den Sensor auf der Vorderseite deines Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Berühre den Sensor auf der Vorderseite deines Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Berühre den Sensor auf der Vorderseite deines Smartphones.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Berühre den Sensor auf der Rückseite deines Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Berühre den Sensor auf der Rückseite deines Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Berühre den Sensor auf der Rückseite deines Smartphones.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Berühre den Sensor an der Seite deines Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Berühre den Sensor an der Seite deines Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Berühre den Sensor an der Seite deines Smartphones.</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Mustergröße auswählen</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Musterfehler anzeigen</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Musterpunkte anzeigen</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Bildschirmausrichtung</string>
+    <string name="display_rotation_enabled">Automatisch drehen ist aktiviert</string>
+    <string name="display_rotation_disabled">Automatisch drehen ist deaktiviert</string>
+    <string name="display_rotation_unit">Grad</string>
+    <string name="display_rotation_category_title">Bei Drehung um</string>
+    <string name="display_rotation_0_title">0 Grad</string>
+    <string name="display_rotation_90_title">90 Grad</string>
+    <string name="display_rotation_180_title">180 Grad</string>
+    <string name="display_rotation_270_title">270 Grad</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Einmalige automatische Helligkeit</string>
+    <string name="auto_brightness_one_shot_summary">Die Helligkeit wird nur beim Einschalten des Bildschirms angepasst</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatisch zwischen 5G und 4G wechseln, um den Akkuverbrauch zu senken</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Ein/Aus-Menü</string>
+    <string name="lockscreen_enable_power_menu_summary">Zugriff auf das Ein/Aus-Menü auf dem gesicherten Sperrbildschirm erlauben</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Schnelle Taschenlampe</string>
+    <string name="power_button_torch_summary">Bei ausgeschaltetem Bildschirm schaltet langes Drücken der Ein/Aus-Taste die Taschenlampe ein</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
+    <string name="volume_button_music_control_summary">Bei ausgeschaltetem Bildschirm wechselt langes Drücken der Lautstärketasten den Musiktitel</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Modi durchschalten</string>
+    <string name="prevent_ringing_option_cycle_summary">An (Modi durchschalten)</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Beim Anschließen aufwecken</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Bildschirm einschalten, wenn eine Stromquelle angeschlossen oder getrennt wird</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Sichere Fenster-Flags ignorieren</string>
+    <string name="ignore_window_secure_summary">Screenshot- und Bildschirmaufnahme-Beschränkungen für alle Apps entfernen. Das kann in manchen Fällen praktisch sein, aber zu Datenschutzlecks führen.</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationsoptionen während Anrufen</string>
+    <string name="incall_vibrate_connect_title">Bei Verbindung vibrieren</string>
+    <string name="incall_vibrate_call_wait_title">Bei Anklopfen vibrieren</string>
+    <string name="incall_vibrate_disconnect_title">Bei Trennung vibrieren</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Ambient Display anzeigen</string>
+    <string name="doze_gesture_ambient_summary">Ambient Display anzeigen, statt den Bildschirm vollständig aufzuwecken</string>
+    <string name="gesture_wake_ambient">Ambient Display anzeigen</string>
+    <string name="gesture_wake">Vollständig aufwecken</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient Display</string>
+    <string name="doze_enabled_summary">Legt fest, ob die Funktionen des Doze-Pakets aktiviert werden</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Bildwiederholrate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (adaptiv)</string>
+    <string name="refresh_rate_vrr_title">Adaptive Bildwiederholrate</string>
+    <string name="refresh_rate_vrr_summary">Bildwiederholrate automatisch senken, wenn das Display inaktiv ist, um Energie zu sparen. Kann auf manchen Displays zu Flackern oder Farbverschiebungen führen</string>
+    <string name="refresh_rate_footer">Eine höhere Bildwiederholrate macht die Darstellung flüssiger, erhöht aber den Energieverbrauch</string>
+    <string name="keywords_refresh_rate">bildwiederholrate, hz, flüssig, maximal, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Bildwiederholrate reduzieren</string>
+    <string name="battery_saver_refresh_rate_summary">Bei aktivem Energiesparmodus 60 Hz Bildwiederholrate verwenden, um Energie zu sparen</string>
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_entry_purpose">Ermöglicht das Aktivieren oder Deaktivieren des adaptiven Akkus, der den Akkuverbrauch von Apps anhand des Nutzungsverhaltens optimiert, um die Akkulaufzeit zu verlängern.</string>
+    <string name="adaptive_battery_management_enabled_purpose">Legt fest, ob der adaptive Akku aktiviert ist, um den Akkuverbrauch anhand der App-Nutzungsmuster zu optimieren.</string>
+    <string name="adaptive_battery_switch_title">Funktion „Intelligenter Akku“ verwenden</string>
+    <string name="basic_battery_saver_title">Standard-Energiesparmodus</string>
+    <string name="basic_battery_saver_summary">Visuelle Effekte und Hintergrundaktivitäten werden eingeschränkt. Falls das dunkle Design deaktiviert ist, wird es aktiviert.</string>
+    <string name="basic_battery_saver_purpose">Aktiviert den Standard-Energiesparmodus, der visuelle Effekte und Hintergrundaktivitäten einschränkt</string>
+    <string name="battery_saver_reminder_category">Erinnerungen</string>
+    <string name="battery_saver_reminder_switch_title">Erinnerungen zum Energiesparmodus</string>
+    <string name="battery_saver_reminder_switch_summary">Bei niedrigem Akkustand erhältst du Erinnerungen</string>
+    <string name="battery_saver_schedule_category">Zeitplan</string>
+    <string name="battery_saver_schedule_switch_title">Aktivieren nach Akkustand</string>
+    <string name="battery_saver_schedule_switch_summary">Der Energiesparmodus wird aktiviert, sobald der Akkustand auf den festgelegten Wert fällt</string>
+    <string name="battery_saver_schedule_purpose">Ermöglicht das Konfigurieren von Zeitplänen für den Energiesparmodus, einschließlich automatischer Aktivierung bei einem bestimmten Akkustand und automatischer Deaktivierung nach dem Laden, sowie die Verwaltung von Erinnerungen bei niedrigem Akkustand.</string>
+    <string name="battery_schedule_title">Zeitplan und Erinnerungen</string>
+    <string name="battery_schedule_summary">Festlegen, wann der Energiesparmodus aktiviert wird</string>
+    <string name="extreme_battery_saver_title">Extrem-Energiesparmodus</string>
+    <string name="extreme_battery_saver_summary">Übernimmt alle oben aufgeführten Änderungen. Außerdem werden weniger wichtige Apps und deren Benachrichtigungen pausiert.</string>
+    <string name="extreme_battery_saver_purpose">Aktiviert den extremen Energiesparmodus, der nicht unbedingt benötigte Apps und Benachrichtigungen pausiert</string>
+    <string name="low_power_mode_reminder_enabled_purpose">Legt fest, ob bei niedrigem Akkustand Erinnerungsbenachrichtigungen angezeigt werden</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Fingerabdruck immer aktiv</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Ermöglicht das Entsperren bei ausgeschaltetem Bildschirm.\nKann zu versehentlichem Aufwecken führen.</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Verborgenes Netzwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Der Name deines mobilen Hotspots wird nicht in der Liste der verfügbaren WLAN-Netzwerke angezeigt.</string>
+    <string name="wifi_hotspot_client_manager_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_client_manager_summary">Mit dem Hotspot verbundene Geräte anzeigen und verwalten</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mit dem Hotspot verbundene Geräte anzeigen</string>
+    <string name="wifi_hotspot_client_limit_title">Maximale Anzahl verbundener Geräte</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blockierte Geräte</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Gerät blockieren</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Dadurch wird \"<xliff:g id="device_name">%1$s</xliff:g>\" von diesem Gerät getrennt und zur Sperrliste hinzugefügt</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Blockierung des Geräts aufheben</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Das Gerät \"<xliff:g id="device_name">%1$s</xliff:g>\" kann sich wieder mit diesem Hotspot verbinden</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Derzeit sind keine Clients verfügbar. Verbundene und blockierte Geräte werden hier aufgelistet, sobald sie verfügbar sind.</string>
+    <!-- Status bar -->
+    <string name="icon_manager_title">Statusleiste</string>
+    <string name="icon_manager_summary">Sichtbarkeit der Statusleistensymbole steuern</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Apps zwingen, den Notch-Bereich zu ignorieren</string>
+    <string name="app_list_search">Suchen</string>
+    <string name="app_list_search_apps">Apps suchen</string>
+    <string name="app_list_loading">Apps werden geladen…</string>
+    <!-- Keybox Data -->
+    <string name="keybox_data_title">Keybox-XML konfigurieren</string>
+    <string name="keybox_data_summary">Systemweites Spoofing der Schlüsselattestierung konfigurieren. Tippe auf „Löschen“, um auf die Standardwerte zurückzusetzen.</string>
+    <!-- Pif Data -->
+    <string name="pif_data_title">PIF-JSON konfigurieren</string>
+    <string name="pif_data_summary">PIF-JSON konfigurieren, mit dem Eigenschaften für GMS und den Play Store gespooft werden. Tippe auf „Löschen“, um zu den dynamischen Standardwerten zurückzukehren.</string>
+    <!-- Spoofing toggle -->
+    <string name="cert_overlay_title">Zertifizierte Eigenschaften spoofen</string>
+    <string name="cert_overlay_summary">PI-zertifizierte Eigenschaften gegenüber GMS spoofen\nErfordert einen Neustart</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot-Ton</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Erweiterten Neustart aktivieren</string>
+    <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Ein/Aus-Menü anzeigen</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen für Screenshot</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen, um einen Screenshot aufzunehmen</string>
+    <!-- Status bar - Network Traffic -->
+    <string name="network_traffic_settings_title">Datenverkehr-Anzeige</string>
+    <string name="network_traffic_settings_summary">Aktuellen Datenverkehr in der Statusleiste anzeigen</string>
+    <string name="network_traffic_mode_title">Anzeigemodus</string>
+    <string name="network_traffic_mode_disable">Deaktiviert</string>
+    <string name="network_traffic_mode_up">Nur Upload</string>
+    <string name="network_traffic_mode_down">Nur Download</string>
+    <string name="network_traffic_mode_all">Upload und Download</string>
+    <string name="network_traffic_autohide">Automatisch ausblenden</string>
+    <string name="network_traffic_autohide_summary">Datenverkehr-Anzeige bei Inaktivität ausblenden</string>
+    <string name="network_traffic_units_title">Einheiten der Datenübertragungsraten</string>
+    <string name="network_traffic_units_kilobits">Kilobits pro Sekunde (kbit/s)</string>
+    <string name="network_traffic_units_megabits">Megabits pro Sekunde (Mbit/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobyte pro Sekunde (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabyte pro Sekunde (MB/s)</string>
+    <string name="network_traffic_units_auto">Automatisch (kB/s oder MB/s)</string>
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Suchanfrage löschen</string>
+    <string name="language_picker_page">Seite mit Sprachauswahl</string>
+    <string name="search_region">Regionen suchen</string>
+    <string name="search_region_page">Seite für Suchregion</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">Pausieren der Animation</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Nach Updates suchen</string>
+    <string name="play_application_update_entry_title">App-Updates</string>
+    <string name="software_update_banner_checking">Suche nach Updates…</string>
+    <string name="software_update_banner_up_to_date">Dein Gerät ist auf dem neuesten Stand</string>
+    <string name="software_update_banner_update_available">Updates verfügbar</string>
+    <string name="software_update_can_be_updated_header">Neue und verbesserte Funktionen für dein Pixel</string>
+    <string name="software_update_entry_title">Softwareupdates</string>
+    <string name="software_update_pending_update_summary">Aktualisierung ausstehend</string>
+    <string name="software_update_settings_v2_purpose">Bietet eine zentrale Übersicht, in der Nutzer Updates für das Betriebssystem, Google Play-Systemkomponenten und installierte Apps überwachen und starten können, um Sicherheit und Leistung des Geräts zu gewährleisten.</string>
+    <string name="software_update_up_to_date_header">Dein Pixel ist auf dem neuesten Stand</string>
+    <string name="software_update_up_to_specific_date_summary">Aktualisiert am %1$s</string>
+    <string name="system_update_entry_title">Systemupdate</string>
+</resources>

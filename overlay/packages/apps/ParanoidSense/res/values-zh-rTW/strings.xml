@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Enroll activity -->
+    <string name="face_enroll_title">將臉部置於取景框中央</string>
+    <string name="face_enroll_description">保持靜止，並確保所在環境光線充足</string>
+    <!-- Try Again activity -->
+    <string name="face_try_again_title">無法捕獲你的臉部</string>
+    <string name="face_try_again_description">點按下方重試。下次請確保所在環境光線充足，並且臉部沒有被遮擋</string>
+    <string name="btn_try_again">重試</string>
+    <!-- Vendor Messages -->
+    <string name="attr_light_dark">臉部需要更多光線</string>
+    <string name="attr_light_high">臉部光線過強</string>
+    <string name="attr_light_shadow">臉部陰影過多</string>
+    <string name="unlock_failed_face_blur">臉部過於模糊</string>
+    <string name="unlock_failed_face_large">臉部距離過近</string>
+    <string name="unlock_failed_face_multi">檢測到多張臉</string>
+    <string name="unlock_failed_face_not_complete">僅檢測到部分臉部</string>
+    <string name="unlock_failed_face_small">臉部距離過遠</string>
+</resources>

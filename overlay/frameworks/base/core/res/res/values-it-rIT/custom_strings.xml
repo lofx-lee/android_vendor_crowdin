@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Copia l\'URL del log di crash</string>
+    <string name="url_copy_success">URL copiato con successo</string>
+    <string name="url_copy_failed">Si è verificato un errore durante il caricamento del log su mkr/bin</string>
+    <!-- Alert slider proc nodes paths. -->
+    <!-- Charging speed strings -->
+    <string name="charging_speed">Velocità di ricarica</string>
+    <string name="charging_speed_slow">Lento</string>
+    <string name="charging_speed_fast">Veloce</string>
+    <string name="charging_speed_super_fast">Super veloce</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">Automatico</string>
+    <string name="live_display_auto_summary">Regola automaticamente la temperatura del colore dello schermo dopo il tramonto e l\'alba</string>
+    <string name="live_display_off">Spento</string>
+    <string name="live_display_off_summary">Disabilita tutte le regolazioni</string>
+    <string name="live_display_day">Giorno</string>
+    <string name="live_display_day_summary">Usa solo impostazioni giorno</string>
+    <string name="live_display_night">Notte</string>
+    <string name="live_display_night_summary">Utilizza solo impostazioni notte</string>
+    <string name="live_display_outdoor">All\'aperto (luce del sole)</string>
+    <string name="live_display_outdoor_summary">Utilizza solo le impostazioni all\'aperto</string>
+    <string name="live_display_hint">LiveDisplay può aiutare a ridurre l\'affaticamento degli occhi e aiuta a dormire la notte. Clicca qui per provarlo!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay spento.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modalità automatica.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modalità giorno.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modalità notte.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modalità all\'aperto.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay spento.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay cambiato in modalità automatica.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay cambiato in modalità giorno.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay cambiato in modalità notte.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay cambiato in modalità all\'aperto.</string>
+    <!-- Health interface -->
+    <string name="charging_control_notification_channel">Controllo della ricarica</string>
+    <string name="charging_control_notification_title">Controllo della ricarica</string>
+    <string name="charging_control_notification_cancel_once">Annulla</string>
+    <string name="charging_control_notification_content_limit">La batteria verrà caricata fino al %1$d%%</string>
+    <string name="charging_control_notification_content_limit_reached">La batteria è carica al %1$d%%</string>
+    <string name="charging_control_notification_content_target">La batteria sarà completamente carica alle %1$s</string>
+    <string name="charging_control_notification_content_target_reached">La batteria è carica</string>
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Le chiamate e le notifiche squilleranno</string>
+    <!-- Status bar network traffic monitor strings -->
+    <string name="kilobitspersecond_short">kb/s</string>
+    <string name="megabitspersecond_short">Mb/s</string>
+    <string name="kilobytespersecond_short">kB/s</string>
+    <string name="megabytespersecond_short">MB/s</string>
+</resources>

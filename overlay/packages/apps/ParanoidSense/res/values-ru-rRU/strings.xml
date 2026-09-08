@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paranoid Sense</string>
+    <!-- Enroll activity -->
+    <string name="face_enroll_title">Отцентрируйте свое лицо в камере</string>
+    <string name="face_enroll_description">Не двигайтесь и убедитесь, что вы находитесь в хорошо освещенном месте</string>
+    <!-- Try Again activity -->
+    <string name="face_try_again_title">Не удалось захватить ваше лицо</string>
+    <string name="face_try_again_description">Нажмите ниже, чтобы попробовать еще раз. В следующий раз убедитесь, что вы находитесь в хорошо освещенном месте и ничто не закрывает ваше лицо</string>
+    <string name="btn_try_again">Попробовать снова</string>
+    <!-- Vendor Messages -->
+    <string name="attr_light_dark">Лицу нужно больше света</string>
+    <string name="attr_light_high">На лице слишком много света</string>
+    <string name="attr_light_shadow">На лице слишком много теней</string>
+    <string name="unlock_failed_face_blur">Лицо слишком размыто</string>
+    <string name="unlock_failed_face_large">Лицо слишком близко</string>
+    <string name="unlock_failed_face_multi">Обнаружено слишком много лиц</string>
+    <string name="unlock_failed_face_not_complete">Обнаружена лишь часть лица</string>
+    <string name="unlock_failed_face_small">Лицо слишком далеко</string>
+</resources>

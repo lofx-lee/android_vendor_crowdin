@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Button that copies the url to the log of a crashed application -->
+    <!-- Alert slider proc nodes paths. -->
+    <!-- Charging speed strings -->
+    <string name="charging_speed">மின்னேற்ற விரைவு</string>
+    <string name="charging_speed_slow">மெதுவாக</string>
+    <string name="charging_speed_fast">வேகம்</string>
+    <string name="charging_speed_super_fast">மிக விரைவாக</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">தானியங்கு</string>
+    <string name="live_display_auto_summary">ஞாயிறு மறைவிற்கும், எழுச்சிக்கும் பிறகு திரையின் வண்ண வெப்பநிலையைத் தானாகவே சரிசெய்க</string>
+    <string name="live_display_off">அனை</string>
+    <string name="live_display_off_summary">அனைத்து மாற்றங்களையும் முடக்குக</string>
+    <string name="live_display_day_summary">பகல் அமைப்புகளை மட்டும் பயன்படுத்துக</string>
+    <string name="live_display_night_summary">இரவு அமைப்புகளை மட்டும் பயன்படுத்துக</string>
+    <string name="live_display_outdoor">வெளியிடம் (ஒளிர்கிற ஞாயிறு)</string>
+    <string name="live_display_outdoor_summary">வெளிப்புற அமைப்புகளை மட்டும் பயன்படுத்துக</string>
+    <string name="live_display_hint">நேரடிக்காட்சி கண் சோர்வைக் குறைத்து இரவில் தூங்க உதவும். இதை முயற்சி செய்ய இங்குச் சொடுக்குக!</string>
+    <string name="accessibility_quick_settings_live_display_off">நேரடிக்காட்சி முடக்கத்தில்.</string>
+    <string name="accessibility_quick_settings_live_display_auto">நேரடிக்காட்சி: தானியங்குப் பயன்முறை.</string>
+    <string name="accessibility_quick_settings_live_display_day">நேரடிக்காட்சி: பகல் பயன்முறை.</string>
+    <string name="accessibility_quick_settings_live_display_night">நேரடிக்காட்சி: இரவுப் பயன்முறை.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">நேரடிக்காட்சி: வெளிப்புற பயன்முறை.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">நேரடிக்காட்சி முடக்கப்பட்டது.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">நேரடிக்காட்சி தானியங்குப் பயன்முறைக்கு மாற்றப்பட்டது.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">நேரடிக்காட்சி பகல் பயன்முறைக்கு மாற்றப்பட்டது.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">நேரடிக்காட்சி இரவுப் பயன்முறைக்கு மாற்றப்பட்டது.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">நேரடிக்காட்சி வெளிப்புற பயன்முறைக்கு மாற்றப்பட்டது.</string>
+    <!-- Health interface -->
+    <string name="charging_control_notification_channel">மின்னூட்டல் கட்டுப்பாடு</string>
+    <string name="charging_control_notification_title">மின்னூட்டல் கட்டுப்பாடு</string>
+    <string name="charging_control_notification_cancel_once">விலக்குக</string>
+    <string name="charging_control_notification_content_limit">மின்கலம் %1$d%% இற்கு மின்னூட்டப்படும்</string>
+    <string name="charging_control_notification_content_limit_reached">மின்கலம் %1$d%% இற்கு மின்னூட்டப்பட்டது</string>
+    <string name="charging_control_notification_content_target">%1$s இல் மின்கலம் முழுமையாக மின்னூட்டப்படும்</string>
+    <string name="charging_control_notification_content_target_reached">மின்கலம் மின்னூட்டப்பட்டது</string>
+    <!-- Cycle through ringer modes -->
+    <!-- Status bar network traffic monitor strings -->
+</resources>

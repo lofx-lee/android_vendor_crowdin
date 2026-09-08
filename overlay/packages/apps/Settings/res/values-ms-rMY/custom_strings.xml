@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2021 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <!-- Android debugging as root -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <!-- Hotspot extras -->
+    <!-- PIN scramble -->
+    <!-- Black theme for dark mode -->
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <!-- Battery Info: Technology -->
+    <!-- Battery Info: Health -->
+    <!-- Battery Info: Temperature -->
+    <!-- Battery Info: Voltage -->
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <!-- Battery Info: Maximum Capacity -->
+    <!-- Warning message for the sd card setup -->
+    <!-- Copy to clipboard -->
+    <!-- Radio Info -->
+    <!-- Heads-up -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- High touch polling rate -->
+    <!-- Charging control settings -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Display : Rotation -->
+    <!-- One shot automatic brightness -->
+    <!-- Smart 5G -->
+    <!-- Power menu on secure lockscreen -->
+    <!-- Torch Power button gestures -->
+    <!-- Volume button music control -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Wake on plug -->
+    <!-- Ignore window secure -->
+    <!-- Incall vibrate options -->
+    <!-- Ambient wake toggles -->
+    <!-- Doze enablement -->
+    <!-- Refresh rate -->
+    <!-- Battery saver refresh rate -->
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Gunakan Bateri Boleh Suai</string>
+    <string name="basic_battery_saver_title">Penjimat Bateri Standard</string>
+    <string name="basic_battery_saver_summary">Mengehadkan kesan visual dan aktiviti latar. Menghidupkan tema gelap jika belum dihidupkan.</string>
+    <string name="battery_saver_reminder_category">Peringatan</string>
+    <string name="battery_saver_reminder_switch_title">Peringatan Penjimat Bateri</string>
+    <string name="battery_saver_reminder_switch_summary">Dapatkan peringatan apabila kuasa bateri rendah</string>
+    <string name="battery_saver_schedule_category">Jadual</string>
+    <string name="battery_saver_schedule_switch_title">Hidupkan berdasarkan aras kuasa bateri</string>
+    <string name="battery_saver_schedule_switch_summary">Penjimat Bateri dihidupkan apabila kuasa bateri mencapai aras yang anda tetapkan</string>
+    <string name="battery_schedule_title">Jadual dan peringatan</string>
+    <string name="battery_schedule_summary">Urus masa Penjimat Bateri dihidupkan</string>
+    <string name="extreme_battery_saver_title">Penjimat Bateri Ekstrem</string>
+    <string name="extreme_battery_saver_summary">Termasuk semua perubahan yang disenaraikan di atas. Juga menjeda apl tidak penting dan pemberitahuan apl tersebut.</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <!-- Hotspot -->
+    <!-- Status bar -->
+    <string name="icon_manager_title">Bar status</string>
+    <!-- Notch: Full screen apps -->
+    <!-- Keybox Data -->
+    <!-- Pif Data -->
+    <!-- Spoofing toggle -->
+    <!-- Screenshot shutter -->
+    <!-- Global Actions -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Status bar - Network Traffic -->
+    <!-- Locale Picker -->
+    <string name="clear_search_query_description">Kosongkan pertanyaan</string>
+    <string name="language_picker_page">Halaman pemilih bahasa</string>
+    <string name="search_region">Cari rantau</string>
+    <string name="search_region_page">Halaman rantau carian</string>
+    <!-- Expressive QR -->
+    <string name="wifi_qr_code_animation_control">jeda animasi</string>
+    <!-- System Updates -->
+    <string name="play_application_detail_indication_summary">Semak kemaskinian</string>
+    <string name="play_application_update_entry_title">Kemaskinian apl</string>
+    <string name="software_update_banner_checking">Menyemak kemaskinian…</string>
+    <string name="software_update_banner_up_to_date">Peranti anda telah dikemaskinikan</string>
+    <string name="software_update_banner_update_available">Kemaskinian tersedia</string>
+    <string name="software_update_can_be_updated_header">Kemas kinikan Pixel anda</string>
+    <string name="software_update_entry_title">Kemaskinian perisian</string>
+    <string name="software_update_pending_update_summary">Kemaskinian belum selesai</string>
+    <string name="software_update_up_to_date_header">Pixel anda telah dikemaskinikan</string>
+    <string name="software_update_up_to_specific_date_summary">Dikemaskinikan pada %1$s</string>
+    <string name="system_update_entry_title">Kemaskinian sistem</string>
+</resources>

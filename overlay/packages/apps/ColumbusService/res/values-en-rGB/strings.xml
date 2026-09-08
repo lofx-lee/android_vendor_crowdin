@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <!-- Entry points in Settings -->
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_app_shortcut_selection_help_text">Select what happens when you open this app using Quick Tap.</string>
+    <!-- Actions -->
+    <string name="action_flashlight_name">Toggle torch</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">快速轻触服务</string>
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">快速轻触</string>
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">快速轻触即可执行操作</string>
+    <string name="settings_entry_summary_on">已开启 / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">已关闭</string>
+    <string name="settings_search_keywords">快速轻触，背部轻击，单击，手势，助手，智能助手</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">启用快速轻触</string>
+    <string name="setting_footer_content">要执行操作，请在手机后盖靠近中间的位置轻点两下</string>
+    <string name="setting_sensitivity_title">灵敏度</string>
+    <string name="setting_sensitivity_light">轻按</string>
+    <string name="setting_sensitivity_heavy">长按</string>
+    <string name="setting_haptic_intensity_title">振动反馈强度</string>
+    <string name="setting_haptic_intensity_light">轻度</string>
+    <string name="setting_haptic_intensity_strong">重度</string>
+    <string name="setting_screen_off_title">屏幕关闭时允许</string>
+    <string name="setting_screen_off_summary">可能增加误触</string>
+    <string name="setting_screen_off_blocked_summary">被当前操作阻止</string>
+    <string name="setting_action_title" product="default">轻触手机背面两次时</string>
+    <string name="setting_action_title" product="device">轻触手机背面两次时</string>
+    <string name="setting_action_title" product="tablet">轻触手机背面两次时</string>
+    <string name="launch_settings_activity_title">“快速轻触”设置</string>
+    <string name="setting_app_selection_help_text" product="default">选择轻触手机背面两次可打开的应用。如果您卸载了该应用，“快速轻触”将会停用，直到您选择了其他应用为止。</string>
+    <string name="setting_app_selection_help_text" product="device">选择轻触手机背面两次可打开的应用。如果您卸载了该应用，“快速轻触”将会停用，直到您选择了其他应用为止。</string>
+    <string name="setting_app_selection_help_text" product="tablet">选择轻触手机背面两次可打开的应用。如果您卸载了该应用，“快速轻触”将会停用，直到您选择了其他应用为止。</string>
+    <string name="setting_app_selection_help_text_disabled">要使用此功能，您必须先启用快速轻触。</string>
+    <string name="setting_app_shortcut_selection_help_text">选择通过“快速轻触”打开该应用时要执行的操作。</string>
+    <string name="setting_app_shortcut_selection_help_text_disabled">应用选择已禁用，前往设置开启后才可选择目标应用</string>
+    <string name="radio_button_extra_widget_a11y_label">“<xliff:g id="action">%1$s</xliff:g>”设置</string>
+    <string name="setting_action_launch_summary_no_selection">未选择任何应用</string>
+    <string name="setting_action_launch_summary_not_installed">未安装该应用</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">截取屏幕截图</string>
+    <string name="action_assistant_name">访问数字助理</string>
+    <string name="action_media_name">播放或暂停媒体</string>
+    <string name="action_overview_name">查看最近用过的应用</string>
+    <string name="action_notifications_name">显示通知</string>
+    <string name="action_flashlight_name">开启/关闭手电筒</string>
+    <string name="action_launch_name">打开应用</string>
+    <string name="action_screenshot_value">屏幕截图</string>
+    <string name="action_assistant_value">助理</string>
+    <string name="action_media_value">媒体</string>
+    <string name="action_overview_value">概览</string>
+    <string name="action_notifications_value">通知</string>
+    <string name="action_flashlight_value">手电筒</string>
+    <string name="action_launch_value">启动</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">检测到“快速轻触”手势！</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Layanan Quick Tap</string>
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">Quick Tap</string>
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Ketuk Cepat untuk memulai tindakan</string>
+    <string name="settings_entry_summary_on">Aktif / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Nonaktif</string>
+    <string name="settings_search_keywords">Quick Tap, ketuk belakang, ketuk, gestur, asisten, assistant</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">Gunakan Ketuk Cepat</string>
+    <string name="setting_footer_content">Untuk melakukan tindakan, ketuk bagian belakang ponsel dua kali di dekat bagian tengah</string>
+    <string name="setting_sensitivity_title">Sensitivitas</string>
+    <string name="setting_sensitivity_light">Ketukan ringan</string>
+    <string name="setting_sensitivity_heavy">Ketukan kuat</string>
+    <string name="setting_haptic_intensity_title">Intensitas respons haptik</string>
+    <string name="setting_haptic_intensity_light">Ringan</string>
+    <string name="setting_haptic_intensity_strong">Kuat</string>
+    <string name="setting_screen_off_title">Izinkan saat layar mati</string>
+    <string name="setting_screen_off_summary">Dapat meningkatkan pemicu yang tidak disengaja</string>
+    <string name="setting_screen_off_blocked_summary">Diblokir oleh tindakan saat ini</string>
+    <string name="setting_action_title" product="default">Ketuk bagian belakang ponsel dua kali untuk</string>
+    <string name="setting_action_title" product="device">Ketuk bagian belakang perangkat dua kali untuk</string>
+    <string name="setting_action_title" product="tablet">Ketuk bagian belakang tablet dua kali untuk</string>
+    <string name="launch_settings_activity_title">Setelan Ketuk Cepat</string>
+    <string name="setting_app_selection_help_text" product="default">Pilih aplikasi yang akan dibuka saat Anda mengetuk dua kali bagian belakang ponsel. Jika aplikasi yang dipilih diuninstal, Ketuk Cepat akan dinonaktifkan hingga Anda memilih aplikasi lain.</string>
+    <string name="setting_app_selection_help_text" product="device">Pilih aplikasi yang akan dibuka saat Anda mengetuk bagian belakang perangkat dua kali. Jika Anda menghapus aplikasi tersebut, Quick Tap akan nonaktif sampai Anda memilih aplikasi lain.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Pilih aplikasi yang akan dibuka saat Anda mengetuk bagian belakang tablet dua kali. Jika Anda menghapus aplikasi tersebut, Quick Tap akan nonaktif sampai Anda memilih aplikasi lain.</string>
+    <string name="setting_app_selection_help_text_disabled">Untuk menggunakan fitur ini, Anda harus mengaktifkan Quick Tap terlebih dahulu.</string>
+    <string name="setting_app_shortcut_selection_help_text">Pilih yang akan terjadi saat Anda membuka aplikasi ini menggunakan Ketuk Cepat.</string>
+    <string name="radio_button_extra_widget_a11y_label">Setelan <xliff:g id="action">%1$s</xliff:g></string>
+    <string name="setting_action_launch_summary_no_selection">Tidak ada aplikasi yang dipilih</string>
+    <string name="setting_action_launch_summary_not_installed">Aplikasi tidak diinstal</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">Mengambil screenshot</string>
+    <string name="action_assistant_name">Mengakses asisten digital</string>
+    <string name="action_media_name">Memutar atau menjeda media</string>
+    <string name="action_overview_name">Melihat aplikasi terkini</string>
+    <string name="action_notifications_name">Menampilkan notifikasi</string>
+    <string name="action_flashlight_name">Mengoperasikan senter</string>
+    <string name="action_launch_name">Membuka aplikasi</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">Ketuk Cepat terdeteksi.</string>
+</resources>

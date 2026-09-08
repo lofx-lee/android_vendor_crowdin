@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2015, The CyanogenMod Project
+ * Copyright (c) 2017-2021 The LineageOS Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Status bar - icons -->
+    <string name="status_bar_icons_title">Ikon Status bar</string>
+    <!-- Custom QS tiles -->
+    <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Layar ambien</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Layar ambien nonaktif.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Layar ambien aktif.</string>
+    <!-- AOD QS tile -->
+    <string name="quick_settings_aod_label">AOD</string>
+    <string name="quick_settings_aod_off_powersave_label">AOD nonaktif\nPenghemat baterai</string>
+    <!-- Autobrightness tile -->
+    <string name="quick_settings_autobrightness_label">Kecerahan otomatis</string>
+    <!-- Caffeine QS tile -->
+    <string name="quick_settings_caffeine_label">Kafein</string>
+    <string name="accessibility_quick_settings_caffeine_off">Kafein nonaktif.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Kafein aktif.</string>
+    <!-- Heads up QS tile -->
+    <string name="quick_settings_heads_up_label">Notifikasi melayang</string>
+    <string name="accessibility_quick_settings_heads_up_off">Notifikasi melayang nonaktif.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Notifikasi melayang aktif.</string>
+    <!-- PowerShare QS tile -->
+    <string name="quick_settings_powershare_label">Wireless PowerShare</string>
+    <string name="quick_settings_powershare_off_powersave_label">Wireless PowerShare nonaktif\nPenghemat baterai</string>
+    <string name="quick_settings_powershare_off_low_battery_label">Wireless PowerShare nonaktif\nBaterai terlalu lemah</string>
+    <string name="quick_settings_powershare_enabled_label">Wireless PowerShare diaktifkan</string>
+    <!-- Reader mode QS tile -->
+    <string name="quick_settings_reading_mode">Mode baca</string>
+    <string name="accessibility_quick_settings_reading_mode_on">Mode baca aktif.</string>
+    <string name="accessibility_quick_settings_reading_mode_off">Mode baca nonaktif.</string>
+    <!-- Sync QS tile -->
+    <string name="quick_settings_sync_label">Sinkronisasi</string>
+    <string name="accessibility_quick_settings_sync_off">Sinkronisasi nonaktif.</string>
+    <string name="accessibility_quick_settings_sync_on">Sinkronisasi aktif.</string>
+    <!-- USB tethering QS tile -->
+    <string name="quick_settings_usb_tether_label">Tethering USB</string>
+    <!-- VPN QS tile -->
+    <string name="quick_settings_vpn_label">VPN</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Sambungkan ke…</string>
+    <string name="vpn_credentials_hint">Masukkan kredensial Anda untuk tersambung ke <xliff:g id="name">%s</xliff:g></string>
+    <string name="vpn_credentials_username">Nama pengguna</string>
+    <string name="vpn_credentials_password">Sandi</string>
+    <string name="vpn_credentials_dialog_connect">Sambungkan</string>
+    <!-- Screen record -->
+    <string name="screenrecord_lowquality_label">Kualitas lebih rendah</string>
+    <string name="screenrecord_lowquality_summary">Untuk ukuran file lebih kecil</string>
+    <string name="screenrecord_longer_timeout_switch_label">Batas ukuran file lebih besar</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Batasi ukuran rekaman hingga 15 GB</string>
+    <string name="screenrecord_skip_time_label">Lewati hitung mundur</string>
+    <string name="screenrecord_skip_time_summary">Hapus jeda tunggu 3 detik</string>
+    <string name="screenrecord_hevc_switch_label">Encoding HEVC</string>
+    <string name="screenrecord_hevc_switch_summary">Gunakan encoder HEVC yang lebih efisien</string>
+    <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_delete_label">Hapus</string>
+    <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
+    <string name="screenshot_delete_description">Hapus tangkapan layar</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Ganti kartu data</string>
+    <string name="qs_data_switch_sim_label">SIM %d</string>
+    <string name="qs_data_switch_sim_desc">SIM %d adalah SIM pilihan untuk data seluler</string>
+    <string name="qs_data_switch_sim_transient">Beralih…</string>
+    <!-- Face unlock -->
+    <string name="face_unlock_recognizing">Menganalisis wajah...</string>
+    <!-- Advanced restart menu -->
+    <!-- Button to indicate more options -->
+    <string name="global_action_restart_more">Lainnya</string>
+    <!-- Button to restart the device, within the Restart Options dialog -->
+    <string name="global_action_restart_system">Sistem</string>
+    <!-- Button to restart the device into recovery mode, within the Restart Options dialog -->
+    <string name="global_action_restart_recovery">Recovery</string>
+    <!-- Button to restart the device into bootloader mode, within the Restart Options dialog -->
+    <string name="global_action_restart_bootloader">Bootloader</string>
+    <!-- Button to restart the device into download mode, within the Restart Options dialog -->
+    <string name="global_action_restart_download">Download</string>
+    <!-- Restart progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_progress">Memulai ulang…</string>
+    <!-- Restart to recovery mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_recovery_progress">Memulai ulang ke mode recovery…</string>
+    <!-- Restart to bootloader mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_bootloader_progress">Memulai ulang ke mode bootloader…</string>
+    <!-- Restart to download mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_download_progress">Memulai ulang ke mode download…</string>
+    <!-- Button to restart SystemUI, within the Restart Options dialog -->
+    <string name="global_action_restart_systemui">SystemUI</string>
+    <!-- Flashlight Strength -->
+    <string name="flashlight_strength_title">Kekuatan senter</string>
+    <string name="flashlight_strength_turn_off">Matikan</string>
+    <string name="flashlight_strength_turn_on">Nyalakan</string>
+</resources>

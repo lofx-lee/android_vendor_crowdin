@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-24 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_enable">Dolby Atmos verwenden</string>
+    <string name="dolby_profile_title">Profil auswählen</string>
+    <string name="dolby_preset">Grafischer Equalizer</string>
+    <string name="dolby_off">Aus</string>
+    <string name="dolby_on">An</string>
+    <string name="dolby_low">Niedrig</string>
+    <string name="dolby_medium">Mittel</string>
+    <string name="dolby_high">Hoch</string>
+    <string name="dolby_max">Maximal</string>
+    <string name="dolby_unknown">Unbekannt</string>
+    <string name="dolby_on_with_profile">An (%1$s)</string>
+    <string name="dolby_category_settings">Einstellungen</string>
+    <string name="dolby_bass_enhancer">Bassverstärkung</string>
+    <string name="dolby_dialogue_enhancer">Dialogverstärkung</string>
+    <string name="dolby_spk_virtualizer">Lautsprecher-Virtualisierung</string>
+    <string name="dolby_hp_virtualizer">Kopfhörer-Virtualisierung</string>
+    <string name="dolby_stereo_widening">Stereo-Erweiterung</string>
+    <string name="dolby_volume_leveler">Lautstärkeausgleich</string>
+    <string name="dolby_connect_headphones">Kopfhörer anschließen</string>
+    <string name="dolby_reset_profile">Auf Standard zurücksetzen</string>
+    <string name="dolby_reset_profile_toast">Einstellungen für das Profil %1$s wurden zurückgesetzt</string>
+    <!-- Dolby profiles -->
+    <string name="dolby_profile_dynamic">Dynamisch</string>
+    <string name="dolby_profile_video">Film/Video</string>
+    <string name="dolby_profile_music">Musik</string>
+    <string name="dolby_profile_voice">Sprache</string>
+    <string name="dolby_profile_custom">Benutzerdefiniert</string>
+    <!-- Dolby equalizer presets -->
+    <string name="dolby_preset_default">Flach (aus)</string>
+    <string name="dolby_preset_rock">Rock</string>
+    <string name="dolby_preset_jazz">Jazz</string>
+    <string name="dolby_preset_pop">Pop</string>
+    <string name="dolby_preset_classical">Klassik</string>
+    <string name="dolby_preset_hiphop">Hip-Hop</string>
+    <string name="dolby_preset_blues">Blues</string>
+    <string name="dolby_preset_electronic">Elektronisch</string>
+    <string name="dolby_preset_country">Country</string>
+    <string name="dolby_preset_dance">Dance</string>
+    <string name="dolby_preset_metal">Metal</string>
+    <!-- Dolby equalizer UI -->
+    <string name="dolby_geq_slider_label_gain">Verstärkung</string>
+    <string name="dolby_geq_preset">Voreinstellung</string>
+    <string name="dolby_geq_preset_name">Name der Voreinstellung</string>
+    <string name="dolby_geq_new_preset">Neue Voreinstellung</string>
+    <string name="dolby_geq_rename_preset">Voreinstellung umbenennen</string>
+    <string name="dolby_geq_delete_preset">Voreinstellung löschen</string>
+    <string name="dolby_geq_delete_preset_prompt">Möchtest du diese Voreinstellung löschen?</string>
+    <string name="dolby_geq_reset_gains">Verstärkungen zurücksetzen</string>
+    <string name="dolby_geq_reset_gains_prompt">Möchtest du diese Voreinstellung auf die Standardwerte zurücksetzen?</string>
+    <string name="dolby_geq_preset_name_exists">Der Name der Voreinstellung existiert bereits!</string>
+    <string name="dolby_geq_preset_name_too_long">Der Name der Voreinstellung ist zu lang!</string>
+    <!-- Dolby intelligent EQ -->
+    <string name="dolby_ieq">Intelligenter Equalizer</string>
+    <string name="dolby_balanced">Ausgewogen</string>
+    <string name="dolby_warm">Warm</string>
+    <string name="dolby_detailed">Detailliert</string>
+</resources>

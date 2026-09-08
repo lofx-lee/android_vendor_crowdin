@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quick Tap-Dienst</string>
+    <!-- Pref keys -->
+    <!-- Categ keys -->
+    <!-- Screen keys -->
+    <!-- Other non-translatable -->
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">Quick Tap</string>
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Schnelltippen, um Aktionen zu starten</string>
+    <string name="settings_entry_summary_on">An / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Aus</string>
+    <string name="settings_search_keywords">Quick Tap, Rückseite tippen, tippen, Geste, Assistent, Assistant</string>
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">„Schnelltippen“ verwenden</string>
+    <string name="setting_footer_content">Tippe zweimal auf die Rückseite deines Smartphones nahe der Mitte, um eine Aktion auszuführen</string>
+    <string name="setting_sensitivity_title">Empfindlichkeit</string>
+    <string name="setting_sensitivity_light">Leichtes Tippen</string>
+    <string name="setting_sensitivity_heavy">Festes Tippen</string>
+    <string name="setting_haptic_intensity_title">Intensität des haptischen Feedbacks</string>
+    <string name="setting_haptic_intensity_light">Leicht</string>
+    <string name="setting_haptic_intensity_strong">Stark</string>
+    <string name="setting_screen_off_title">Bei ausgeschaltetem Bildschirm erlauben</string>
+    <string name="setting_screen_off_summary">Kann zu mehr Fehlauslösungen führen</string>
+    <string name="setting_screen_off_blocked_summary">Durch aktuelle Aktion blockiert</string>
+    <string name="setting_action_title" product="default">Aktion bei Doppeltippen auf der Rückseite des Geräts</string>
+    <string name="setting_action_title" product="device">Zweimal auf die Rückseite des Geräts tippen, um</string>
+    <string name="setting_action_title" product="tablet">Zweimal auf die Rückseite des Tablets tippen, um</string>
+    <string name="launch_settings_activity_title">Einstellungen für „Schnelltippen“</string>
+    <string name="setting_app_selection_help_text" product="default">Wähle aus, welche App geöffnet werden soll, wenn du schnell doppelt auf die Rückseite deines Smartphones tippst. Wenn du die App deinstallierst, wird „Schnelltippen“ deaktiviert, bis du eine andere App auswählst.</string>
+    <string name="setting_app_selection_help_text" product="device">Wähle eine App, die geöffnet wird, wenn du zweimal auf die Rückseite deines Geräts tippst. Wenn du die App deinstallierst, wird Quick Tap deaktiviert, bis du eine andere App auswählst.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Wähle eine App, die geöffnet wird, wenn du zweimal auf die Rückseite deines Tablets tippst. Wenn du die App deinstallierst, wird Quick Tap deaktiviert, bis du eine andere App auswählst.</string>
+    <string name="setting_app_selection_help_text_disabled">Um diese Funktion zu nutzen, musst du zuerst Quick Tap aktivieren.</string>
+    <string name="setting_app_shortcut_selection_help_text">Lege fest, was passiert, wenn du diese App mit der Funktion „Schnelltippen“ öffnest.</string>
+    <string name="radio_button_extra_widget_a11y_label"><xliff:g id="action">%1$s</xliff:g>: Einstellungen</string>
+    <string name="setting_action_launch_summary_no_selection">Keine App ausgewählt</string>
+    <string name="setting_action_launch_summary_not_installed">App ist nicht installiert</string>
+    <!-- Actions -->
+    <string name="action_screenshot_name">Screenshot erstellen</string>
+    <string name="action_assistant_name">Digitalen Assistenten aufrufen</string>
+    <string name="action_media_name">Medien wiedergeben oder pausieren</string>
+    <string name="action_overview_name">Kürzlich geöffnete Apps ansehen</string>
+    <string name="action_notifications_name">Benachrichtigungen anzeigen</string>
+    <string name="action_flashlight_name">Taschenlampe ein-/ausschalten</string>
+    <string name="action_launch_name">App öffnen</string>
+    <!-- Actions meta -->
+    <!-- Toast -->
+    <string name="gesture_detected">„Schnelltippen“ wurde erkannt</string>
+</resources>
