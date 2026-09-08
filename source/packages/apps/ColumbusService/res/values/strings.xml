@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  SPDX-FileCopyrightText: The Proton AOSP Project
+  SPDX-FileCopyrightText: TheParasiteProject
+  SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quick Tap Service</string>
+
+    <!-- Pref keys -->
+    <string name="pref_key_lottie" translatable="false">video</string>
+    <string name="pref_key_enabled" translatable="false">columbus_enabled</string>
+    <string name="pref_key_sensitivity" translatable="false">sensitivity</string>
+    <string name="pref_key_action" translatable="false">columbus_action</string>
+    <string name="pref_key_launch_app" translatable="false">columbus_launch_app</string>
+    <string name="pref_key_launch_app_shortcut" translatable="false">columbus_launch_app_shortcut</string>
+    <string name="pref_key_allow_screen_off" translatable="false">allow_screen_off</string>
+    <string name="pref_key_allow_screen_off_action_forced" translatable="false">allow_screen_off_action_forced</string>
+    <string name="pref_key_haptic_intensity" translatable="false">haptic_intensity</string>
+    <string name="pref_key_launch_app_summary" translatable="false">launch_app_summary</string>
+    <string name="pref_key_launch_shortcut_app_summary" translatable="false">launch_shortcut_app_summary</string>
+
+    <!-- Categ keys -->
+    <string name="categ_key_action" translatable="false">columbus_action_category</string>
+    <string name="categ_key_advanced" translatable="false">columbus_advanced_category</string>
+    <string name="categ_key_app_list" translatable="false">columbus_app_list</string>
+    <string name="categ_key_app_shortcut_list" translatable="false">columbus_app_shortcut_list</string>
+
+    <!-- Screen keys -->
+    <string name="screen_key_settings_page" translatable="false">settings_page</string>
+    <string name="screen_key_launch_settings_page" translatable="false">launch_settings_page</string>
+    <string name="screen_key_launch_app_shortcut_settings_page" translatable="false">launch_app_shortcut_settings_page</string>
+
+    <!-- Other non-translatable -->
+    <string name="summary_placeholder" translatable="false">&#160;</string>
+
+    <!-- Quick settings tile label -->
+    <string name="quick_settings_label">Quick Tap</string>
+
+    <!-- Entry points in Settings -->
+    <string name="settings_entry_title">Quick Tap to start actions</string>
+    <string name="settings_entry_summary_on">On / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
+    <string name="settings_entry_summary_off">Off</string>
+    <string name="settings_search_keywords">Quick Tap, back tap, tap, gesture, assist, assistant</string>
+
+    <!-- Items in Quick Tap gesture settings -->
+    <string name="setting_enabled_title">Use Quick Tap</string>
+    <string name="setting_footer_content">To perform an action, tap back of your phone twice near the middle</string>
+    <string name="setting_sensitivity_title">Sensitivity</string>
+    <string name="setting_sensitivity_light">Light tap</string>
+    <string name="setting_sensitivity_heavy">Heavy tap</string>
+    <string name="setting_haptic_intensity_title">Haptic feedback intensity</string>
+    <string name="setting_haptic_intensity_light">Light</string>
+    <string name="setting_haptic_intensity_strong">Strong</string>
+    <string name="setting_screen_off_title">Allow when screen is off</string>
+    <string name="setting_screen_off_summary">May increase false triggers</string>
+    <string name="setting_screen_off_blocked_summary">Blocked by current action</string>
+    <string name="setting_action_title" product="default">Tap back of phone twice to</string>
+    <string name="setting_action_title" product="device">Tap back of device twice to</string>
+    <string name="setting_action_title" product="tablet">Tap back of tablet twice to</string>
+    <string name="launch_settings_activity_title">Quick Tap settings</string>
+    <string name="setting_app_selection_help_text" product="default">Select an app to open when you tap the back of your phone twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
+    <string name="setting_app_selection_help_text" product="device">Select an app to open when you tap the back of your device twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Select an app to open when you tap the back of your tablet twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
+    <string name="setting_app_selection_help_text_disabled">To use this feature, you have to enable the Quick Tap first.</string>
+    <string name="setting_app_shortcut_selection_help_text">Select what happens when you use Quick Tap. You can change this later in settings.</string>
+    <string name="setting_app_shortcut_selection_help_text_disabled">@string/setting_app_selection_help_text_disabled</string>
+    <string name="radio_button_extra_widget_a11y_label"><xliff:g id="action">%1$s</xliff:g> settings</string>
+    <string name="setting_action_launch_summary_no_selection">No app selected</string>
+    <string name="setting_action_launch_summary_not_installed">App not installed</string>
+
+    <!-- Actions -->
+    <string name="action_screenshot_name">Take screenshot</string>
+    <string name="action_assistant_name">Access your digital assistant</string>
+    <string name="action_media_name">Play or pause media</string>
+    <string name="action_overview_name">See recent apps</string>
+    <string name="action_notifications_name">Show notifications</string>
+    <string name="action_flashlight_name">Toggle flashlight</string>
+    <string name="action_launch_name">Open app</string>
+
+    <string name="action_screenshot_value">screenshot</string>
+    <string name="action_assistant_value">assistant</string>
+    <string name="action_media_value">media</string>
+    <string name="action_overview_value">overview</string>
+    <string name="action_notifications_value">notifications</string>
+    <string name="action_flashlight_value">flashlight</string>
+    <string name="action_launch_value">launch</string>
+
+    <!-- Actions meta -->
+    <string-array name="action_values" translatable="false">
+        <item>@string/action_screenshot_value</item>
+        <item>@string/action_assistant_value</item>
+        <item>@string/action_media_value</item>
+        <item>@string/action_overview_value</item>
+        <item>@string/action_notifications_value</item>
+        <item>@string/action_flashlight_value</item>
+        <item>@string/action_launch_value</item>
+    </string-array>
+    <string-array name="action_names" translatable="false">
+        <item>@string/action_screenshot_name</item>
+        <item>@string/action_assistant_name</item>
+        <item>@string/action_media_name</item>
+        <item>@string/action_overview_name</item>
+        <item>@string/action_notifications_name</item>
+        <item>@string/action_flashlight_name</item>
+        <item>@string/action_launch_name</item>
+    </string-array>
+
+    <!-- Toast -->
+    <string name="gesture_detected">Quick Tap detected!</string>
+
+</resources>
