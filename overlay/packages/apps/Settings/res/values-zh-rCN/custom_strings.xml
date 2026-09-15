@@ -399,4 +399,10 @@
     <string name="software_update_up_to_date_header">您的 Pixel 已是最新版本</string>
     <string name="software_update_up_to_specific_date_summary">已更新到 %1$s</string>
     <string name="system_update_entry_title">系统更新</string>
+
+    <!-- Volume dialog position -->
+    <string name="volume_panel_category_title">音量面板</string>
+    <string name="volume_panel_on_left_title">左侧音量面板</string>
+    <string name="volume_panel_on_left_summary">在屏幕左侧显示音量控制面板</string>
+
 </resources>

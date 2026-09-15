@@ -417,4 +417,10 @@
     <string name="software_update_up_to_date_header">Your Pixel is up to date</string>
     <string name="software_update_up_to_specific_date_summary">Updated to %1$s</string>
     <string name="system_update_entry_title">System update</string>
+
+    <!-- Volume dialog position -->
+    <string name="volume_panel_category_title">Volume panel</string>
+    <string name="volume_panel_on_left_title">Left volume panel</string>
+    <string name="volume_panel_on_left_summary">Show volume panel on the left side of the screen</string>
+
 </resources>
