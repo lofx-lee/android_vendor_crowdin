@@ -50,13 +50,6 @@
     <string name="action_notifications_name">알림 표시</string>
     <string name="action_flashlight_name">손전등 전환</string>
     <string name="action_launch_name">앱 열기</string>
-    <string name="action_screenshot_value">screenshot</string>
-    <string name="action_assistant_value">assistant</string>
-    <string name="action_media_value">media</string>
-    <string name="action_overview_value">overview</string>
-    <string name="action_notifications_value">notifications</string>
-    <string name="action_flashlight_value">flashlight</string>
-    <string name="action_launch_value">launch</string>
     <!-- Actions meta -->
     <!-- Toast -->
     <string name="gesture_detected">빠른 탭이 감지되었습니다!</string>

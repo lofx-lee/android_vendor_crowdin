@@ -50,13 +50,6 @@
     <string name="action_notifications_name">Pokaż powiadomienia</string>
     <string name="action_flashlight_name">Włącz lub wyłącz latarkę</string>
     <string name="action_launch_name">Otwórz aplikację</string>
-    <string name="action_screenshot_value">zrzut ekranu</string>
-    <string name="action_assistant_value">asystent cyfrowy</string>
-    <string name="action_media_value">multimedia</string>
-    <string name="action_overview_value">przegląd</string>
-    <string name="action_notifications_value">powiadomienia</string>
-    <string name="action_flashlight_value">latarka</string>
-    <string name="action_launch_value">uruchom</string>
     <!-- Actions meta -->
     <!-- Toast -->
     <string name="gesture_detected">Wykryto Szybkie dotknięcie!</string>

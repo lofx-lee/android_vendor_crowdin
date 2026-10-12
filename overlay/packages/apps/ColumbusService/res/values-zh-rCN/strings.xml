@@ -50,13 +50,6 @@
     <string name="action_notifications_name">显示通知</string>
     <string name="action_flashlight_name">开启/关闭手电筒</string>
     <string name="action_launch_name">打开应用</string>
-    <string name="action_screenshot_value">屏幕截图</string>
-    <string name="action_assistant_value">助理</string>
-    <string name="action_media_value">媒体</string>
-    <string name="action_overview_value">概览</string>
-    <string name="action_notifications_value">通知</string>
-    <string name="action_flashlight_value">手电筒</string>
-    <string name="action_launch_value">启动</string>
     <!-- Actions meta -->
     <!-- Toast -->
     <string name="gesture_detected">检测到“快速轻触”手势！</string>

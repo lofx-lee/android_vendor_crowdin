@@ -49,13 +49,6 @@
     <string name="action_notifications_name">Zobraziť upozornenia</string>
     <string name="action_flashlight_name">Prepnúť baterku</string>
     <string name="action_launch_name">Otvoriť aplikáciu</string>
-    <string name="action_screenshot_value">snímka obrazovky</string>
-    <string name="action_assistant_value">asistent</string>
-    <string name="action_media_value">médiá</string>
-    <string name="action_overview_value">prehľad</string>
-    <string name="action_notifications_value">notifikácie</string>
-    <string name="action_flashlight_value">baterka</string>
-    <string name="action_launch_value">spustiť</string>
     <!-- Actions meta -->
     <!-- Toast -->
     <string name="gesture_detected">Bolo rozpoznané rýchle poklepanie.</string>

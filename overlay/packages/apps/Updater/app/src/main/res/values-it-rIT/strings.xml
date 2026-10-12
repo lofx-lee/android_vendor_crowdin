@@ -91,7 +91,6 @@
     <string name="menu_stream_updates_summary">Installa gli aggiornamenti durante il download. Disattiva per conservare i pacchetti di aggiornamento per l\'esportazione.</string>
     <string name="menu_delete_update">Elimina</string>
     <string name="menu_export_update">Esporta aggiornamento</string>
-    <string name="menu_view_downloads">Visualizza su <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads</string>
     <string name="menu_metered_network_warning">Avviso per rete a consumo</string>
     <string name="menu_metered_network_warning_summary">Avvisa prima di scaricare tramite dati mobili</string>
     <string name="menu_ab_perf_mode">Dai priorità al processo di aggiornamento</string>

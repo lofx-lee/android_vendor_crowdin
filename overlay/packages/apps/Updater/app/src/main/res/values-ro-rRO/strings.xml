@@ -91,7 +91,6 @@
     <string name="menu_stream_updates_summary">Instalează actualizările în timpul descărcării. Dezactivează pentru a păstra pachetele de actualizare pentru export.</string>
     <string name="menu_delete_update">Șterge</string>
     <string name="menu_export_update">Exportă actualizarea</string>
-    <string name="menu_view_downloads">Vezi pe <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads</string>
     <string name="menu_metered_network_warning">Avertisment pentru rețea contorizată</string>
     <string name="menu_metered_network_warning_summary">Avertizează înainte de descărcarea prin date mobile</string>
     <string name="menu_ab_perf_mode">Prioritizează procesul de actualizare</string>

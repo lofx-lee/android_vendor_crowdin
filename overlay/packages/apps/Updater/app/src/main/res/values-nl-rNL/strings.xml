@@ -91,7 +91,6 @@
     <string name="menu_stream_updates_summary">Updates installeren tijdens het downloaden. Schakel uit om updatepakketten te bewaren voor export.</string>
     <string name="menu_delete_update">Verwijderen</string>
     <string name="menu_export_update">Update exporteren</string>
-    <string name="menu_view_downloads">Bekijken op <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads</string>
     <string name="menu_metered_network_warning">Waarschuwing voor netwerk met datalimiet</string>
     <string name="menu_metered_network_warning_summary">Waarschuwen voordat er via mobiele data wordt gedownload</string>
     <string name="menu_ab_perf_mode">Updateproces prioriteit geven</string>

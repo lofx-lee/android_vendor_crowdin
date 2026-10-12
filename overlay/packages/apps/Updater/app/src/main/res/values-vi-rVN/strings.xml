@@ -90,7 +90,6 @@ Vui lòng chạy các lệnh sau và thử cập nhật lại:\n
     <string name="menu_stream_updates_summary">Cài đặt bản cập nhật trong khi tải xuống. Tắt để giữ lại gói cập nhật cho việc xuất.</string>
     <string name="menu_delete_update">Xóa</string>
     <string name="menu_export_update">Xuất bản cập nhật</string>
-    <string name="menu_view_downloads">Xem trên <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads</string>
     <string name="menu_metered_network_warning">Cảnh báo mạng tính phí</string>
     <string name="menu_metered_network_warning_summary">Cảnh báo trước khi tải qua dữ liệu di động</string>
     <string name="menu_ab_perf_mode">Ưu tiên quá trình cập nhật</string>

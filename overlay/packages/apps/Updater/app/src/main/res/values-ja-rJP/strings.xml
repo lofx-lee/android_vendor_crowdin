@@ -91,7 +91,6 @@
     <string name="menu_stream_updates_summary">ダウンロード中にアップデートをインストールします。エクスポート用にアップデート パッケージを保存する場合は無効にしてください。</string>
     <string name="menu_delete_update">削除</string>
     <string name="menu_export_update">アップデートをエクスポート</string>
-    <string name="menu_view_downloads"><xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads で表示</string>
     <string name="menu_metered_network_warning">従量制ネットワークの警告</string>
     <string name="menu_metered_network_warning_summary">モバイルデータでダウンロードする前に警告します</string>
     <string name="menu_ab_perf_mode">アップデート処理を優先</string>

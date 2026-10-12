@@ -91,7 +91,6 @@
     <string name="menu_stream_updates_summary">Pasang pembaruan sambil mengunduh. Nonaktifkan untuk menyimpan paket pembaruan untuk diekspor.</string>
     <string name="menu_delete_update">Hapus</string>
     <string name="menu_export_update">Ekspor pembaruan</string>
-    <string name="menu_view_downloads">Lihat di <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads</string>
     <string name="menu_metered_network_warning">Peringatan jaringan berbayar</string>
     <string name="menu_metered_network_warning_summary">Peringatkan sebelum mengunduh melalui data seluler</string>
     <string name="menu_ab_perf_mode">Prioritaskan proses pembaruan</string>

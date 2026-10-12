@@ -25,6 +25,7 @@
     <string name="update_failed_notification">Оновлення провалено</string>
     <string name="installation_suspended_notification">Оновлення призупинено</string>
     <string name="new_updates_found_title">Нові оновлення</string>
+    <string name="new_updates_found_summary">Торкніться, щоб переглянути доступні оновлення</string>
     <string name="text_download_speed">%1$s, %2$s/с</string>
     <string name="installing_update">Встановлення системного оновлення</string>
     <string name="installing_update_error">Помилка встановлення</string>
@@ -42,6 +43,7 @@
         ]]></string>
     <string name="dialog_scratch_mounted_title">Не можливо встановити оновлення коли OverlayFS активований</string>
     <string name="reboot">Перезапуск</string>
+    <string name="menu_preferences">Властивості</string>
     <string name="preferences_summary">Синхронізувати, закачати та встановити</string>
     <!-- System update screen -->
     <string name="system_up_to_date_title">Ваша система є актуальною</string>
@@ -85,6 +87,7 @@
     <string name="pref_category_download_install">Завантаження і встановлення</string>
     <string name="menu_auto_delete_updates">Автоматично видаляти оновлення</string>
     <string name="menu_auto_delete_updates_summary">Видати завантажені оновлення після встановлення</string>
+    <string name="menu_stream_updates">Трансляція онлайн-оновлень</string>
     <string name="menu_stream_updates_summary">Встановити оновлення під час завантаження. Виключити щоб зберегти пакет оновлення для поширювання.</string>
     <string name="menu_delete_update">Видалити</string>
     <string name="menu_export_update">Поширити оновлення</string>
@@ -95,6 +98,7 @@
     <string name="menu_ab_perf_mode_summary_charging">Включати автоматично коли телефон заряджається</string>
     <string name="menu_update_recovery">Обновити recovery</string>
     <string name="menu_update_recovery_summary">Оновити recovery з системою</string>
+    <string name="play_integrity_header">Play Integrity</string>
     <string name="text_download_size_unknown">Невідомий розмір тексту</string>
     <string name="certified_prop_status">Статус сертифікату</string>
     <string name="certified_prop_check">Перевірити наявність оновлень</string>
@@ -127,7 +131,9 @@
     <string name="list_build_version_date">PixelOS <xliff:g id="version" example="17.0">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
     <string name="list_update_size">Розмір оновлення: <xliff:g id="size" example="1.34 GB">%1$s</xliff:g></string>
     <string name="list_security_update">Оновлення безпеки: <xliff:g id="date" example="Jan 2026">%1$s</xliff:g></string>
+    <string name="list_major_android_upgrade">Велике оновлення Android</string>
     <string name="list_full_install">Повне завантаження: Безпечно для встановлення поверх попередніх систем</string>
+    <string name="list_major_upgrade_recovery_install">Основні оновлення версій <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> необхідно встановити вручну. Щоб продовжити, зверніться до посібника користувача вашого пристрою.</string>
     <string name="list_downgrade_blocked">Це оновлення є старішим за встановлену систему і не може бути встановленим.</string>
     <string name="list_download_progress_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> з <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g></string>
     <string name="list_download_progress_eta_newer"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> з <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>)</string>
@@ -153,10 +159,12 @@
     <string name="dialog_export_title">Експортуємо оновлення</string>
     <string name="notification_export_success">Оновлення експортовано</string>
     <string name="notification_export_fail">Помилка в експортуванні</string>
+    <string name="toast_already_exporting">Оновлення вже експортується</string>
     <string name="toast_export_started">Експорт почався</string>
     <string name="update_over_metered_network_title">Попередження</string>
     <string name="update_over_metered_network_message">Ви завантажуєте оновлення на лімітованій мережі що може витратити велику кількість даних. Чи ви хочете продовжити?</string>
     <string name="blocked_update_dialog_title">Оновлення заблоковано</string>
+    <string name="blocked_update_dialog_message">Це основне оновлення Android не можна інсталювати за допомогою додатку для оновлення цього товару.</string>
     <string name="blocked_update_dialog_title_downgrade">Пониження версії заблоковано</string>
     <string name="blocked_update_dialog_message_downgrade">Це оновлення є старішим за теперішню версію системи та не може бути встановленим.</string>
     <string name="export_channel_title">Поширити закінчення</string>

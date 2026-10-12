@@ -91,7 +91,6 @@ Lütfen aşağıdaki komutları çalıştırın ve güncellemeyi tekrar deneyin.
     <string name="menu_stream_updates_summary">Güncellemeleri indirirken yükle. Güncelleme paketlerini dışa aktarmak için saklamak istiyorsanız devre dışı bırakın.</string>
     <string name="menu_delete_update">Sil</string>
     <string name="menu_export_update">Güncellemeyi dışa aktar</string>
-    <string name="menu_view_downloads"><xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g> Downloads üzerinde görüntüle</string>
     <string name="menu_metered_network_warning">Kotalı ağ uyarısı</string>
     <string name="menu_metered_network_warning_summary">Mobil veri üzerinden indirmeden önce uyar</string>
     <string name="menu_ab_perf_mode">Güncelleme sürecine öncelik ver</string>

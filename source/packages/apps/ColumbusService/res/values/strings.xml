@@ -78,13 +78,13 @@
     <string name="action_flashlight_name">Toggle flashlight</string>
     <string name="action_launch_name">Open app</string>
 
-    <string name="action_screenshot_value">screenshot</string>
-    <string name="action_assistant_value">assistant</string>
-    <string name="action_media_value">media</string>
-    <string name="action_overview_value">overview</string>
-    <string name="action_notifications_value">notifications</string>
-    <string name="action_flashlight_value">flashlight</string>
-    <string name="action_launch_value">launch</string>
+    <string name="action_screenshot_value" translatable="false">screenshot</string>
+    <string name="action_assistant_value" translatable="false">assistant</string>
+    <string name="action_media_value" translatable="false">media</string>
+    <string name="action_overview_value" translatable="false">overview</string>
+    <string name="action_notifications_value" translatable="false">notifications</string>
+    <string name="action_flashlight_value" translatable="false">flashlight</string>
+    <string name="action_launch_value" translatable="false">launch</string>
 
     <!-- Actions meta -->
     <string-array name="action_values" translatable="false">

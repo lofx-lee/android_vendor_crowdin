@@ -20,21 +20,21 @@
     <string name="advanced_keyboard_settings_title">Ustawienia zaawansowane</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Debugowanie jako root</string>
-    <string name="adb_enable_summary_root">Zezwalaj na debugowanie Androida jako root</string>
+    <string name="adb_enable_summary_root">Zezwól na debugowanie Androida jako root</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_cm">{count, plural,
-      =1      {Jesteś teraz # krok od włączenia ustawień deweloperskich.}
-      few     {Jesteś teraz # kroki od włączenia ustawień deweloperskich.}
-      many    {Jesteś teraz # kroków od włączenia ustawień deweloperskich.}
-      other   {Jesteś teraz # kroku od włączenia ustawień deweloperskich.}
+      =1      {Od włączenia trybu programisty dzieli Cię już tylko # krok od włączenia ustawień deweloperskich.}
+      few     {Od włączenia trybu programisty dzieli Cię już tylko # kroki.}
+      many    {Od włączenia trybu programisty dzieli Cię już tylko # kroków.}
+      other   {Od włączenia trybu programisty dzieli Cię już tylko # kroku.}
     }</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_cm">Aktywowałeś opcje programistyczne!</string>
+    <string name="show_dev_on_cm">Teraz jesteś programistą!</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_cm">Wystarczy, już włączono opcje programistyczne.</string>
+    <string name="show_dev_already_cm">W porządku, już jesteś programistą.</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">Dotknij, aby uśpić</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Aby wyłączyć wyświetlacz, dwukrotnie naciśnij pasek stanu</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Aby wyłączyć wyświetlacz, dwukrotnie naciśnij pasek stanu lub ekran blokady</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Używaj VPN dla podłączonych urządzeń</string>
     <string name="tethering_allow_vpn_upstreams_summary">Gdy to urządzenie korzysta z VPN, wszystkie urządzenia podłączone do hotspotu będą korzystać z tego samego VPN</string>
@@ -47,17 +47,17 @@
     <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
     <string name="assisted_gps">Używaj wspomaganego systemu GPS</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Pobierz dane wspomagania satelitarnego z internetu, co może znacząco poprawić wydajność uruchamiania GPS. W przypadku połączeń alarmowych wspomagany GPS jest zawsze dozwolony.</string>
+    <string name="assisted_gps_summary">Pobierz dane pomocy satelitarnej z Internetu, które mogą znacznie poprawić wydajność uruchamiania GPS. W przypadku połączeń awaryjnych wspomagany GPS jest zawsze dozwolony.</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technologia</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Żywotność</string>
+    <string name="battery_health">Zdrowie</string>
     <string name="battery_health_good">Dobra</string>
-    <string name="battery_health_overheat">Przegrzanie</string>
+    <string name="battery_health_overheat">Przegrzana</string>
     <string name="battery_health_dead">Niesprawna</string>
     <string name="battery_health_over_voltage">Zbyt wysokie napięcie</string>
-    <string name="battery_health_unspecified_failure">Nieokreślona awaria</string>
-    <string name="battery_health_cold">Chłodna</string>
+    <string name="battery_health_unspecified_failure">Nieokreślony błąd</string>
+    <string name="battery_health_cold">Zimna</string>
     <string name="battery_health_unknown">Nieznana</string>
     <!-- Battery Info: Temperature -->
     <string name="battery_temperature">Temperatura</string>
@@ -72,7 +72,7 @@
     <string name="battery_maximum_capacity">Maksymalna pojemność</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Ostrzeżenie: Ta opcja może nie działać poprawnie lub prowadzić do utraty danych, dlatego nie jest zalecana!</string>
+    <string name="storage_warning_internal">Ostrzeżenie: Ta opcja może nie działać poprawnie lub prowadzić do utraty danych i dlatego nie jest zalecana!</string>
     <!-- Copy to clipboard -->
     <string name="copied_to_clipboard">Skopiowano do schowka</string>
     <string name="longpress_to_clipboard">Naciśnij i przytrzymaj, aby skopiować</string>
@@ -138,8 +138,8 @@
     <string name="high_touch_sensitivity_title">Wysoka czułość dotyku</string>
     <string name="high_touch_sensitivity_summary">Zwiększ czułość ekranu, aby można go było obsługiwać w rękawiczkach</string>
     <!-- Touchscreen hovering -->
-    <string name="touchscreen_hovering_title">Wskazywanie uniesionym palcem</string>
-    <string name="touchscreen_hovering_summary">Pozwala na wskazywanie uniesionym palcem, jak w przypadku myszki w przeglądarce internetowej, pulpitach zdalnych, itd</string>
+    <string name="touchscreen_hovering_title">Wskazywanie ekranu dotykowego</string>
+    <string name="touchscreen_hovering_summary">Pozwala na wskazywanie na ekranie jak myszką w przeglądarce internetowej, pulpicie zdalnym itd</string>
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Wysoka częstotliwość próbkowania dotyku</string>
     <string name="high_touch_polling_rate_summary">Zwiększ częstotliwość próbkowania ekranu dotykowego</string>
@@ -163,10 +163,10 @@
     <string name="reset">Resetuj</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Zlokalizuj czytnik linii papilarnych z przodu Twojego tabletu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Znajdź czytnik linii papilarnych z przodu Twojego urządzenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Zlokalizuj czytnik linii papilarnych z przodu Twojego urządzenia.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="default">Zlokalizuj czytnik linii papilarnych z przodu Twojego telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Zlokalizuj czytnik linii papilarnych z tyłu Twojego tabletu.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Znajdź czytnik linii papilarnych z tyłu Twojego urządzenia.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Zlokalizuj czytnik linii papilarnych z tyłu Twojego urządzenia.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Zlokalizuj czytnik linii papilarnych z tyłu Twojego telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Zlokalizuj czytnik linii papilarnych znajdujący się z boku Twojego tabletu.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">Zlokalizuj czytnik linii papilarnych znajdujący się z boku Twojego urządzenia.</string>
@@ -186,7 +186,7 @@
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Pokazuj błędny wzór</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Pokazuj siatkę wzoru</string>
+    <string name="lockpattern_settings_enable_dots_title">Pokazuj punkty wzoru</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Ustawienia obracania</string>
     <string name="display_rotation_enabled">Automatyczna rotacja jest włączona</string>
@@ -216,8 +216,8 @@
     <string name="prevent_ringing_option_cycle">Przełączaj między trybami</string>
     <string name="prevent_ringing_option_cycle_summary">Włącz (przełączaj między trybami)</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączeniu</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran podczas podłączania i odłączania źródła zasilania</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wybudzaj przy podłączaniu</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran podczas podłączania i odłączania od źródła zasilania</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignoruj flagi zabezpieczonego okna</string>
     <string name="ignore_window_secure_summary">Usuń ograniczenia zrzutów i nagrań ekranu dla wszystkich aplikacji. Może być to wygodne w niektórych przypadkach, ale może prowadzić do wycieków prywatności.</string>

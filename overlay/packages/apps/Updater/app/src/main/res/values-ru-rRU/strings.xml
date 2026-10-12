@@ -90,7 +90,6 @@
     <string name="menu_stream_updates_summary">Устанавливать обновления прямо во время скачивания. Отключите, чтобы сохранить пакеты обновлений для экспорта.</string>
     <string name="menu_delete_update">Удалить</string>
     <string name="menu_export_update">Экспорт обновления</string>
-    <string name="menu_view_downloads">Посмотреть загрузки <xliff:g id="brand_name" example="PixelOS">%1$s</xliff:g></string>
     <string name="menu_metered_network_warning">Предупреждение о расходе данных</string>
     <string name="menu_metered_network_warning_summary">Предупреждать перед скачиванием через мобильную сеть</string>
     <string name="menu_ab_perf_mode">Приоритет процесса обновления</string>

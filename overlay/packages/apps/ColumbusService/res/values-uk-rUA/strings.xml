@@ -5,21 +5,40 @@
   SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Швидкий тап</string>
     <!-- Pref keys -->
     <!-- Categ keys -->
     <!-- Screen keys -->
     <!-- Other non-translatable -->
     <!-- Quick settings tile label -->
+    <string name="quick_settings_label">Швидкий тап</string>
     <!-- Entry points in Settings -->
     <string name="settings_entry_title">Подвійний дотик для виконання дій</string>
     <string name="settings_entry_summary_on">Увімкнено / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Вимкнено</string>
+    <string name="settings_search_keywords">Швидке натискання, відтворення, дотик, жест, асистр, помічник</string>
     <!-- Items in Quick Tap gesture settings -->
     <string name="setting_enabled_title">Використовувати подвійний дотик</string>
+    <string name="setting_footer_content">Щоб виконати дію, натисніть назад вашого телефону двічі поблизу середнього</string>
+    <string name="setting_sensitivity_title">Чутливість</string>
+    <string name="setting_sensitivity_light">Світловий дотик</string>
+    <string name="setting_sensitivity_heavy">Сильний тап</string>
+    <string name="setting_haptic_intensity_title">Інтенсивність тактильного зворотного зв\'язку</string>
+    <string name="setting_haptic_intensity_light">Світло</string>
+    <string name="setting_haptic_intensity_strong">Надійний</string>
+    <string name="setting_screen_off_title">Дозволити, коли екран вимкнено</string>
+    <string name="setting_screen_off_summary">Може збільшити хибні спрацьовування</string>
+    <string name="setting_screen_off_blocked_summary">Заблоковано поточною дією</string>
     <string name="setting_action_title" product="default">Дії в разі подвійного дотику до задньої панелі телефона</string>
+    <string name="setting_action_title" product="device">Подвійне натискання на задній частині пристрою</string>
+    <string name="setting_action_title" product="tablet">Двічі торкніться задньої сторони планшета</string>
     <string name="launch_settings_activity_title">Налаштування подвійного дотику</string>
     <string name="setting_app_selection_help_text" product="default">Виберіть додаток, який має відкриватися, коли ви двічі торкаєтеся задньої панелі телефона. Якщо ви видалите додаток, подвійний дотик не працюватиме, доки ви не виберете інший.</string>
+    <string name="setting_app_selection_help_text" product="device">Виберіть застосунок, щоб відкрити, коли ви двічі натиснете кнопку \"Назад\" свого пристрою. Якщо ви видалите програму, швидкий дотик вимикати, поки не виберете іншу програму.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Виберіть застосунок, щоб відкрити, коли ви натиснете кнопку «Назад» планшета. Якщо ви видалите програму, швидкий дотик вимикати, поки не виберете іншу програму.</string>
+    <string name="setting_app_selection_help_text_disabled">Щоб скористатися цією функцією, ви повинні спочатку ввімкнути Швидкий дотик.</string>
     <string name="setting_app_shortcut_selection_help_text">Виберіть дію, яка має відбуватися, коли ви відкриваєте цей додаток подвійним дотиком.</string>
+    <string name="setting_app_shortcut_selection_help_text_disabled">@string/setting_app_selection_help_text_disabled</string>
     <string name="radio_button_extra_widget_a11y_label">Налаштування дії \"<xliff:g id="action">%1$s</xliff:g>\"</string>
     <string name="setting_action_launch_summary_no_selection">Додаток не вибрано</string>
     <string name="setting_action_launch_summary_not_installed">Додаток не встановлено</string>

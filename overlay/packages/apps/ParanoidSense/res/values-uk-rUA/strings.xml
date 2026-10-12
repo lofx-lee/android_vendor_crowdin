@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Параноїдальне відчуття</string>
     <!-- Enroll activity -->
     <string name="face_enroll_title">Дивіться в камеру</string>
     <string name="face_enroll_description">Не рухайтесь і переконайтесь чи в кімнаті є достатньо світла</string>
