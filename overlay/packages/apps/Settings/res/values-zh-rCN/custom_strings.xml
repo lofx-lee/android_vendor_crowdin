@@ -370,12 +370,12 @@
     <string name="network_traffic_mode_all">上传和下载</string>
     <string name="network_traffic_autohide">自动隐藏</string>
     <string name="network_traffic_autohide_summary">当网络处于非活动状态时隐藏网络流量指示器</string>
-    <string name="network_traffic_units_title">网络流量单位</string>
-    <string name="network_traffic_units_kilobits">千比特每秒 (kb/s)</string>
-    <string name="network_traffic_units_megabits">兆比特每秒 (Mb/s)</string>
-    <string name="network_traffic_units_kilobytes">千字节每秒 (kB/s)</string>
-    <string name="network_traffic_units_megabytes">兆字节每秒 (MB/s)</string>
-    <string name="network_traffic_units_auto">自适应 (kB/s 或 MB/s)</string>
+    <string name="network_traffic_mode_dynamic">自适应 （上传/下载）</string>
+    <string name="network_traffic_refresh_title">更新间隔</string>
+    <string name="network_traffic_threshold_title">低于此值隐藏</string>
+    <string name="network_traffic_refresh_one_second">1秒</string>
+    <string name="network_traffic_refresh_two_seconds">2秒</string>
+    <string name="network_traffic_refresh_five_seconds">5秒</string>
 
     <!-- Locale Picker -->
     <string name="clear_search_query_description">清除搜索内容</string>
