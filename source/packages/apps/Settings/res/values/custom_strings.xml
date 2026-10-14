@@ -388,12 +388,12 @@
     <string name="network_traffic_mode_all">Upload and download</string>
     <string name="network_traffic_autohide">Auto hide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-    <string name="network_traffic_mode_dynamic">Automatic (upload/download)</string>
-    <string name="network_traffic_refresh_title">Update interval</string>
-    <string name="network_traffic_threshold_title">Hide below</string>
-    <string name="network_traffic_refresh_one_second">1 second</string>
-    <string name="network_traffic_refresh_two_seconds">2 seconds</string>
-    <string name="network_traffic_refresh_five_seconds">5 seconds</string>
+    <string name="network_traffic_units_title">Traffic measurement units</string>
+    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
+    <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
+    <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
+    <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
 
     <!-- Locale Picker -->
     <string name="clear_search_query_description">Clear query</string>
